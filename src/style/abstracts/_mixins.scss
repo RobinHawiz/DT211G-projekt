@@ -1,0 +1,36 @@
+@mixin flex($align, $justify, $direction) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
+@mixin grid(
+  $rows: null,
+  $columns: null,
+  $gap: null,
+  $justify: null,
+  $row-gap: null,
+  $column-gap: null
+) {
+  display: grid;
+  gap: $gap;
+  row-gap: $row-gap;
+  column-gap: $column-gap;
+  grid-template-rows: $rows;
+  grid-template-columns: $columns;
+  justify-content: $justify;
+}
+
+@mixin media-query($key, $max-height: null) {
+  $size: map.get(v.$breakpoints, $key);
+  @if $max-height == null {
+    @media screen and (max-width: $size) {
+      @content;
+    }
+  } @else {
+    @media screen and (max-width: $size) and (max-height: $max-height) {
+      @content;
+    }
+  }
+}
