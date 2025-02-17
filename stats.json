@@ -1,78 +1,26 @@
 {
-  "hash": "2dbf1ba74b427fe115a3",
+  "hash": "7cfa12e450bb0bb1bba6",
   "version": "5.97.1",
-  "time": 1633,
-  "builtAt": 1739802313043,
+  "time": 1683,
+  "builtAt": 1739813419682,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.15ee5964428495d1a485.css",
-      "js/main.1bf931c9113d9747d386.js"
+      "style/main.a9a758adcf50abc73d46.css",
+      "js/main.8a17a63a75cf58015c9d.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "style/main.15ee5964428495d1a485.css",
-      "size": 3730,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "immutable": true,
-        "contenthash": "15ee5964428495d1a485",
-        "size": 3730
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [
-        792
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "js/main.1bf931c9113d9747d386.js",
-      "size": 3242,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "immutable": true,
-        "contenthash": "1bf931c9113d9747d386",
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 3242
-      },
-      "chunkNames": [
-        "main"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [
-        792
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "index.html",
-      "size": 968,
+      "size": 6317,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 968
+        "size": 6317
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -80,6 +28,58 @@
       "auxiliaryChunkIdHints": [],
       "related": [],
       "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "style/main.a9a758adcf50abc73d46.css",
+      "size": 4459,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "a9a758adcf50abc73d46",
+        "size": 4459
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        792
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "js/main.8a17a63a75cf58015c9d.js",
+      "size": 3442,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "8a17a63a75cf58015c9d",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 3442
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        792
+      ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     }
@@ -90,10 +90,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 9178,
+      "size": 10191,
       "sizes": {
-        "javascript": 4754,
-        "css/mini-extract": 3729,
+        "javascript": 5038,
+        "css/mini-extract": 4458,
         "runtime": 695
       },
       "names": [
@@ -104,11 +104,11 @@
         "main"
       ],
       "files": [
-        "style/main.15ee5964428495d1a485.css",
-        "js/main.1bf931c9113d9747d386.js"
+        "style/main.a9a758adcf50abc73d46.css",
+        "js/main.8a17a63a75cf58015c9d.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "1fcaa0995a41ba4bf37c",
+      "hash": "491a4e21367757bf9681",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -167,7 +167,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./doggyburger",
-              "loc": "5:0-24",
+              "loc": "6:0-24",
               "moduleId": 856,
               "resolvedModuleId": 856
             }
@@ -184,9 +184,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 446,
+          "size": 540,
           "sizes": {
-            "javascript": 446
+            "javascript": 540
           },
           "built": true,
           "codeGenerated": true,
@@ -234,7 +234,7 @@
           "usedExports": [],
           "providedExports": [],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 2:0-4:65"
+            "Statement (VariableDeclaration) with side effects in source code at 2:0-5:65"
           ],
           "depth": 0
         },
@@ -242,9 +242,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 782,
+          "size": 972,
           "sizes": {
-            "javascript": 782
+            "javascript": 972
           },
           "built": true,
           "codeGenerated": true,
@@ -298,7 +298,8 @@
           "usedExports": true,
           "providedExports": [
             "doggyBurgerLinesAnimation",
-            "logoAnimation"
+            "logoAnimation",
+            "logoImgAnimation"
           ],
           "optimizationBailout": [
             "Statement (VariableDeclaration) with side effects in source code at 1:0-45"
@@ -308,9 +309,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 3729,
+          "size": 4458,
           "sizes": {
-            "css/mini-extract": 3729
+            "css/mini-extract": 4458
           },
           "built": true,
           "codeGenerated": true,
@@ -497,9 +498,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 446,
+      "size": 540,
       "sizes": {
-        "javascript": 446
+        "javascript": 540
       },
       "built": true,
       "codeGenerated": true,
@@ -546,7 +547,7 @@
       "usedExports": [],
       "providedExports": [],
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 2:0-4:65"
+        "Statement (VariableDeclaration) with side effects in source code at 2:0-5:65"
       ],
       "depth": 0
     },
@@ -554,9 +555,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 782,
+      "size": 972,
       "sizes": {
-        "javascript": 782
+        "javascript": 972
       },
       "built": true,
       "codeGenerated": true,
@@ -609,7 +610,8 @@
       "usedExports": true,
       "providedExports": [
         "doggyBurgerLinesAnimation",
-        "logoAnimation"
+        "logoAnimation",
+        "logoImgAnimation"
       ],
       "optimizationBailout": [
         "Statement (VariableDeclaration) with side effects in source code at 1:0-45"
@@ -667,7 +669,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./doggyburger",
-          "loc": "5:0-24",
+          "loc": "6:0-24",
           "moduleId": 856,
           "resolvedModuleId": 856
         }
@@ -744,9 +746,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 3729,
+      "size": 4458,
       "sizes": {
-        "css/mini-extract": 3729
+        "css/mini-extract": 4458
       },
       "built": true,
       "codeGenerated": true,
@@ -811,9 +813,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4167,
+      "size": 4896,
       "sizes": {
-        "javascript": 4167
+        "javascript": 4896
       },
       "built": true,
       "codeGenerated": true,
@@ -1332,16 +1334,16 @@
       ],
       "assets": [
         {
-          "name": "style/main.15ee5964428495d1a485.css",
-          "size": 3730
+          "name": "style/main.a9a758adcf50abc73d46.css",
+          "size": 4459
         },
         {
-          "name": "js/main.1bf931c9113d9747d386.js",
-          "size": 3242
+          "name": "js/main.8a17a63a75cf58015c9d.js",
+          "size": 3442
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 6972,
+      "assetsSize": 7901,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1358,16 +1360,16 @@
       ],
       "assets": [
         {
-          "name": "style/main.15ee5964428495d1a485.css",
-          "size": 3730
+          "name": "style/main.a9a758adcf50abc73d46.css",
+          "size": 4459
         },
         {
-          "name": "js/main.1bf931c9113d9747d386.js",
-          "size": 3242
+          "name": "js/main.8a17a63a75cf58015c9d.js",
+          "size": 3442
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 6972,
+      "assetsSize": 7901,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1383,10 +1385,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "ee1cce2b416e0ec840c8",
+      "hash": "79e9db905f8dab5b8de6",
       "version": "5.97.1",
-      "time": 762,
-      "builtAt": 1739802312198,
+      "time": 781,
+      "builtAt": 1739813418806,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -1397,9 +1399,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2493,
+          "size": 7897,
           "sizes": {
-            "javascript": 1203,
+            "javascript": 6607,
             "runtime": 1290
           },
           "names": [
@@ -1411,7 +1413,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "9e15a9e66114da421196",
+          "hash": "ceca865900ea36784fc6",
           "childrenByOrder": {},
           "id": 783,
           "siblings": [],
@@ -1422,9 +1424,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1090,
+              "size": 6494,
               "sizes": {
-                "javascript": 1090
+                "javascript": 6494
               },
               "built": true,
               "codeGenerated": true,
@@ -1487,7 +1489,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 4:0-956"
+                "Statement (VariableDeclaration) with side effects in source code at 4:0-6360"
               ],
               "depth": 0
             },
@@ -1872,9 +1874,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1090,
+          "size": 6494,
           "sizes": {
-            "javascript": 1090
+            "javascript": 6494
           },
           "built": true,
           "codeGenerated": true,
@@ -1936,7 +1938,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 4:0-956"
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-6360"
           ],
           "depth": 0
         },
