@@ -1,48 +1,28 @@
 {
-  "hash": "cfe559303a6de5f165aa",
+  "hash": "2dbf1ba74b427fe115a3",
   "version": "5.97.1",
-  "time": 858,
-  "builtAt": 1739791370842,
+  "time": 1633,
+  "builtAt": 1739802313043,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "js/main.31d6cfe0d16ae931b73c.js"
+      "style/main.15ee5964428495d1a485.css",
+      "js/main.1bf931c9113d9747d386.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "index.html",
-      "size": 637,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "size": 637
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "js/main.31d6cfe0d16ae931b73c.js",
-      "size": 0,
+      "name": "style/main.15ee5964428495d1a485.css",
+      "size": 3730,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "31d6cfe0d16ae931b73c",
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 0
+        "contenthash": "15ee5964428495d1a485",
+        "size": 3730
       },
       "chunkNames": [
         "main"
@@ -56,6 +36,52 @@
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "js/main.1bf931c9113d9747d386.js",
+      "size": 3242,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "1bf931c9113d9747d386",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 3242
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        792
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 968,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 968
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
     }
   ],
   "chunks": [
@@ -64,9 +90,11 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 1,
+      "size": 9178,
       "sizes": {
-        "javascript": 1
+        "javascript": 4754,
+        "css/mini-extract": 3729,
+        "runtime": 695
       },
       "names": [
         "main"
@@ -76,10 +104,11 @@
         "main"
       ],
       "files": [
-        "js/main.31d6cfe0d16ae931b73c.js"
+        "style/main.15ee5964428495d1a485.css",
+        "js/main.1bf931c9113d9747d386.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "673f446a2d50c8520d64",
+      "hash": "1fcaa0995a41ba4bf37c",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -90,9 +119,74 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1,
+          "size": 3526,
           "sizes": {
-            "javascript": 1
+            "javascript": 3526
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/doggyburger.js",
+          "name": "./src/js/doggyburger.js",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/doggyburger.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "issuerName": "./src/js/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+              "name": "./src/js/index.js",
+              "id": 856
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 123,
+          "issuerId": 856,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+              "module": "./src/js/index.js",
+              "moduleName": "./src/js/index.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+              "resolvedModule": "./src/js/index.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./doggyburger",
+              "loc": "5:0-24",
+              "moduleId": 856,
+              "resolvedModuleId": 856
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-58",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 446,
+          "sizes": {
+            "javascript": 446
           },
           "built": true,
           "codeGenerated": true,
@@ -103,8 +197,8 @@
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
           "index": 0,
           "preOrderIndex": 0,
-          "index2": 0,
-          "postOrderIndex": 0,
+          "index2": 3,
+          "postOrderIndex": 3,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -138,11 +232,253 @@
             }
           ],
           "usedExports": [],
-          "providedExports": null,
+          "providedExports": [],
           "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+            "Statement (VariableDeclaration) with side effects in source code at 2:0-4:65"
           ],
           "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 782,
+          "sizes": {
+            "javascript": 782
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/headerAnimation.js",
+          "name": "./src/js/modules/headerAnimation.js",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/headerAnimation.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "issuerName": "./src/js/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+              "name": "./src/js/index.js",
+              "id": 856
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 867,
+          "issuerId": 856,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+              "module": "./src/js/index.js",
+              "moduleName": "./src/js/index.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+              "resolvedModule": "./src/js/index.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/headerAnimation",
+              "loc": "2:15-51",
+              "moduleId": 856,
+              "resolvedModuleId": 856
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "doggyBurgerLinesAnimation",
+            "logoAnimation"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-45"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "size": 3729,
+          "sizes": {
+            "css/mini-extract": 3729
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "css|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss|0|||}}",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "issuerName": "./src/style/style.scss",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+              "name": "./src/js/index.js",
+              "id": 856
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+              "name": "./src/style/style.scss",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+              "module": "./src/style/style.scss",
+              "moduleName": "./src/style/style.scss",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+              "resolvedModule": "./src/style/style.scss",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 313,
+          "sizes": {
+            "runtime": 313
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 279,
+          "sizes": {
+            "runtime": 279
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
         }
       ],
       "origins": [
@@ -161,9 +497,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1,
+      "size": 446,
       "sizes": {
-        "javascript": 1
+        "javascript": 446
       },
       "built": true,
       "codeGenerated": true,
@@ -174,8 +510,8 @@
       "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
       "index": 0,
       "preOrderIndex": 0,
-      "index2": 0,
-      "postOrderIndex": 0,
+      "index2": 3,
+      "postOrderIndex": 3,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -208,11 +544,784 @@
         }
       ],
       "usedExports": [],
-      "providedExports": null,
+      "providedExports": [],
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+        "Statement (VariableDeclaration) with side effects in source code at 2:0-4:65"
       ],
       "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 782,
+      "sizes": {
+        "javascript": 782
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/headerAnimation.js",
+      "name": "./src/js/modules/headerAnimation.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/headerAnimation.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+      "issuerName": "./src/js/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 867,
+      "issuerId": 856,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "module": "./src/js/index.js",
+          "moduleName": "./src/js/index.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "resolvedModule": "./src/js/index.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/headerAnimation",
+          "loc": "2:15-51",
+          "moduleId": 856,
+          "resolvedModuleId": 856
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "doggyBurgerLinesAnimation",
+        "logoAnimation"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 1:0-45"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 3526,
+      "sizes": {
+        "javascript": 3526
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/doggyburger.js",
+      "name": "./src/js/doggyburger.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/doggyburger.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+      "issuerName": "./src/js/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 123,
+      "issuerId": 856,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "module": "./src/js/index.js",
+          "moduleName": "./src/js/index.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "resolvedModule": "./src/js/index.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./doggyburger",
+          "loc": "5:0-24",
+          "moduleId": 856,
+          "resolvedModuleId": 856
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 4:0-58",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "built": true,
+      "codeGenerated": false,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "name": "./src/style/style.scss",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+      "issuerName": "./src/js/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 856,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "module": "./src/js/index.js",
+          "moduleName": "./src/js/index.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "resolvedModule": "./src/js/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../style/style.scss",
+          "loc": "1:0-29",
+          "moduleId": 856,
+          "resolvedModuleId": 856
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not in any chunk"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "size": 3729,
+      "sizes": {
+        "css/mini-extract": 3729
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "css|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss|0|||}}",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "issuerName": "./src/style/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "name": "./src/style/style.scss",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "module": "./src/style/style.scss",
+          "moduleName": "./src/style/style.scss",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "resolvedModule": "./src/style/style.scss",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 4167,
+      "sizes": {
+        "javascript": 4167
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "name": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "issuerName": "./src/style/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "name": "./src/style/style.scss",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "loader import",
+          "active": false,
+          "explanation": "",
+          "userRequest": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss.webpack[javascript/auto]!=!!!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "loc": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss.webpack[javascript/auto]!=!!!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 4:0-100",
+        "ModuleConcatenation bailout: Module uses module.id"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2303,
+      "sizes": {
+        "javascript": 2303
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/runtime/api.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "issuerName": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "name": "./src/style/style.scss",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "name": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "module": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "moduleName": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "resolvedModule": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "3:0-92",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "module": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "moduleName": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "resolvedModule": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+          "loc": "4:30-57",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/runtime/api.js",
+          "module": "./node_modules/css-loader/dist/runtime/api.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/runtime/api.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "7:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 7:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 7:0-85:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 64,
+      "sizes": {
+        "javascript": 64
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "name": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "cacheable": true,
+      "optional": false,
+      "orphan": true,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+      "issuerName": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/index.js",
+          "name": "./src/js/index.js",
+          "id": 856
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/mini-css-extract-plugin/dist/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "name": "./src/style/style.scss",
+          "id": null
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "name": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "module": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "moduleName": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "resolvedModule": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "2:0-114",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "module": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "moduleName": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/postcss-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/sass-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/style/style.scss",
+          "resolvedModule": "./src/style/style.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/style.scss",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "loc": "4:58-98",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "module": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "moduleName": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "resolvedModule": "./node_modules/css-loader/dist/runtime/noSourceMaps.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "3:0-14",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: module.exports is used directly at 3:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 3:0-5:2",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 302,
+      "sizes": {
+        "runtime": 302
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/compat get default export",
+      "name": "webpack/runtime/compat get default export",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CompatGetDefaultExportRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 313,
+      "sizes": {
+        "runtime": 313
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for DefinePropertyGettersRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 313,
+      "sizes": {
+        "runtime": 313
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for HasOwnPropertyRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": true,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "chunks": [],
+      "assets": [],
+      "reasons": [],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for MakeNamespaceObjectRuntimeModule"
+      ],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
     }
   ],
   "entrypoints": {
@@ -223,12 +1332,16 @@
       ],
       "assets": [
         {
-          "name": "js/main.31d6cfe0d16ae931b73c.js",
-          "size": 0
+          "name": "style/main.15ee5964428495d1a485.css",
+          "size": 3730
+        },
+        {
+          "name": "js/main.1bf931c9113d9747d386.js",
+          "size": 3242
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 0,
+      "assetsSize": 6972,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -245,12 +1358,16 @@
       ],
       "assets": [
         {
-          "name": "js/main.31d6cfe0d16ae931b73c.js",
-          "size": 0
+          "name": "style/main.15ee5964428495d1a485.css",
+          "size": 3730
+        },
+        {
+          "name": "js/main.1bf931c9113d9747d386.js",
+          "size": 3242
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 0,
+      "assetsSize": 6972,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -266,10 +1383,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "d89d28945a7212032263",
+      "hash": "ee1cce2b416e0ec840c8",
       "version": "5.97.1",
-      "time": 702,
-      "builtAt": 1739791370714,
+      "time": 762,
+      "builtAt": 1739802312198,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -280,9 +1397,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2198,
+          "size": 2493,
           "sizes": {
-            "javascript": 908,
+            "javascript": 1203,
             "runtime": 1290
           },
           "names": [
@@ -294,7 +1411,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "aed83ac0c97d89b86334",
+          "hash": "9e15a9e66114da421196",
           "childrenByOrder": {},
           "id": 783,
           "siblings": [],
@@ -305,9 +1422,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 795,
+              "size": 1090,
               "sizes": {
-                "javascript": 795
+                "javascript": 1090
               },
               "built": true,
               "codeGenerated": true,
@@ -370,7 +1487,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 4:0-661"
+                "Statement (VariableDeclaration) with side effects in source code at 4:0-956"
               ],
               "depth": 0
             },
@@ -755,9 +1872,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 795,
+          "size": 1090,
           "sizes": {
-            "javascript": 795
+            "javascript": 1090
           },
           "built": true,
           "codeGenerated": true,
@@ -819,7 +1936,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 4:0-661"
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-956"
           ],
           "depth": 0
         },
