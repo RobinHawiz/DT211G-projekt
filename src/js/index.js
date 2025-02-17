@@ -11,9 +11,9 @@ var page = path.split("/").slice(-2)[0];
 if (page === "DT211G-projekt") {
   logoAnimation(1);
   logoImgAnimation(1);
-  doggyBurgerLinesAnimation(1.5);
+  doggyBurgerLinesAnimation(1.2);
 } else {
   logoAnimation(0);
   logoImgAnimation(0);
-  doggyBurgerLinesAnimation(0.5);
+  doggyBurgerLinesAnimation(0.2);
 }
