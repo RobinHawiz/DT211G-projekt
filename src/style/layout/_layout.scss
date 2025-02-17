@@ -15,11 +15,17 @@ header {
     gap: 3rem;
   }
   .logo {
+    @include m.flex(center, normal, row);
     overflow: hidden;
     z-index: 2;
     .letter {
       position: relative;
       bottom: -4rem;
+    }
+    .logo-img {
+      padding-left: 1rem;
+      position: relative;
+      bottom: -7.1rem;
     }
   }
 }
@@ -32,6 +38,15 @@ header {
   }
   60% {
     bottom: 0.5rem;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes logo-img-animation {
+  0% {
+    bottom: -7.1rem;
   }
   100% {
     bottom: 0;

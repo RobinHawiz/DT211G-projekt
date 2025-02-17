@@ -1,4 +1,5 @@
 const logo = document.querySelector(".logo a");
+const logoImg = document.querySelector(".logo .logo-img");
 const letters = logo.textContent.split("");
 const doggyBurgerLines = document.querySelectorAll(".doggy-burger span");
 
@@ -10,6 +11,10 @@ export function logoAnimation(delay) {
       delay + i / 30
     }s forwards logo-animation`;
   }
+}
+
+export function logoImgAnimation(delay) {
+  logoImg.style.animation = `0.5s ease ${delay}s forwards logo-img-animation`;
 }
 
 export function doggyBurgerLinesAnimation(delay) {

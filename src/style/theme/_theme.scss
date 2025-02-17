@@ -17,15 +17,24 @@ header {
       }
     }
   }
-}
-
-nav {
-  background-color: v.$dark-color;
-  a {
-    color: v.$light-color;
-    text-decoration: none;
-    &:hover {
-      color: color.change(v.$light-color, $lightness: 60%);
+  .logo-img {
+    svg {
+      fill: v.$dark-color;
+      &.nav-opened {
+        a {
+          color: v.$light-color;
+        }
+      }
+    }
+  }
+  nav {
+    background-color: v.$dark-color;
+    a {
+      color: v.$light-color;
+      text-decoration: none;
+      &:hover {
+        color: color.change(v.$light-color, $lightness: 60%);
+      }
     }
   }
 }
