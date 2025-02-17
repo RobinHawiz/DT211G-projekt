@@ -23,9 +23,35 @@ header {
       bottom: -4rem;
     }
     .logo-img {
-      padding-left: 1rem;
       position: relative;
       bottom: -7.1rem;
+    }
+    svg {
+      path#bark-line-1 {
+        animation: 0.17s ease bark-line-out-1-animation;
+        opacity: 0;
+      }
+      path#bark-line-2 {
+        animation: 0.17s ease bark-line-out-2-animation;
+        opacity: 0;
+      }
+      path#bark-line-3 {
+        animation: 0.17s ease bark-line-out-3-animation;
+        opacity: 0;
+      }
+    }
+    &:hover {
+      svg {
+        path#bark-line-1 {
+          animation: 0.2s ease forwards bark-line-1-animation;
+        }
+        path#bark-line-2 {
+          animation: 0.2s ease forwards bark-line-2-animation;
+        }
+        path#bark-line-3 {
+          animation: 0.2s ease forwards bark-line-3-animation;
+        }
+      }
     }
   }
 }
@@ -50,5 +76,68 @@ header {
   }
   100% {
     bottom: 0;
+  }
+}
+
+@keyframes bark-line-1-animation {
+  0% {
+    transform: translate(2rem, 2rem);
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes bark-line-2-animation {
+  0% {
+    transform: translateX(2rem);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bark-line-3-animation {
+  0% {
+    transform: translate(2rem, -2rem);
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes bark-line-out-1-animation {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-1.5rem, -1.5rem);
+    opacity: 0;
+  }
+}
+
+@keyframes bark-line-out-2-animation {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-1.5rem);
+    opacity: 0;
+  }
+}
+
+@keyframes bark-line-out-3-animation {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-1.5rem, 1.5rem);
+    opacity: 0;
   }
 }
