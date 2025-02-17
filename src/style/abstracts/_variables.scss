@@ -1,9 +1,17 @@
 // Colors
 
+$light-color: white;
+$dark-color: #17181a;
+
 // Shadows
 
 // Font-sizes
 
+$logo-font: 2.5rem;
+$nav-font: 2.5rem;
+
 // Breakpoints
 
-$breakpoints: ();
+$breakpoints: (
+  mobile: 800px,
+);

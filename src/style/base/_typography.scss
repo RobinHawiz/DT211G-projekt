@@ -7,3 +7,12 @@ html {
 body {
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }
+
+.logo a {
+  font-size: v.$logo-font;
+  font-weight: 700;
+}
+
+nav {
+  font-size: v.$nav-font;
+}

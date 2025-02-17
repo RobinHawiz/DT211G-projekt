@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="overflow-hidden" lang="sv">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,9 +18,25 @@
       />
     </noscript>
     <link rel="shortcut icon" href="data:image/x-icon," type="image/x-icon" />
-    <title>Webbutveckling</title>
+    <title>YourPerfectDog</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="logo"><a href="." rel="home">Your Perfect Dog</a></div>
+      <button
+        class="doggy-burger"
+        aria-label="Meny"
+        aria-controls="navbar"
+        aria-expanded="false"
+      >
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+      <nav id="navbar">
+        <ul>
+          <li><a href="breeds">Breeds</a></li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>

@@ -5,3 +5,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  min-height: 10vh;
+  padding: 1rem;
+  @include m.flex(center, center, row);
+  gap: 5rem;
+  @include m.media-query(mobile) {
+    gap: 3rem;
+  }
+  .logo {
+    overflow: hidden;
+    z-index: 2;
+    .letter {
+      position: relative;
+      bottom: -4rem;
+    }
+  }
+}
+
+// Animations
+
+@keyframes logo-animation {
+  0% {
+    bottom: -4rem;
+  }
+  60% {
+    bottom: 0.5rem;
+  }
+  100% {
+    bottom: 0;
+  }
+}

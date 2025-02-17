@@ -1,3 +1,6 @@
+@use "./variables" as v;
+@use "sass:map";
+
 @mixin flex($align, $justify, $direction) {
   display: flex;
   align-items: $align;

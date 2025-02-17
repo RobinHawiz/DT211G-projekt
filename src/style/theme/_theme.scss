@@ -1,2 +1,44 @@
 @use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
 @use "sass:color";
+
+// Header
+
+header {
+  .logo {
+    a {
+      color: v.$dark-color;
+      text-decoration: none;
+      transition: color 1s ease;
+    }
+    &.nav-opened {
+      a {
+        color: v.$light-color;
+      }
+    }
+  }
+}
+
+nav {
+  background-color: v.$dark-color;
+  a {
+    color: v.$light-color;
+    text-decoration: none;
+    &:hover {
+      color: color.change(v.$light-color, $lightness: 60%);
+    }
+  }
+}
+
+// Components
+
+.doggy-burger {
+  background: none;
+  border: none;
+  .line {
+    background-color: v.$dark-color;
+    &.toggle {
+      background-color: v.$light-color;
+    }
+  }
+}

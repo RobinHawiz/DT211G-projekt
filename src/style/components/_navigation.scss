@@ -1,0 +1,31 @@
+@use "../abstracts/mixins" as m;
+
+nav {
+  @include m.flex(normal, center, column);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  clip-path: circle(0rem at 57.5% -20%);
+  transition: clip-path 1s;
+  ul {
+    @include m.flex(center, space-around, column);
+    height: 50rem;
+    margin: 5rem 0;
+    list-style-type: none;
+    gap: 2rem;
+    // A user can tab to the nav links even if they're not visible, so we hide them until the user opens the nav.
+    display: none;
+    &.toggle {
+      display: flex;
+    }
+  }
+  &.toggle {
+    clip-path: circle(200rem at 57.5% -10%);
+    @include m.media-query(mobile, 800px) {
+      clip-path: circle(100rem at 57.5% -10%);
+    }
+  }
+}

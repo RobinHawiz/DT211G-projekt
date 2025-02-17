@@ -1,0 +1,44 @@
+.doggy-burger {
+  height: 2.4rem;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 2;
+  .line {
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem 0;
+    display: block;
+    transition: all 0.5s ease;
+    position: relative;
+    &:nth-child(1) {
+      left: -3rem;
+    }
+    &:nth-child(2) {
+      right: -3rem;
+    }
+    &.toggle:nth-child(1) {
+      transform: rotate(45deg) translateY(0.5rem);
+    }
+    &.toggle:nth-child(2) {
+      transform: rotate(-45deg) translateY(-0.4rem);
+    }
+  }
+}
+
+@keyframes hamburger-span-1-animation {
+  from {
+    left: -3rem;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes hamburger-span-2-animation {
+  from {
+    right: -3rem;
+  }
+  to {
+    right: 0;
+  }
+}
