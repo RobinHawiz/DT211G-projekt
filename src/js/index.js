@@ -8,7 +8,7 @@ require("./doggyburger");
 var path = window.location.pathname;
 var page = path.split("/").slice(-2)[0];
 
-if (page === "DT211G-project") {
+if (page === "DT211G-projekt") {
   logoAnimation(1);
   logoImgAnimation(1);
   doggyBurgerLinesAnimation(1.5);
