@@ -1,6 +1,5 @@
 @use "../abstracts/variables" as v;
 @use "../abstracts/mixins" as m;
-@use "sass:color";
 
 // Header
 
@@ -32,8 +31,23 @@ header {
     a {
       color: v.$light-color;
       text-decoration: none;
-      &:hover {
-        color: color.change(v.$light-color, $lightness: 60%);
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 84%;
+        height: 3px;
+        border-radius: 3px;
+        background-color: white;
+        bottom: 0;
+        left: 3.5rem;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+      }
+      &:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
       }
     }
   }
