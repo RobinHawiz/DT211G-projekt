@@ -1,13 +1,13 @@
 {
-  "hash": "6abcb2bfbc044dd311cc",
+  "hash": "17aa4ba4af40a0e79d49",
   "version": "5.97.1",
-  "time": 21524,
-  "builtAt": 1739903358501,
+  "time": 34428,
+  "builtAt": 1739909518469,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.e569591108dc222f45d3.css",
+      "style/main.6d5466c7af42b336e00c.css",
       "js/main.6487bfdd71535d1244f1.js"
     ]
   },
@@ -98,6 +98,34 @@
     },
     {
       "type": "asset",
+      "name": "img/jamie-street-unsplash0b25d9453638dc6ae33c.webp",
+      "size": 406402,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 3000,
+        "height": 2250,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "0b25d9453638dc6ae33c",
+        "size": 406402
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": true
+    },
+    {
+      "type": "asset",
       "name": "img/jamie-street-unsplash34688756cf0db138b04d.avif",
       "size": 397477,
       "emitted": true,
@@ -126,6 +154,34 @@
     },
     {
       "type": "asset",
+      "name": "img/jamie-street-unsplash051cdccc2638c163b963.webp",
+      "size": 144764,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 2000,
+        "height": 1500,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "051cdccc2638c163b963",
+        "size": 144764
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "img/jamie-street-unsplash8842e035da2e542f2eac.avif",
       "size": 141852,
       "emitted": true,
@@ -142,6 +198,62 @@
         "immutable": true,
         "contenthash": "8842e035da2e542f2eac",
         "size": 141852
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/jamie-street-unsplash90c1a710549685e887f2.avif",
+      "size": 137483,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 3000,
+        "height": 2250,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "90c1a710549685e887f2",
+        "size": 137483
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/jamie-street-unsplash58446ef553b3e353672b.webp",
+      "size": 125600,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 1841,
+        "height": 1381,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "58446ef553b3e353672b",
+        "size": 125600
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -182,6 +294,118 @@
     },
     {
       "type": "asset",
+      "name": "img/jamie-street-unsplash662955b20d8eb5021376.avif",
+      "size": 76220,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 2000,
+        "height": 1500,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "662955b20d8eb5021376",
+        "size": 76220
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/jamie-street-unsplash9c02060cae378a61a377.avif",
+      "size": 68350,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 1841,
+        "height": 1381,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "9c02060cae378a61a377",
+        "size": 68350
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/jamie-street-unsplash94148b669d8ce7bfdb54.webp",
+      "size": 66892,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 1228,
+        "height": 921,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "94148b669d8ce7bfdb54",
+        "size": 66892
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/jamie-street-unsplashd3cfc3606ea9f88c071c.webp",
+      "size": 54000,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 1000,
+        "height": 864,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "d3cfc3606ea9f88c071c",
+        "size": 54000
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "img/jamie-street-unsplash38d5fb8b212ef5b1d186.avif",
       "size": 51900,
       "emitted": true,
@@ -210,15 +434,127 @@
     },
     {
       "type": "asset",
-      "name": "style/main.e569591108dc222f45d3.css",
-      "size": 12665,
+      "name": "img/jamie-street-unsplashde7a0e0030b0e098fd02.webp",
+      "size": 39072,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 614,
+        "height": 864,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "de7a0e0030b0e098fd02",
+        "size": 39072
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/jamie-street-unsplash4ce6ccf3b2e3f9af7781.avif",
+      "size": 39050,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 1228,
+        "height": 921,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "4ce6ccf3b2e3f9af7781",
+        "size": 39050
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/jamie-street-unsplash0994788f9e32298c92e4.avif",
+      "size": 32528,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 1000,
+        "height": 864,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "0994788f9e32298c92e4",
+        "size": 32528
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/jamie-street-unsplash1b2f1ab3870f8d7d81d4.avif",
+      "size": 23643,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+        "width": 614,
+        "height": 864,
+        "generated": true,
+        "generatedBy": [
+          "sharp"
+        ],
+        "immutable": true,
+        "contenthash": "1b2f1ab3870f8d7d81d4",
+        "size": 23643
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "style/main.6d5466c7af42b336e00c.css",
+      "size": 12891,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "e569591108dc222f45d3",
-        "size": 12665
+        "contenthash": "6d5466c7af42b336e00c",
+        "size": 12891
       },
       "chunkNames": [
         "main"
@@ -236,12 +572,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 7496,
+      "size": 8390,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 7496
+        "size": 8390
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -286,10 +622,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 18397,
+      "size": 18623,
       "sizes": {
         "javascript": 5038,
-        "css/mini-extract": 12664,
+        "css/mini-extract": 12890,
         "runtime": 695
       },
       "names": [
@@ -300,11 +636,11 @@
         "main"
       ],
       "files": [
-        "style/main.e569591108dc222f45d3.css",
+        "style/main.6d5466c7af42b336e00c.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "a7789897b839dbf27b9f",
+      "hash": "b563a722dd3e7d57f350",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -505,9 +841,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 12664,
+          "size": 12890,
           "sizes": {
-            "css/mini-extract": 12664
+            "css/mini-extract": 12890
           },
           "built": true,
           "codeGenerated": true,
@@ -942,9 +1278,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 12664,
+      "size": 12890,
       "sizes": {
-        "css/mini-extract": 12664
+        "css/mini-extract": 12890
       },
       "built": true,
       "codeGenerated": true,
@@ -1009,9 +1345,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 13106,
+      "size": 13332,
       "sizes": {
-        "javascript": 13106
+        "javascript": 13332
       },
       "built": true,
       "codeGenerated": true,
@@ -1530,8 +1866,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.e569591108dc222f45d3.css",
-          "size": 12665
+          "name": "style/main.6d5466c7af42b336e00c.css",
+          "size": 12891
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -1539,7 +1875,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 16107,
+      "assetsSize": 16333,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1556,8 +1892,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.e569591108dc222f45d3.css",
-          "size": 12665
+          "name": "style/main.6d5466c7af42b336e00c.css",
+          "size": 12891
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -1565,7 +1901,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 16107,
+      "assetsSize": 16333,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1578,8 +1914,8 @@
   "errorsCount": 0,
   "warnings": [
     {
-      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash55c4deaf73915398565c.jpg (2.59 MiB)\n  img/jamie-street-unsplash34688756cf0db138b04d.avif (388 KiB)\n  img/jamie-street-unsplashbfa1c8385738bfd51780.webp (430 KiB)\n  img/jamie-street-unsplash44bc65fc36ce1fcb9a97.webp (1.33 MiB)",
-      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash55c4deaf73915398565c.jpg (2.59 MiB)\n  img/jamie-street-unsplash34688756cf0db138b04d.avif (388 KiB)\n  img/jamie-street-unsplashbfa1c8385738bfd51780.webp (430 KiB)\n  img/jamie-street-unsplash44bc65fc36ce1fcb9a97.webp (1.33 MiB)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:145:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:1006:27\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:835:33\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:192:23)"
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash55c4deaf73915398565c.jpg (2.59 MiB)\n  img/jamie-street-unsplash34688756cf0db138b04d.avif (388 KiB)\n  img/jamie-street-unsplash0b25d9453638dc6ae33c.webp (397 KiB)\n  img/jamie-street-unsplashbfa1c8385738bfd51780.webp (430 KiB)\n  img/jamie-street-unsplash44bc65fc36ce1fcb9a97.webp (1.33 MiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash55c4deaf73915398565c.jpg (2.59 MiB)\n  img/jamie-street-unsplash34688756cf0db138b04d.avif (388 KiB)\n  img/jamie-street-unsplash0b25d9453638dc6ae33c.webp (397 KiB)\n  img/jamie-street-unsplashbfa1c8385738bfd51780.webp (430 KiB)\n  img/jamie-street-unsplash44bc65fc36ce1fcb9a97.webp (1.33 MiB)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:145:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:1006:27\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:835:33\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:192:23)"
     },
     {
       "message": "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/",
@@ -1590,10 +1926,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "43c6f743e773c8897367",
+      "hash": "ed8cd70cd2498d273bbe",
       "version": "5.97.1",
-      "time": 21262,
-      "builtAt": 1739903358265,
+      "time": 34162,
+      "builtAt": 1739909518229,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -1693,6 +2029,37 @@
         },
         {
           "type": "asset",
+          "name": "img/jamie-street-unsplash0b25d9453638dc6ae33c.webp",
+          "size": 406402,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 3000,
+            "height": 2250,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "0b25d9453638dc6ae33c"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
           "name": "img/jamie-street-unsplash34688756cf0db138b04d.avif",
           "size": 397477,
           "emitted": false,
@@ -1708,6 +2075,37 @@
             ],
             "immutable": true,
             "contenthash": "34688756cf0db138b04d"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplash051cdccc2638c163b963.webp",
+          "size": 144764,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 2000,
+            "height": 1500,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "051cdccc2638c163b963"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -1755,6 +2153,68 @@
         },
         {
           "type": "asset",
+          "name": "img/jamie-street-unsplash90c1a710549685e887f2.avif",
+          "size": 137483,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 3000,
+            "height": 2250,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "90c1a710549685e887f2"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplash58446ef553b3e353672b.webp",
+          "size": 125600,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 1841,
+            "height": 1381,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "58446ef553b3e353672b"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
           "name": "img/jamie-street-unsplashd53718855f434b8eb367.webp",
           "size": 92490,
           "emitted": false,
@@ -1770,6 +2230,130 @@
             ],
             "immutable": true,
             "contenthash": "d53718855f434b8eb367"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplash662955b20d8eb5021376.avif",
+          "size": 76220,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 2000,
+            "height": 1500,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "662955b20d8eb5021376"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplash9c02060cae378a61a377.avif",
+          "size": 68350,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 1841,
+            "height": 1381,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "9c02060cae378a61a377"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplash94148b669d8ce7bfdb54.webp",
+          "size": 66892,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 1228,
+            "height": 921,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "94148b669d8ce7bfdb54"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplashd3cfc3606ea9f88c071c.webp",
+          "size": 54000,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 1000,
+            "height": 864,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "d3cfc3606ea9f88c071c"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -1814,6 +2398,130 @@
             783
           ],
           "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplashde7a0e0030b0e098fd02.webp",
+          "size": 39072,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 614,
+            "height": 864,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "de7a0e0030b0e098fd02"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplash4ce6ccf3b2e3f9af7781.avif",
+          "size": 39050,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 1228,
+            "height": 921,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "4ce6ccf3b2e3f9af7781"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplash0994788f9e32298c92e4.avif",
+          "size": 32528,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 1000,
+            "height": 864,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "0994788f9e32298c92e4"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/jamie-street-unsplash1b2f1ab3870f8d7d81d4.avif",
+          "size": 23643,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/jamie-street-unsplash.jpg",
+            "width": 614,
+            "height": 864,
+            "generated": true,
+            "generatedBy": [
+              "sharp"
+            ],
+            "immutable": true,
+            "contenthash": "1b2f1ab3870f8d7d81d4"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            783
+          ],
+          "isOverSizeLimit": false
         }
       ],
       "chunks": [
@@ -1822,10 +2530,10 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 5248305,
+          "size": 6464999,
           "sizes": {
-            "javascript": 8861,
-            "asset": 5238154,
+            "javascript": 11551,
+            "asset": 6452158,
             "runtime": 1290
           },
           "names": [
@@ -1837,15 +2545,27 @@
           ],
           "files": [],
           "auxiliaryFiles": [
+            "img/jamie-street-unsplash051cdccc2638c163b963.webp",
+            "img/jamie-street-unsplash0994788f9e32298c92e4.avif",
+            "img/jamie-street-unsplash0b25d9453638dc6ae33c.webp",
+            "img/jamie-street-unsplash1b2f1ab3870f8d7d81d4.avif",
             "img/jamie-street-unsplash34688756cf0db138b04d.avif",
             "img/jamie-street-unsplash38d5fb8b212ef5b1d186.avif",
             "img/jamie-street-unsplash44bc65fc36ce1fcb9a97.webp",
+            "img/jamie-street-unsplash4ce6ccf3b2e3f9af7781.avif",
             "img/jamie-street-unsplash55c4deaf73915398565c.jpg",
+            "img/jamie-street-unsplash58446ef553b3e353672b.webp",
+            "img/jamie-street-unsplash662955b20d8eb5021376.avif",
             "img/jamie-street-unsplash8842e035da2e542f2eac.avif",
+            "img/jamie-street-unsplash90c1a710549685e887f2.avif",
+            "img/jamie-street-unsplash94148b669d8ce7bfdb54.webp",
+            "img/jamie-street-unsplash9c02060cae378a61a377.avif",
             "img/jamie-street-unsplashbfa1c8385738bfd51780.webp",
-            "img/jamie-street-unsplashd53718855f434b8eb367.webp"
+            "img/jamie-street-unsplashd3cfc3606ea9f88c071c.webp",
+            "img/jamie-street-unsplashd53718855f434b8eb367.webp",
+            "img/jamie-street-unsplashde7a0e0030b0e098fd02.webp"
           ],
-          "hash": "ca1e7d990ad47cdacc50",
+          "hash": "5e0f910ef5e19bf776cd",
           "childrenByOrder": {},
           "id": 783,
           "siblings": [],
@@ -1856,9 +2576,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 8454,
+              "size": 10640,
               "sizes": {
-                "javascript": 8454
+                "javascript": 10640
               },
               "built": true,
               "codeGenerated": true,
@@ -1869,8 +2589,8 @@
               "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
               "index": 1,
               "preOrderIndex": 1,
-              "index2": 9,
-              "postOrderIndex": 9,
+              "index2": 21,
+              "postOrderIndex": 21,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -1921,7 +2641,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 11:0-7494"
+                "Statement (VariableDeclaration) with side effects in source code at 23:0-8238"
               ],
               "depth": 0
             },
@@ -1941,10 +2661,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg",
               "name": "./src/assets/jamie-street-unsplash.jpg",
               "nameForCondition": "src/assets/jamie-street-unsplash.jpg",
-              "index": 9,
-              "preOrderIndex": 9,
-              "index2": 8,
-              "postOrderIndex": 8,
+              "index": 21,
+              "preOrderIndex": 21,
+              "index2": 20,
+              "postOrderIndex": 20,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -1978,7 +2698,133 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/jamie-street-unsplash.jpg",
-                  "loc": "9:33-96",
+                  "loc": "21:34-97",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 32528,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=1000&h=864",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=1000&h=864",
+              "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+              "index": 9,
+              "preOrderIndex": 9,
+              "index2": 8,
+              "postOrderIndex": 8,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 759,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=1000&h=864",
+                  "loc": "9:33-117",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 39050,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=1228&h=921",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=1228&h=921",
+              "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+              "index": 4,
+              "preOrderIndex": 4,
+              "index2": 3,
+              "postOrderIndex": 3,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 847,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=1228&h=921",
+                  "loc": "4:33-117",
                   "moduleId": 355,
                   "resolvedModuleId": 355
                 }
@@ -2004,10 +2850,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=1536&h=1152",
               "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=1536&h=1152",
               "nameForCondition": "src/assets/jamie-street-unsplash.avif",
-              "index": 3,
-              "preOrderIndex": 3,
-              "index2": 2,
-              "postOrderIndex": 2,
+              "index": 15,
+              "preOrderIndex": 15,
+              "index2": 14,
+              "postOrderIndex": 14,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -2041,7 +2887,196 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=1536&h=1152",
-                  "loc": "3:33-118",
+                  "loc": "15:34-119",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 68350,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=1841&h=1381",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=1841&h=1381",
+              "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+              "index": 5,
+              "preOrderIndex": 5,
+              "index2": 4,
+              "postOrderIndex": 4,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 169,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=1841&h=1381",
+                  "loc": "5:33-118",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 76220,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=2000&h=1500",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=2000&h=1500",
+              "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+              "index": 10,
+              "preOrderIndex": 10,
+              "index2": 9,
+              "postOrderIndex": 9,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 938,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=2000&h=1500",
+                  "loc": "10:33-118",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 137483,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=3000&h=2250",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=3000&h=2250",
+              "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+              "index": 11,
+              "preOrderIndex": 11,
+              "index2": 10,
+              "postOrderIndex": 10,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 966,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=3000&h=2250",
+                  "loc": "11:33-118",
                   "moduleId": 355,
                   "resolvedModuleId": 355
                 }
@@ -2067,10 +3102,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=3072&h=2304",
               "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=3072&h=2304",
               "nameForCondition": "src/assets/jamie-street-unsplash.avif",
-              "index": 4,
-              "preOrderIndex": 4,
-              "index2": 3,
-              "postOrderIndex": 3,
+              "index": 16,
+              "preOrderIndex": 16,
+              "index2": 15,
+              "postOrderIndex": 15,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -2104,7 +3139,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=3072&h=2304",
-                  "loc": "4:33-118",
+                  "loc": "16:34-119",
                   "moduleId": 355,
                   "resolvedModuleId": 355
                 }
@@ -2130,10 +3165,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=4608&h=3456",
               "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=4608&h=3456",
               "nameForCondition": "src/assets/jamie-street-unsplash.avif",
-              "index": 5,
-              "preOrderIndex": 5,
-              "index2": 4,
-              "postOrderIndex": 4,
+              "index": 17,
+              "preOrderIndex": 17,
+              "index2": 16,
+              "postOrderIndex": 16,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -2167,7 +3202,196 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=4608&h=3456",
-                  "loc": "5:33-118",
+                  "loc": "17:34-119",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 23643,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=614&h=864",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=614&h=864",
+              "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+              "index": 3,
+              "preOrderIndex": 3,
+              "index2": 2,
+              "postOrderIndex": 2,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 391,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=614&h=864",
+                  "loc": "3:33-116",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 54000,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=1000&h=864",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=1000&h=864",
+              "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+              "index": 12,
+              "preOrderIndex": 12,
+              "index2": 11,
+              "postOrderIndex": 11,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 945,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=1000&h=864",
+                  "loc": "12:34-118",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 66892,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=1228&h=921",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=1228&h=921",
+              "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+              "index": 7,
+              "preOrderIndex": 7,
+              "index2": 6,
+              "postOrderIndex": 6,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 625,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=1228&h=921",
+                  "loc": "7:33-117",
                   "moduleId": 355,
                   "resolvedModuleId": 355
                 }
@@ -2193,10 +3417,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=1536&h=1152",
               "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=1536&h=1152",
               "nameForCondition": "src/assets/jamie-street-unsplash.webp",
-              "index": 6,
-              "preOrderIndex": 6,
-              "index2": 5,
-              "postOrderIndex": 5,
+              "index": 18,
+              "preOrderIndex": 18,
+              "index2": 17,
+              "postOrderIndex": 17,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -2230,7 +3454,196 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=1536&h=1152",
-                  "loc": "6:33-118",
+                  "loc": "18:34-119",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 125600,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=1841&h=1381",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=1841&h=1381",
+              "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+              "index": 8,
+              "preOrderIndex": 8,
+              "index2": 7,
+              "postOrderIndex": 7,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 591,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=1841&h=1381",
+                  "loc": "8:33-118",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 144764,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=2000&h=1500",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=2000&h=1500",
+              "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+              "index": 13,
+              "preOrderIndex": 13,
+              "index2": 12,
+              "postOrderIndex": 12,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 928,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=2000&h=1500",
+                  "loc": "13:34-119",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 406402,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=3000&h=2250",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=3000&h=2250",
+              "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+              "index": 14,
+              "preOrderIndex": 14,
+              "index2": 13,
+              "postOrderIndex": 13,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 916,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=3000&h=2250",
+                  "loc": "14:34-119",
                   "moduleId": 355,
                   "resolvedModuleId": 355
                 }
@@ -2256,10 +3669,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=3072&h=2304",
               "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=3072&h=2304",
               "nameForCondition": "src/assets/jamie-street-unsplash.webp",
-              "index": 7,
-              "preOrderIndex": 7,
-              "index2": 6,
-              "postOrderIndex": 6,
+              "index": 19,
+              "preOrderIndex": 19,
+              "index2": 18,
+              "postOrderIndex": 18,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -2293,7 +3706,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=3072&h=2304",
-                  "loc": "7:33-118",
+                  "loc": "19:34-119",
                   "moduleId": 355,
                   "resolvedModuleId": 355
                 }
@@ -2319,10 +3732,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=4608&h=3456",
               "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=4608&h=3456",
               "nameForCondition": "src/assets/jamie-street-unsplash.webp",
-              "index": 8,
-              "preOrderIndex": 8,
-              "index2": 7,
-              "postOrderIndex": 7,
+              "index": 20,
+              "preOrderIndex": 20,
+              "index2": 19,
+              "postOrderIndex": 19,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -2356,7 +3769,70 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=4608&h=3456",
-                  "loc": "8:33-118",
+                  "loc": "20:34-119",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 39072,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=614&h=864",
+              "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=614&h=864",
+              "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+              "index": 6,
+              "preOrderIndex": 6,
+              "index2": 5,
+              "postOrderIndex": 5,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 553,
+              "issuerId": 355,
+              "chunks": [
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=614&h=864",
+                  "loc": "6:33-116",
                   "moduleId": 355,
                   "resolvedModuleId": 355
                 }
@@ -2747,9 +4223,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 8454,
+          "size": 10640,
           "sizes": {
-            "javascript": 8454
+            "javascript": 10640
           },
           "built": true,
           "codeGenerated": true,
@@ -2760,8 +4236,8 @@
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
           "index": 1,
           "preOrderIndex": 1,
-          "index2": 9,
-          "postOrderIndex": 9,
+          "index2": 21,
+          "postOrderIndex": 21,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -2811,7 +4287,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 11:0-7494"
+            "Statement (VariableDeclaration) with side effects in source code at 23:0-8238"
           ],
           "depth": 0
         },
@@ -2882,6 +4358,750 @@
           "layer": null,
           "size": 42,
           "sizes": {
+            "asset": 23643,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=614&h=864",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=614&h=864",
+          "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 391,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=614&h=864",
+              "loc": "3:33-116",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 39050,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=1228&h=921",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=1228&h=921",
+          "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 847,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=1228&h=921",
+              "loc": "4:33-117",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 68350,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=1841&h=1381",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=1841&h=1381",
+          "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 169,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=1841&h=1381",
+              "loc": "5:33-118",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 39072,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=614&h=864",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=614&h=864",
+          "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 553,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=614&h=864",
+              "loc": "6:33-116",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 66892,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=1228&h=921",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=1228&h=921",
+          "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 625,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=1228&h=921",
+              "loc": "7:33-117",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 125600,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=1841&h=1381",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=1841&h=1381",
+          "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 591,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=1841&h=1381",
+              "loc": "8:33-118",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 32528,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=1000&h=864",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=1000&h=864",
+          "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 759,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=1000&h=864",
+              "loc": "9:33-117",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 76220,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=2000&h=1500",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=2000&h=1500",
+          "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 938,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=2000&h=1500",
+              "loc": "10:33-118",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 137483,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=3000&h=2250",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=3000&h=2250",
+          "nameForCondition": "src/assets/jamie-street-unsplash.avif",
+          "index": 11,
+          "preOrderIndex": 11,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 966,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=3000&h=2250",
+              "loc": "11:33-118",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 54000,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=1000&h=864",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=1000&h=864",
+          "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+          "index": 12,
+          "preOrderIndex": 12,
+          "index2": 11,
+          "postOrderIndex": 11,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 945,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=1000&h=864",
+              "loc": "12:34-118",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 144764,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=2000&h=1500",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=2000&h=1500",
+          "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+          "index": 13,
+          "preOrderIndex": 13,
+          "index2": 12,
+          "postOrderIndex": 12,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 928,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=2000&h=1500",
+              "loc": "13:34-119",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 406402,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=3000&h=2250",
+          "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=3000&h=2250",
+          "nameForCondition": "src/assets/jamie-street-unsplash.webp",
+          "index": 14,
+          "preOrderIndex": 14,
+          "index2": 13,
+          "postOrderIndex": 13,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 916,
+          "issuerId": 355,
+          "chunks": [
+            783
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=3000&h=2250",
+              "loc": "14:34-119",
+              "moduleId": 355,
+              "resolvedModuleId": 355
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
             "asset": 51900,
             "javascript": 42
           },
@@ -2892,10 +5112,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=1536&h=1152",
           "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=1536&h=1152",
           "nameForCondition": "src/assets/jamie-street-unsplash.avif",
-          "index": 3,
-          "preOrderIndex": 3,
-          "index2": 2,
-          "postOrderIndex": 2,
+          "index": 15,
+          "preOrderIndex": 15,
+          "index2": 14,
+          "postOrderIndex": 14,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -2928,7 +5148,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=1536&h=1152",
-              "loc": "3:33-118",
+              "loc": "15:34-119",
               "moduleId": 355,
               "resolvedModuleId": 355
             }
@@ -2954,10 +5174,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=3072&h=2304",
           "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=3072&h=2304",
           "nameForCondition": "src/assets/jamie-street-unsplash.avif",
-          "index": 4,
-          "preOrderIndex": 4,
-          "index2": 3,
-          "postOrderIndex": 3,
+          "index": 16,
+          "preOrderIndex": 16,
+          "index2": 15,
+          "postOrderIndex": 15,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -2990,7 +5210,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=3072&h=2304",
-              "loc": "4:33-118",
+              "loc": "16:34-119",
               "moduleId": 355,
               "resolvedModuleId": 355
             }
@@ -3016,10 +5236,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=avif&w=4608&h=3456",
           "name": "./src/assets/jamie-street-unsplash.jpg?as=avif&w=4608&h=3456",
           "nameForCondition": "src/assets/jamie-street-unsplash.avif",
-          "index": 5,
-          "preOrderIndex": 5,
-          "index2": 4,
-          "postOrderIndex": 4,
+          "index": 17,
+          "preOrderIndex": 17,
+          "index2": 16,
+          "postOrderIndex": 16,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3052,7 +5272,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/jamie-street-unsplash.jpg?as=avif&w=4608&h=3456",
-              "loc": "5:33-118",
+              "loc": "17:34-119",
               "moduleId": 355,
               "resolvedModuleId": 355
             }
@@ -3078,10 +5298,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=1536&h=1152",
           "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=1536&h=1152",
           "nameForCondition": "src/assets/jamie-street-unsplash.webp",
-          "index": 6,
-          "preOrderIndex": 6,
-          "index2": 5,
-          "postOrderIndex": 5,
+          "index": 18,
+          "preOrderIndex": 18,
+          "index2": 17,
+          "postOrderIndex": 17,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3114,7 +5334,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=1536&h=1152",
-              "loc": "6:33-118",
+              "loc": "18:34-119",
               "moduleId": 355,
               "resolvedModuleId": 355
             }
@@ -3140,10 +5360,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=3072&h=2304",
           "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=3072&h=2304",
           "nameForCondition": "src/assets/jamie-street-unsplash.webp",
-          "index": 7,
-          "preOrderIndex": 7,
-          "index2": 6,
-          "postOrderIndex": 6,
+          "index": 19,
+          "preOrderIndex": 19,
+          "index2": 18,
+          "postOrderIndex": 18,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3176,7 +5396,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=3072&h=2304",
-              "loc": "7:33-118",
+              "loc": "19:34-119",
               "moduleId": 355,
               "resolvedModuleId": 355
             }
@@ -3202,10 +5422,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg?as=webp&w=4608&h=3456",
           "name": "./src/assets/jamie-street-unsplash.jpg?as=webp&w=4608&h=3456",
           "nameForCondition": "src/assets/jamie-street-unsplash.webp",
-          "index": 8,
-          "preOrderIndex": 8,
-          "index2": 7,
-          "postOrderIndex": 7,
+          "index": 20,
+          "preOrderIndex": 20,
+          "index2": 19,
+          "postOrderIndex": 19,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3238,7 +5458,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/jamie-street-unsplash.jpg?as=webp&w=4608&h=3456",
-              "loc": "8:33-118",
+              "loc": "20:34-119",
               "moduleId": 355,
               "resolvedModuleId": 355
             }
@@ -3264,10 +5484,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/jamie-street-unsplash.jpg",
           "name": "./src/assets/jamie-street-unsplash.jpg",
           "nameForCondition": "src/assets/jamie-street-unsplash.jpg",
-          "index": 9,
-          "preOrderIndex": 9,
-          "index2": 8,
-          "postOrderIndex": 8,
+          "index": 21,
+          "preOrderIndex": 21,
+          "index2": 20,
+          "postOrderIndex": 20,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3300,7 +5520,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../assets/jamie-street-unsplash.jpg",
-              "loc": "9:33-96",
+              "loc": "21:34-97",
               "moduleId": 355,
               "resolvedModuleId": 355
             }
@@ -3497,6 +5717,18 @@
           "assetsSize": 0,
           "auxiliaryAssets": [
             {
+              "name": "img/jamie-street-unsplash051cdccc2638c163b963.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplash0994788f9e32298c92e4.avif"
+            },
+            {
+              "name": "img/jamie-street-unsplash0b25d9453638dc6ae33c.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplash1b2f1ab3870f8d7d81d4.avif"
+            },
+            {
               "name": "img/jamie-street-unsplash34688756cf0db138b04d.avif"
             },
             {
@@ -3506,16 +5738,40 @@
               "name": "img/jamie-street-unsplash44bc65fc36ce1fcb9a97.webp"
             },
             {
+              "name": "img/jamie-street-unsplash4ce6ccf3b2e3f9af7781.avif"
+            },
+            {
               "name": "img/jamie-street-unsplash55c4deaf73915398565c.jpg"
+            },
+            {
+              "name": "img/jamie-street-unsplash58446ef553b3e353672b.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplash662955b20d8eb5021376.avif"
             },
             {
               "name": "img/jamie-street-unsplash8842e035da2e542f2eac.avif"
             },
             {
+              "name": "img/jamie-street-unsplash90c1a710549685e887f2.avif"
+            },
+            {
+              "name": "img/jamie-street-unsplash94148b669d8ce7bfdb54.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplash9c02060cae378a61a377.avif"
+            },
+            {
               "name": "img/jamie-street-unsplashbfa1c8385738bfd51780.webp"
             },
             {
+              "name": "img/jamie-street-unsplashd3cfc3606ea9f88c071c.webp"
+            },
+            {
               "name": "img/jamie-street-unsplashd53718855f434b8eb367.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplashde7a0e0030b0e098fd02.webp"
             }
           ],
           "filteredAuxiliaryAssets": 0,
@@ -3536,6 +5792,18 @@
           "assetsSize": 0,
           "auxiliaryAssets": [
             {
+              "name": "img/jamie-street-unsplash051cdccc2638c163b963.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplash0994788f9e32298c92e4.avif"
+            },
+            {
+              "name": "img/jamie-street-unsplash0b25d9453638dc6ae33c.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplash1b2f1ab3870f8d7d81d4.avif"
+            },
+            {
               "name": "img/jamie-street-unsplash34688756cf0db138b04d.avif"
             },
             {
@@ -3545,16 +5813,40 @@
               "name": "img/jamie-street-unsplash44bc65fc36ce1fcb9a97.webp"
             },
             {
+              "name": "img/jamie-street-unsplash4ce6ccf3b2e3f9af7781.avif"
+            },
+            {
               "name": "img/jamie-street-unsplash55c4deaf73915398565c.jpg"
+            },
+            {
+              "name": "img/jamie-street-unsplash58446ef553b3e353672b.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplash662955b20d8eb5021376.avif"
             },
             {
               "name": "img/jamie-street-unsplash8842e035da2e542f2eac.avif"
             },
             {
+              "name": "img/jamie-street-unsplash90c1a710549685e887f2.avif"
+            },
+            {
+              "name": "img/jamie-street-unsplash94148b669d8ce7bfdb54.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplash9c02060cae378a61a377.avif"
+            },
+            {
               "name": "img/jamie-street-unsplashbfa1c8385738bfd51780.webp"
             },
             {
+              "name": "img/jamie-street-unsplashd3cfc3606ea9f88c071c.webp"
+            },
+            {
               "name": "img/jamie-street-unsplashd53718855f434b8eb367.webp"
+            },
+            {
+              "name": "img/jamie-street-unsplashde7a0e0030b0e098fd02.webp"
             }
           ],
           "filteredAuxiliaryAssets": 0,
