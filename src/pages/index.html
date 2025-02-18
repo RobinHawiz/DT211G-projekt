@@ -73,10 +73,20 @@
       </nav>
     </header>
     <main id="homepage">
-      <img
-        src="../assets/jamie-street-unsplash.jpg"
-        alt="A happy dog lying on the beach"
-      />
+      <picture>
+        <source
+          type="image/avif"
+          srcset="
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=1536&h=1152 1x,
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=3072&h=2304 2x,
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=4608&h=3456 3x
+          "
+        />
+        <img
+          src="../assets/jamie-street-unsplash.jpg"
+          alt="A happy dog lying on the beach"
+        />
+      </picture>
       <div class="hero-cta">
         <h2>
           <span class="span-wrapper-1 span-wrapper">
