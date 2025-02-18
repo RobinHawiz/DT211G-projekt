@@ -38,9 +38,9 @@ header {
         width: 84%;
         height: 3px;
         border-radius: 3px;
-        background-color: white;
+        background-color: v.$light-color;
         bottom: 0;
-        left: 3.5rem;
+        left: 3.55rem;
         transform-origin: right;
         transform: scaleX(0);
         transition: transform 0.3s ease-in-out;
