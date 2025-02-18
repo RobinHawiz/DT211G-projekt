@@ -17,9 +17,10 @@
     position: absolute;
     max-width: 40rem;
     min-width: 22.2rem;
-    top: 45%;
+    padding-bottom: 6rem;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, -50%);
   }
   h2 {
     @include m.flex(center, center, row);
