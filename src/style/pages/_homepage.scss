@@ -12,21 +12,25 @@
     animation: 1.3s ease 0.2s forwards hero-img-animation;
     scale: 1.3;
   }
-  h2 {
+  .hero-cta {
+    @include m.flex(normal, normal, column);
     position: absolute;
-    @include m.flex(center, center, row);
-    flex-wrap: wrap;
     max-width: 40rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  h2 {
+    @include m.flex(center, center, row);
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
   .span-wrapper {
     overflow: hidden;
+    margin: 0 0.4rem;
   }
   span {
     position: relative;
-    margin: 0 0.4rem;
   }
   .hero-word-1 {
     right: -11rem;
@@ -48,6 +52,39 @@
     top: -6rem;
     animation: 0.4s ease 1.85s forwards hero-text-5-animation;
   }
+  button.cta {
+    width: 20rem;
+    height: 5rem;
+    position: relative;
+    align-self: center;
+    opacity: 0;
+    animation: 0.4s ease 2s forwards button-cta-animation;
+    cursor: pointer;
+    span.button-text {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all ease 0.2s;
+    }
+    span.heart {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 3rem;
+      opacity: 0;
+      transition: all ease 0.2s;
+    }
+    &:hover {
+      span.button-text {
+        left: calc(50% - 1rem);
+      }
+      span.heart {
+        opacity: 1;
+      }
+    }
+  }
 }
 
 @keyframes hero-img-animation {
@@ -61,6 +98,17 @@
   100% {
     scale: 1;
     border-radius: 3rem;
+  }
+}
+
+@keyframes button-cta-animation {
+  from {
+    opacity: 0;
+    bottom: -2rem;
+  }
+  to {
+    opacity: 1;
+    bottom: 0;
   }
 }
 

@@ -59,4 +59,10 @@ header {
     color: v.$light-color;
     text-shadow: v.$h2-shadow;
   }
+  button.cta {
+    background-color: v.$light-color;
+    border: none;
+    border-radius: 0.5rem;
+    color: v.$button-cta-dark-color;
+  }
 }
