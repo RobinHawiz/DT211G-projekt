@@ -71,7 +71,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      transition: all ease 0.2s;
+      transition: left ease 0.2s;
     }
     span.heart {
       position: absolute;
@@ -79,7 +79,7 @@
       transform: translateY(-50%);
       right: 3rem;
       opacity: 0;
-      transition: all ease 0.2s;
+      transition: opacity ease 0.2s;
     }
     &:hover {
       span.button-text {
