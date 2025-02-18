@@ -78,6 +78,43 @@
     </header>
     <main id="homepage">
       <picture>
+        <!-- The image minimum height has to be 864px, otherwise the image will look pixilated on desktop screens whose heights are 1080px. -->
+        <source
+          media="(max-width: 768px)"
+          type="image/avif"
+          srcset="
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=614&h=864   1x,
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=1228&h=921  2x,
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=1841&h=1381 3x
+          "
+        />
+        <source
+          media="(max-width: 768px)"
+          type="image/webp"
+          srcset="
+            ../assets/jamie-street-unsplash.jpg?as=webp&w=614&h=864   1x,
+            ../assets/jamie-street-unsplash.jpg?as=webp&w=1228&h=921  2x,
+            ../assets/jamie-street-unsplash.jpg?as=webp&w=1841&h=1381 3x
+          "
+        />
+        <source
+          media="(max-width: 1250px)"
+          type="image/avif"
+          srcset="
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=1000&h=864  1x,
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=2000&h=1500 2x,
+            ../assets/jamie-street-unsplash.jpg?as=avif&w=3000&h=2250 3x
+          "
+        />
+        <source
+          media="(max-width: 1250px)"
+          type="image/webp"
+          srcset="
+            ../assets/jamie-street-unsplash.jpg?as=webp&w=1000&h=864  1x,
+            ../assets/jamie-street-unsplash.jpg?as=webp&w=2000&h=1500 2x,
+            ../assets/jamie-street-unsplash.jpg?as=webp&w=3000&h=2250 3x
+          "
+        />
         <source
           type="image/avif"
           srcset="
