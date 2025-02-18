@@ -1,13 +1,13 @@
 {
-  "hash": "865ab3a737803b560f27",
+  "hash": "6abcb2bfbc044dd311cc",
   "version": "5.97.1",
-  "time": 21533,
-  "builtAt": 1739901685963,
+  "time": 21524,
+  "builtAt": 1739903358501,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.1fddf4f3e3dfe40ac679.css",
+      "style/main.e569591108dc222f45d3.css",
       "js/main.6487bfdd71535d1244f1.js"
     ]
   },
@@ -210,15 +210,15 @@
     },
     {
       "type": "asset",
-      "name": "style/main.1fddf4f3e3dfe40ac679.css",
-      "size": 12615,
+      "name": "style/main.e569591108dc222f45d3.css",
+      "size": 12665,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "1fddf4f3e3dfe40ac679",
-        "size": 12615
+        "contenthash": "e569591108dc222f45d3",
+        "size": 12665
       },
       "chunkNames": [
         "main"
@@ -236,12 +236,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 7464,
+      "size": 7496,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 7464
+        "size": 7496
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -286,10 +286,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 18347,
+      "size": 18397,
       "sizes": {
         "javascript": 5038,
-        "css/mini-extract": 12614,
+        "css/mini-extract": 12664,
         "runtime": 695
       },
       "names": [
@@ -300,11 +300,11 @@
         "main"
       ],
       "files": [
-        "style/main.1fddf4f3e3dfe40ac679.css",
+        "style/main.e569591108dc222f45d3.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "a197925e4bdd59d125d8",
+      "hash": "a7789897b839dbf27b9f",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -505,9 +505,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 12614,
+          "size": 12664,
           "sizes": {
-            "css/mini-extract": 12614
+            "css/mini-extract": 12664
           },
           "built": true,
           "codeGenerated": true,
@@ -942,9 +942,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 12614,
+      "size": 12664,
       "sizes": {
-        "css/mini-extract": 12614
+        "css/mini-extract": 12664
       },
       "built": true,
       "codeGenerated": true,
@@ -1009,9 +1009,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 13056,
+      "size": 13106,
       "sizes": {
-        "javascript": 13056
+        "javascript": 13106
       },
       "built": true,
       "codeGenerated": true,
@@ -1530,8 +1530,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.1fddf4f3e3dfe40ac679.css",
-          "size": 12615
+          "name": "style/main.e569591108dc222f45d3.css",
+          "size": 12665
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -1539,7 +1539,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 16057,
+      "assetsSize": 16107,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1556,8 +1556,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.1fddf4f3e3dfe40ac679.css",
-          "size": 12615
+          "name": "style/main.e569591108dc222f45d3.css",
+          "size": 12665
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -1565,7 +1565,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 16057,
+      "assetsSize": 16107,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1590,10 +1590,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "90a83a96cdb13209791f",
+      "hash": "43c6f743e773c8897367",
       "version": "5.97.1",
-      "time": 21281,
-      "builtAt": 1739901685738,
+      "time": 21262,
+      "builtAt": 1739903358265,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -1822,9 +1822,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 5248269,
+          "size": 5248305,
           "sizes": {
-            "javascript": 8825,
+            "javascript": 8861,
             "asset": 5238154,
             "runtime": 1290
           },
@@ -1845,7 +1845,7 @@
             "img/jamie-street-unsplashbfa1c8385738bfd51780.webp",
             "img/jamie-street-unsplashd53718855f434b8eb367.webp"
           ],
-          "hash": "80631833ab911017e8eb",
+          "hash": "ca1e7d990ad47cdacc50",
           "childrenByOrder": {},
           "id": 783,
           "siblings": [],
@@ -1856,9 +1856,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 8418,
+              "size": 8454,
               "sizes": {
-                "javascript": 8418
+                "javascript": 8454
               },
               "built": true,
               "codeGenerated": true,
@@ -1921,7 +1921,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 11:0-7458"
+                "Statement (VariableDeclaration) with side effects in source code at 11:0-7494"
               ],
               "depth": 0
             },
@@ -2747,9 +2747,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 8418,
+          "size": 8454,
           "sizes": {
-            "javascript": 8418
+            "javascript": 8454
           },
           "built": true,
           "codeGenerated": true,
@@ -2811,7 +2811,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 11:0-7458"
+            "Statement (VariableDeclaration) with side effects in source code at 11:0-7494"
           ],
           "depth": 0
         },
