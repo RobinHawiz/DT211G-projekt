@@ -16,18 +16,19 @@
     @include m.flex(normal, normal, column);
     position: absolute;
     max-width: 40rem;
-    top: 50%;
+    min-width: 22.2rem;
+    top: 45%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
   }
   h2 {
     @include m.flex(center, center, row);
     flex-wrap: wrap;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   .span-wrapper {
     overflow: hidden;
-    margin: 0 0.4rem;
+    padding: 0 0.4rem;
   }
   span {
     position: relative;
@@ -60,6 +61,10 @@
     opacity: 0;
     animation: 0.4s ease 2s forwards button-cta-animation;
     cursor: pointer;
+    @include m.media-query(mobile) {
+      width: 15rem;
+      height: 4rem;
+    }
     span.button-text {
       width: 100%;
       position: absolute;

@@ -77,9 +77,9 @@ header {
     text-shadow: v.$h2-shadow;
   }
   button.cta {
-    background-color: v.$light-color;
     border: none;
     border-radius: 0.5rem;
+    background-color: v.$light-color;
     color: v.$button-cta-dark-color;
   }
 }

@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
 
 html {
   font-size: 62.5%;
@@ -10,6 +11,9 @@ body {
 
 h2 {
   font-size: v.$h2-font;
+  @include m.media-query(mobile) {
+    font-size: v.$h2-mobile-font;
+  }
 }
 
 .logo a {
@@ -24,4 +28,7 @@ nav {
 button.cta {
   font-size: v.$button-cta-font;
   font-family: "Poppins";
+  @include m.media-query(mobile) {
+    font-size: v.$button-mobile-cta-font;
+  }
 }
