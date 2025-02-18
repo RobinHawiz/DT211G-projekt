@@ -80,6 +80,9 @@
       right: 3rem;
       opacity: 0;
       transition: opacity ease 0.2s;
+      @include m.media-query(mobile) {
+        right: 1.3rem;
+      }
     }
     &:hover {
       span.button-text {
@@ -87,6 +90,14 @@
       }
       span.heart {
         opacity: 1;
+      }
+      @include m.media-query(mobile) {
+        span.button-text {
+          left: calc(50% - 0.7rem);
+        }
+        span.heart {
+          opacity: 1;
+        }
       }
     }
   }
