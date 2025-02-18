@@ -8,6 +8,10 @@ body {
   font-family: "Poppins", "Helvetica", "Arial", sans-serif;
 }
 
+h2 {
+  font-size: v.$h2-font;
+}
+
 .logo a {
   font-size: v.$logo-font;
   font-weight: 700;

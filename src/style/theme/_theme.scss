@@ -51,3 +51,12 @@ header {
     }
   }
 }
+
+// Pages
+
+#homepage {
+  h2 {
+    color: v.$light-color;
+    text-shadow: v.$h2-shadow;
+  }
+}
