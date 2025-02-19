@@ -25,7 +25,7 @@ nav {
   font-size: v.$nav-font;
 }
 
-button.cta {
+a.button-cta {
   font-size: v.$button-cta-font;
   font-family: "Poppins";
   @include m.media-query(mobile) {
