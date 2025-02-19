@@ -1,6 +1,7 @@
 const { populateHtmlPlugins } = require("../utils/multipage.js");
 const pages = populateHtmlPlugins({
   index: ["main"],
+  "find-match": ["main"],
 });
 const path = require("path");
 const BundleAnalyzerPlugin =

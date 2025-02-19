@@ -11,15 +11,21 @@ $h2-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
 // Font-sizes
 
 $h2-font: 3.5rem;
+$h2-dog-name-font: 3rem;
+$h3-font: 2rem;
+$p-font: 1.8rem;
 $logo-font: 2.5rem;
 $nav-font: 2.3rem;
 $button-cta-font: 1.5rem;
 
 $h2-mobile-font: 2.5rem;
+$h2-mobile-dog-name-font: 2.5rem;
+$p-mobile-font: 1.5rem;
 $button-mobile-cta-font: 1.3rem;
 
 // Breakpoints
 
 $breakpoints: (
   mobile: 705px,
+  mobile-find-match: 534px,
 );

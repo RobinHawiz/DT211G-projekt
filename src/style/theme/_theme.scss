@@ -83,3 +83,31 @@ header {
     color: v.$button-cta-dark-color;
   }
 }
+
+#find-match {
+  .card {
+    background: linear-gradient(
+      0deg,
+      rgba(23, 24, 26, 1) 0%,
+      rgba(23, 24, 26, 0) 40%
+    );
+    @include m.media-query(mobile-find-match) {
+      background: linear-gradient(
+        0deg,
+        rgba(23, 24, 26, 1) 6rem,
+        rgba(23, 24, 26, 0) 45%
+      );
+    }
+    .dog-name-and-group {
+      color: v.$light-color;
+    }
+    .info article {
+      background-color: rgba($color: #fff, $alpha: 0.9);
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+    .divider {
+      background-color: v.$dark-color;
+    }
+  }
+}

@@ -16,6 +16,17 @@ h2 {
   }
 }
 
+h3 {
+  font-size: v.$h3-font;
+}
+
+p {
+  font-size: v.$p-font;
+  @include m.media-query(mobile-find-match) {
+    font-size: v.$p-mobile-font;
+  }
+}
+
 .logo a {
   font-size: v.$logo-font;
   font-weight: 700;
@@ -30,5 +41,14 @@ a.button-cta {
   font-family: "Poppins";
   @include m.media-query(mobile) {
     font-size: v.$button-mobile-cta-font;
+  }
+}
+
+.dog-name-and-group {
+  h2 {
+    font-size: v.$h2-dog-name-font;
+    @include m.media-query(mobile-find-match) {
+      font-size: v.$h2-mobile-dog-name-font;
+    }
   }
 }
