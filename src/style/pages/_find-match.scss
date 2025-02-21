@@ -46,16 +46,44 @@
       @include m.flex(normal, center, column);
       gap: 3rem;
       width: 100%;
-      margin-top: 3rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
       display: none;
+      overflow: hidden;
       @include m.media-query(mobile-find-match) {
-        margin-top: 0;
+        padding-top: 0;
       }
     }
     .bio article {
+      position: relative;
       margin: 0 2rem;
       padding: 1rem;
       border-radius: 1rem;
+    }
+    .bio article:nth-child(1) {
+      animation: 0.6s ease 0.1s forwards bio-out-animation;
+      .content {
+        animation: 0.3s ease 0.1s forwards bio-content-out-animation;
+      }
+    }
+    .bio article:nth-child(2) {
+      animation: 0.6s ease forwards bio-out-animation;
+      .content {
+        animation: 0.3s ease 0s forwards bio-content-out-animation;
+      }
+    }
+    .bio article:nth-child(1).bio-in-animation {
+      animation: 0.5s ease forwards bio-in-animation;
+      .content {
+        animation: 1.3s ease 0s forwards bio-content-in-animation;
+      }
+    }
+    .bio article:nth-child(2).bio-in-animation {
+      transform: translateX(-110%);
+      animation: 0.5s ease 0.1s forwards bio-in-animation;
+      .content {
+        animation: 1.3s ease 0.1s forwards bio-content-in-animation;
+      }
     }
     .title {
       @include m.flex(center, normal, row);
@@ -124,5 +152,59 @@
         transform: translate(-50%, -50%);
       }
     }
+  }
+}
+
+@keyframes toggle-bio-button-open-animation {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+}
+
+@keyframes toggle-bio-button-close-animation {
+  from {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+}
+
+@keyframes bio-in-animation {
+  from {
+    transform: translateX(-110%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes bio-out-animation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-110%);
+  }
+}
+
+@keyframes bio-content-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bio-content-out-animation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }

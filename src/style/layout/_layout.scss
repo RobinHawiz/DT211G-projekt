@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scrollbar-width: none;
+}
+
 header {
   min-height: 10vh;
   padding: 1rem;

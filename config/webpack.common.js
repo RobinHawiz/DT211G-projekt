@@ -1,7 +1,7 @@
 const { populateHtmlPlugins } = require("../utils/multipage.js");
 const pages = populateHtmlPlugins({
   index: ["main"],
-  "find-match": ["main"],
+  "find-match": ["main", "likeDislikePanel"],
 });
 const path = require("path");
 const BundleAnalyzerPlugin =
@@ -10,6 +10,7 @@ const BundleAnalyzerPlugin =
 module.exports = {
   entry: {
     main: path.resolve(__dirname, "../src/js/index.js"),
+    likeDislikePanel: path.resolve(__dirname, "../src/js/likeDislikePanel.js"),
   },
   output: {
     assetModuleFilename: "img/[name][contenthash][ext][query]",
