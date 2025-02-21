@@ -1,14 +1,17 @@
 {
-  "hash": "45545c23b8ffa7f7925d",
+  "hash": "fed13c1d86f64adaad5c",
   "version": "5.97.1",
-  "time": 35791,
-  "builtAt": 1740149309772,
+  "time": 34872,
+  "builtAt": 1740166948662,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.44acefa65c11e57cf110.css",
+      "style/main.883331cb947f6106b209.css",
       "js/main.6487bfdd71535d1244f1.js"
+    ],
+    "likeDislikePanel": [
+      "js/likeDislikePanel.6e4e0abcb6fb985da246.js"
     ]
   },
   "assets": [
@@ -574,15 +577,15 @@
     },
     {
       "type": "asset",
-      "name": "style/main.44acefa65c11e57cf110.css",
-      "size": 19276,
+      "name": "style/main.883331cb947f6106b209.css",
+      "size": 22737,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "44acefa65c11e57cf110",
-        "size": 19276
+        "contenthash": "883331cb947f6106b209",
+        "size": 22737
       },
       "chunkNames": [
         "main"
@@ -619,12 +622,12 @@
     {
       "type": "asset",
       "name": "find-match/index.html",
-      "size": 8181,
+      "size": 8310,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 8181
+        "size": 8310
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -725,6 +728,33 @@
       "auxiliaryChunkIdHints": [],
       "related": [],
       "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "js/likeDislikePanel.6e4e0abcb6fb985da246.js",
+      "size": 865,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "6e4e0abcb6fb985da246",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 865
+      },
+      "chunkNames": [
+        "likeDislikePanel"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        459
+      ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
@@ -867,10 +897,107 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 25008,
+      "size": 1591,
+      "sizes": {
+        "javascript": 1591
+      },
+      "names": [
+        "likeDislikePanel"
+      ],
+      "idHints": [],
+      "runtime": [
+        "likeDislikePanel"
+      ],
+      "files": [
+        "js/likeDislikePanel.6e4e0abcb6fb985da246.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "6f4484e93d4ab6471475",
+      "childrenByOrder": {},
+      "id": 459,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1591,
+          "sizes": {
+            "javascript": 1591
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
+          "name": "./src/js/likeDislikePanel.js",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 434,
+          "issuerId": null,
+          "chunks": [
+            459
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
+              "loc": "likeDislikePanel",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-69",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "likeDislikePanel",
+          "request": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 28469,
       "sizes": {
         "javascript": 5038,
-        "css/mini-extract": 19275,
+        "css/mini-extract": 22736,
         "runtime": 695
       },
       "names": [
@@ -881,11 +1008,11 @@
         "main"
       ],
       "files": [
-        "style/main.44acefa65c11e57cf110.css",
+        "style/main.883331cb947f6106b209.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "1e857a2acb6423e09569",
+      "hash": "505e41a563106eeb6bae",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -1086,9 +1213,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 19275,
+          "size": 22736,
           "sizes": {
-            "css/mini-extract": 19275
+            "css/mini-extract": 22736
           },
           "built": true,
           "codeGenerated": true,
@@ -1332,6 +1459,64 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 1591,
+      "sizes": {
+        "javascript": 1591
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
+      "name": "./src/js/likeDislikePanel.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 434,
+      "issuerId": null,
+      "chunks": [
+        459
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
+          "loc": "likeDislikePanel",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 1:0-69",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 972,
       "sizes": {
         "javascript": 972
@@ -1523,9 +1708,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 19275,
+      "size": 22736,
       "sizes": {
-        "css/mini-extract": 19275
+        "css/mini-extract": 22736
       },
       "built": true,
       "codeGenerated": true,
@@ -1590,9 +1775,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 19717,
+      "size": 23178,
       "sizes": {
-        "javascript": 19717
+        "javascript": 23178
       },
       "built": true,
       "codeGenerated": true,
@@ -2111,8 +2296,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.44acefa65c11e57cf110.css",
-          "size": 19276
+          "name": "style/main.883331cb947f6106b209.css",
+          "size": 22737
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -2120,7 +2305,27 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 22718,
+      "assetsSize": 26179,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "likeDislikePanel": {
+      "name": "likeDislikePanel",
+      "chunks": [
+        459
+      ],
+      "assets": [
+        {
+          "name": "js/likeDislikePanel.6e4e0abcb6fb985da246.js",
+          "size": 865
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 865,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2137,8 +2342,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.44acefa65c11e57cf110.css",
-          "size": 19276
+          "name": "style/main.883331cb947f6106b209.css",
+          "size": 22737
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -2146,7 +2351,27 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 22718,
+      "assetsSize": 26179,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "likeDislikePanel": {
+      "name": "likeDislikePanel",
+      "chunks": [
+        459
+      ],
+      "assets": [
+        {
+          "name": "js/likeDislikePanel.6e4e0abcb6fb985da246.js",
+          "size": 865
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 865,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2171,10 +2396,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "4d9ebb9ff8ee7265f39b",
+      "hash": "ea7afad138bbcc38138c",
       "version": "5.97.1",
-      "time": 35510,
-      "builtAt": 1740149309519,
+      "time": 34585,
+      "builtAt": 1740166948401,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -3031,9 +3256,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2419579,
+          "size": 2419648,
           "sizes": {
-            "javascript": 9860,
+            "javascript": 9929,
             "asset": 2408426,
             "runtime": 1293
           },
@@ -3057,7 +3282,7 @@
             "img/scale41983ffdf708474adf43.svg",
             "img/settings-slidersb91960e9804ac91be71d.svg"
           ],
-          "hash": "516cc1f9baacac22b50a",
+          "hash": "db2cb9577ab371032550",
           "childrenByOrder": {},
           "id": 284,
           "siblings": [],
@@ -3068,9 +3293,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 9327,
+              "size": 9396,
               "sizes": {
-                "javascript": 9327
+                "javascript": 9396
               },
               "built": true,
               "codeGenerated": true,
@@ -3133,7 +3358,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 14:0-8279"
+                "Statement (VariableDeclaration) with side effects in source code at 14:0-8348"
               ],
               "depth": 0
             },
@@ -5930,9 +6155,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 9327,
+          "size": 9396,
           "sizes": {
-            "javascript": 9327
+            "javascript": 9396
           },
           "built": true,
           "codeGenerated": true,
@@ -5994,7 +6219,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 14:0-8279"
+            "Statement (VariableDeclaration) with side effects in source code at 14:0-8348"
           ],
           "depth": 0
         },
