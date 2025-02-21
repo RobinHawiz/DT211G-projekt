@@ -109,7 +109,7 @@ header {
   .dog-name-and-group {
     color: v.$light-color;
   }
-  .info article {
+  .bio article {
     background-color: v.$light-overlay-color;
     @include m.media-query(mobile-find-match) {
       background-color: v.$dark-overlay-color;

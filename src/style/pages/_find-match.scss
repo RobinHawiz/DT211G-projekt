@@ -42,7 +42,7 @@
         }
       }
     }
-    .info {
+    .bio {
       @include m.flex(normal, center, column);
       gap: 3rem;
       width: 100%;
@@ -52,7 +52,7 @@
         margin-top: 0;
       }
     }
-    .info article {
+    .bio article {
       margin: 0 2rem;
       padding: 1rem;
       border-radius: 1rem;
@@ -76,7 +76,7 @@
       margin: auto;
       height: 0.1rem;
     }
-    .like-or-dislike-panel {
+    .like-dislike-panel {
       @include m.flex(center, center, row);
       gap: 2rem;
       position: absolute;
