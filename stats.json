@@ -1,13 +1,13 @@
 {
-  "hash": "888e92d3a1cccb397f89",
+  "hash": "45545c23b8ffa7f7925d",
   "version": "5.97.1",
-  "time": 35100,
-  "builtAt": 1739992218043,
+  "time": 35791,
+  "builtAt": 1740149309772,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.1cd3bfc2892ab8d70474.css",
+      "style/main.44acefa65c11e57cf110.css",
       "js/main.6487bfdd71535d1244f1.js"
     ]
   },
@@ -574,15 +574,15 @@
     },
     {
       "type": "asset",
-      "name": "style/main.1cd3bfc2892ab8d70474.css",
-      "size": 18639,
+      "name": "style/main.44acefa65c11e57cf110.css",
+      "size": 19276,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "1cd3bfc2892ab8d70474",
-        "size": 18639
+        "contenthash": "44acefa65c11e57cf110",
+        "size": 19276
       },
       "chunkNames": [
         "main"
@@ -619,12 +619,12 @@
     {
       "type": "asset",
       "name": "find-match/index.html",
-      "size": 8001,
+      "size": 8181,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 8001
+        "size": 8181
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -664,16 +664,16 @@
     },
     {
       "type": "asset",
-      "name": "img/bacteriumc07db5ba2857006d1eba.svg",
-      "size": 2156,
+      "name": "img/bacteriumb4151c0416fecabb6fcf.svg",
+      "size": 2171,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/bacterium.svg",
         "immutable": true,
-        "contenthash": "c07db5ba2857006d1eba",
-        "size": 2156
+        "contenthash": "b4151c0416fecabb6fcf",
+        "size": 2171
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -686,16 +686,16 @@
     },
     {
       "type": "asset",
-      "name": "img/dog-attributesf30fc5d036f1882845ea.svg",
-      "size": 1543,
+      "name": "img/dog-attributesafef3ba950e318b862e4.svg",
+      "size": 1558,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/dog-attributes.svg",
         "immutable": true,
-        "contenthash": "f30fc5d036f1882845ea",
-        "size": 1543
+        "contenthash": "afef3ba950e318b862e4",
+        "size": 1558
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -708,16 +708,38 @@
     },
     {
       "type": "asset",
-      "name": "img/crossfed1adac5a7cbebd7145.svg",
-      "size": 861,
+      "name": "img/settings-slidersb91960e9804ac91be71d.svg",
+      "size": 1555,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/settings-sliders.svg",
+        "immutable": true,
+        "contenthash": "b91960e9804ac91be71d",
+        "size": 1555
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/crossc0d231453a4a6a095f0f.svg",
+      "size": 864,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/cross.svg",
         "immutable": true,
-        "contenthash": "fed1adac5a7cbebd7145",
-        "size": 861
+        "contenthash": "c0d231453a4a6a095f0f",
+        "size": 864
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -730,16 +752,16 @@
     },
     {
       "type": "asset",
-      "name": "img/cake-birthdayfe031d6e53dd5c00a208.svg",
-      "size": 706,
+      "name": "img/cake-birthdayb7e550974979295dfd65.svg",
+      "size": 721,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/cake-birthday.svg",
         "immutable": true,
-        "contenthash": "fe031d6e53dd5c00a208",
-        "size": 706
+        "contenthash": "b7e550974979295dfd65",
+        "size": 721
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -752,16 +774,16 @@
     },
     {
       "type": "asset",
-      "name": "img/scaleafc236170379f697bd8f.svg",
-      "size": 440,
+      "name": "img/scale41983ffdf708474adf43.svg",
+      "size": 455,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/scale.svg",
         "immutable": true,
-        "contenthash": "afc236170379f697bd8f",
-        "size": 440
+        "contenthash": "41983ffdf708474adf43",
+        "size": 455
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -774,16 +796,16 @@
     },
     {
       "type": "asset",
-      "name": "img/info43428694d8c8751e5289.svg",
-      "size": 401,
+      "name": "img/info6f418ff5cff36c867cb0.svg",
+      "size": 416,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "sourceFilename": "src/assets/info.svg",
         "immutable": true,
-        "contenthash": "43428694d8c8751e5289",
-        "size": 401
+        "contenthash": "6f418ff5cff36c867cb0",
+        "size": 416
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -815,6 +837,28 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/arrowade4e28c270193d89e5e.svg",
+      "size": 326,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/arrow.svg",
+        "immutable": true,
+        "contenthash": "ade4e28c270193d89e5e",
+        "size": 326
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
     }
   ],
   "chunks": [
@@ -823,10 +867,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 24371,
+      "size": 25008,
       "sizes": {
         "javascript": 5038,
-        "css/mini-extract": 18638,
+        "css/mini-extract": 19275,
         "runtime": 695
       },
       "names": [
@@ -837,11 +881,11 @@
         "main"
       ],
       "files": [
-        "style/main.1cd3bfc2892ab8d70474.css",
+        "style/main.44acefa65c11e57cf110.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "2c727fbcb112f58fbbc1",
+      "hash": "1e857a2acb6423e09569",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -1042,9 +1086,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 18638,
+          "size": 19275,
           "sizes": {
-            "css/mini-extract": 18638
+            "css/mini-extract": 19275
           },
           "built": true,
           "codeGenerated": true,
@@ -1479,9 +1523,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 18638,
+      "size": 19275,
       "sizes": {
-        "css/mini-extract": 18638
+        "css/mini-extract": 19275
       },
       "built": true,
       "codeGenerated": true,
@@ -1546,9 +1590,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 19080,
+      "size": 19717,
       "sizes": {
-        "javascript": 19080
+        "javascript": 19717
       },
       "built": true,
       "codeGenerated": true,
@@ -2067,8 +2111,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.1cd3bfc2892ab8d70474.css",
-          "size": 18639
+          "name": "style/main.44acefa65c11e57cf110.css",
+          "size": 19276
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -2076,7 +2120,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 22081,
+      "assetsSize": 22718,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2093,8 +2137,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.1cd3bfc2892ab8d70474.css",
-          "size": 18639
+          "name": "style/main.44acefa65c11e57cf110.css",
+          "size": 19276
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -2102,7 +2146,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 22081,
+      "assetsSize": 22718,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2127,10 +2171,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "73daabc0e10d076001d3",
+      "hash": "4d9ebb9ff8ee7265f39b",
       "version": "5.97.1",
-      "time": 34810,
-      "builtAt": 1739992217780,
+      "time": 35510,
+      "builtAt": 1740149309519,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -2757,15 +2801,15 @@
         },
         {
           "type": "asset",
-          "name": "img/bacteriumc07db5ba2857006d1eba.svg",
-          "size": 2156,
+          "name": "img/bacteriumb4151c0416fecabb6fcf.svg",
+          "size": 2171,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "sourceFilename": "src/assets/bacterium.svg",
             "immutable": true,
-            "contenthash": "c07db5ba2857006d1eba"
+            "contenthash": "b4151c0416fecabb6fcf"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -2782,15 +2826,15 @@
         },
         {
           "type": "asset",
-          "name": "img/dog-attributesf30fc5d036f1882845ea.svg",
-          "size": 1543,
+          "name": "img/dog-attributesafef3ba950e318b862e4.svg",
+          "size": 1558,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "sourceFilename": "src/assets/dog-attributes.svg",
             "immutable": true,
-            "contenthash": "f30fc5d036f1882845ea"
+            "contenthash": "afef3ba950e318b862e4"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -2807,15 +2851,40 @@
         },
         {
           "type": "asset",
-          "name": "img/crossfed1adac5a7cbebd7145.svg",
-          "size": 861,
+          "name": "img/settings-slidersb91960e9804ac91be71d.svg",
+          "size": 1555,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/settings-sliders.svg",
+            "immutable": true,
+            "contenthash": "b91960e9804ac91be71d"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_1-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            284
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/crossc0d231453a4a6a095f0f.svg",
+          "size": 864,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "sourceFilename": "src/assets/cross.svg",
             "immutable": true,
-            "contenthash": "fed1adac5a7cbebd7145"
+            "contenthash": "c0d231453a4a6a095f0f"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -2832,15 +2901,15 @@
         },
         {
           "type": "asset",
-          "name": "img/cake-birthdayfe031d6e53dd5c00a208.svg",
-          "size": 706,
+          "name": "img/cake-birthdayb7e550974979295dfd65.svg",
+          "size": 721,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "sourceFilename": "src/assets/cake-birthday.svg",
             "immutable": true,
-            "contenthash": "fe031d6e53dd5c00a208"
+            "contenthash": "b7e550974979295dfd65"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -2857,15 +2926,15 @@
         },
         {
           "type": "asset",
-          "name": "img/scaleafc236170379f697bd8f.svg",
-          "size": 440,
+          "name": "img/scale41983ffdf708474adf43.svg",
+          "size": 455,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "sourceFilename": "src/assets/scale.svg",
             "immutable": true,
-            "contenthash": "afc236170379f697bd8f"
+            "contenthash": "41983ffdf708474adf43"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -2882,15 +2951,15 @@
         },
         {
           "type": "asset",
-          "name": "img/info43428694d8c8751e5289.svg",
-          "size": 401,
+          "name": "img/info6f418ff5cff36c867cb0.svg",
+          "size": 416,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
           "info": {
             "sourceFilename": "src/assets/info.svg",
             "immutable": true,
-            "contenthash": "43428694d8c8751e5289"
+            "contenthash": "6f418ff5cff36c867cb0"
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -2929,6 +2998,31 @@
             284
           ],
           "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
+          "name": "img/arrowade4e28c270193d89e5e.svg",
+          "size": 326,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/arrow.svg",
+            "immutable": true,
+            "contenthash": "ade4e28c270193d89e5e"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_1-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            284
+          ],
+          "isOverSizeLimit": false
         }
       ],
       "chunks": [
@@ -2937,10 +3031,10 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2417166,
+          "size": 2419579,
           "sizes": {
-            "javascript": 9406,
-            "asset": 2406467,
+            "javascript": 9860,
+            "asset": 2408426,
             "runtime": 1293
           },
           "names": [
@@ -2952,16 +3046,18 @@
           ],
           "files": [],
           "auxiliaryFiles": [
-            "img/bacteriumc07db5ba2857006d1eba.svg",
-            "img/cake-birthdayfe031d6e53dd5c00a208.svg",
-            "img/crossfed1adac5a7cbebd7145.svg",
-            "img/dog-attributesf30fc5d036f1882845ea.svg",
+            "img/arrowade4e28c270193d89e5e.svg",
+            "img/bacteriumb4151c0416fecabb6fcf.svg",
+            "img/cake-birthdayb7e550974979295dfd65.svg",
+            "img/crossc0d231453a4a6a095f0f.svg",
+            "img/dog-attributesafef3ba950e318b862e4.svg",
             "img/heart8517b4f5b7a40c255ba7.svg",
-            "img/info43428694d8c8751e5289.svg",
+            "img/info6f418ff5cff36c867cb0.svg",
             "img/oscar-sutton-unsplash-placeholdera0f58146c54ef3672af7.jpg",
-            "img/scaleafc236170379f697bd8f.svg"
+            "img/scale41983ffdf708474adf43.svg",
+            "img/settings-slidersb91960e9804ac91be71d.svg"
           ],
-          "hash": "395b12ad2d09afd1f182",
+          "hash": "516cc1f9baacac22b50a",
           "childrenByOrder": {},
           "id": 284,
           "siblings": [],
@@ -2972,9 +3068,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 8957,
+              "size": 9327,
               "sizes": {
-                "javascript": 8957
+                "javascript": 9327
               },
               "built": true,
               "codeGenerated": true,
@@ -2985,8 +3081,8 @@
               "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
               "index": 22,
               "preOrderIndex": 22,
-              "index2": 30,
-              "postOrderIndex": 30,
+              "index2": 32,
+              "postOrderIndex": 32,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -3037,7 +3133,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 12:0-8091"
+                "Statement (VariableDeclaration) with side effects in source code at 14:0-8279"
               ],
               "depth": 0
             },
@@ -3047,7 +3143,70 @@
               "layer": null,
               "size": 42,
               "sizes": {
-                "asset": 2156,
+                "asset": 326,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/arrow.svg",
+              "name": "./src/assets/arrow.svg",
+              "nameForCondition": "src/assets/arrow.svg",
+              "index": 32,
+              "preOrderIndex": 32,
+              "index2": 31,
+              "postOrderIndex": 31,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 824,
+              "issuerId": 251,
+              "chunks": [
+                284
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/arrow.svg",
+                  "loc": "12:34-84",
+                  "moduleId": 251,
+                  "resolvedModuleId": 251
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 2171,
                 "javascript": 42
               },
               "built": true,
@@ -3110,7 +3269,7 @@
               "layer": null,
               "size": 42,
               "sizes": {
-                "asset": 706,
+                "asset": 721,
                 "javascript": 42
               },
               "built": true,
@@ -3173,7 +3332,7 @@
               "layer": null,
               "size": 42,
               "sizes": {
-                "asset": 861,
+                "asset": 864,
                 "javascript": 42
               },
               "built": true,
@@ -3183,10 +3342,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/cross.svg",
               "name": "./src/assets/cross.svg",
               "nameForCondition": "src/assets/cross.svg",
-              "index": 29,
-              "preOrderIndex": 29,
-              "index2": 28,
-              "postOrderIndex": 28,
+              "index": 30,
+              "preOrderIndex": 30,
+              "index2": 29,
+              "postOrderIndex": 29,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -3220,7 +3379,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/cross.svg",
-                  "loc": "9:33-83",
+                  "loc": "10:33-83",
                   "moduleId": 251,
                   "resolvedModuleId": 251
                 }
@@ -3236,7 +3395,7 @@
               "layer": null,
               "size": 42,
               "sizes": {
-                "asset": 1543,
+                "asset": 1558,
                 "javascript": 42
               },
               "built": true,
@@ -3309,10 +3468,10 @@
               "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/heart.svg",
               "name": "./src/assets/heart.svg",
               "nameForCondition": "src/assets/heart.svg",
-              "index": 30,
-              "preOrderIndex": 30,
-              "index2": 29,
-              "postOrderIndex": 29,
+              "index": 31,
+              "preOrderIndex": 31,
+              "index2": 30,
+              "postOrderIndex": 30,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -3346,7 +3505,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/heart.svg",
-                  "loc": "10:33-83",
+                  "loc": "11:33-83",
                   "moduleId": 251,
                   "resolvedModuleId": 251
                 }
@@ -3362,7 +3521,7 @@
               "layer": null,
               "size": 42,
               "sizes": {
-                "asset": 401,
+                "asset": 416,
                 "javascript": 42
               },
               "built": true,
@@ -3488,7 +3647,7 @@
               "layer": null,
               "size": 42,
               "sizes": {
-                "asset": 440,
+                "asset": 455,
                 "javascript": 42
               },
               "built": true,
@@ -3536,6 +3695,69 @@
                   "explanation": "",
                   "userRequest": "../../assets/scale.svg",
                   "loc": "7:33-83",
+                  "moduleId": 251,
+                  "resolvedModuleId": 251
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 1555,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/settings-sliders.svg",
+              "name": "./src/assets/settings-sliders.svg",
+              "nameForCondition": "src/assets/settings-sliders.svg",
+              "index": 29,
+              "preOrderIndex": 29,
+              "index2": 28,
+              "postOrderIndex": 28,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 603,
+              "issuerId": 251,
+              "chunks": [
+                284
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/settings-sliders.svg",
+                  "loc": "9:33-94",
                   "moduleId": 251,
                   "resolvedModuleId": 251
                 }
@@ -5708,9 +5930,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 8957,
+          "size": 9327,
           "sizes": {
-            "javascript": 8957
+            "javascript": 9327
           },
           "built": true,
           "codeGenerated": true,
@@ -5721,8 +5943,8 @@
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
           "index": 22,
           "preOrderIndex": 22,
-          "index2": 30,
-          "postOrderIndex": 30,
+          "index2": 32,
+          "postOrderIndex": 32,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -5772,7 +5994,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 12:0-8091"
+            "Statement (VariableDeclaration) with side effects in source code at 14:0-8279"
           ],
           "depth": 0
         },
@@ -7098,7 +7320,7 @@
           "layer": null,
           "size": 42,
           "sizes": {
-            "asset": 401,
+            "asset": 416,
             "javascript": 42
           },
           "built": true,
@@ -7160,7 +7382,7 @@
           "layer": null,
           "size": 42,
           "sizes": {
-            "asset": 1543,
+            "asset": 1558,
             "javascript": 42
           },
           "built": true,
@@ -7222,7 +7444,7 @@
           "layer": null,
           "size": 42,
           "sizes": {
-            "asset": 706,
+            "asset": 721,
             "javascript": 42
           },
           "built": true,
@@ -7284,7 +7506,7 @@
           "layer": null,
           "size": 42,
           "sizes": {
-            "asset": 440,
+            "asset": 455,
             "javascript": 42
           },
           "built": true,
@@ -7346,7 +7568,7 @@
           "layer": null,
           "size": 42,
           "sizes": {
-            "asset": 2156,
+            "asset": 2171,
             "javascript": 42
           },
           "built": true,
@@ -7408,7 +7630,69 @@
           "layer": null,
           "size": 42,
           "sizes": {
-            "asset": 861,
+            "asset": 1555,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/settings-sliders.svg",
+          "name": "./src/assets/settings-sliders.svg",
+          "nameForCondition": "src/assets/settings-sliders.svg",
+          "index": 29,
+          "preOrderIndex": 29,
+          "index2": 28,
+          "postOrderIndex": 28,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "id": 251
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 603,
+          "issuerId": 251,
+          "chunks": [
+            284
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/settings-sliders.svg",
+              "loc": "9:33-94",
+              "moduleId": 251,
+              "resolvedModuleId": 251
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 864,
             "javascript": 42
           },
           "built": true,
@@ -7418,10 +7702,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/cross.svg",
           "name": "./src/assets/cross.svg",
           "nameForCondition": "src/assets/cross.svg",
-          "index": 29,
-          "preOrderIndex": 29,
-          "index2": 28,
-          "postOrderIndex": 28,
+          "index": 30,
+          "preOrderIndex": 30,
+          "index2": 29,
+          "postOrderIndex": 29,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -7454,7 +7738,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cross.svg",
-              "loc": "9:33-83",
+              "loc": "10:33-83",
               "moduleId": 251,
               "resolvedModuleId": 251
             }
@@ -7480,10 +7764,10 @@
           "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/heart.svg",
           "name": "./src/assets/heart.svg",
           "nameForCondition": "src/assets/heart.svg",
-          "index": 30,
-          "preOrderIndex": 30,
-          "index2": 29,
-          "postOrderIndex": 29,
+          "index": 31,
+          "preOrderIndex": 31,
+          "index2": 30,
+          "postOrderIndex": 30,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -7516,7 +7800,69 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/heart.svg",
-              "loc": "10:33-83",
+              "loc": "11:33-83",
+              "moduleId": 251,
+              "resolvedModuleId": 251
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 326,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/arrow.svg",
+          "name": "./src/assets/arrow.svg",
+          "nameForCondition": "src/assets/arrow.svg",
+          "index": 32,
+          "preOrderIndex": 32,
+          "index2": 31,
+          "postOrderIndex": 31,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "id": 251
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 824,
+          "issuerId": 251,
+          "chunks": [
+            284
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "type": "new URL()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/arrow.svg",
+              "loc": "12:34-84",
               "moduleId": 251,
               "resolvedModuleId": 251
             }
@@ -7961,28 +8307,34 @@
           "assetsSize": 0,
           "auxiliaryAssets": [
             {
-              "name": "img/bacteriumc07db5ba2857006d1eba.svg"
+              "name": "img/arrowade4e28c270193d89e5e.svg"
             },
             {
-              "name": "img/cake-birthdayfe031d6e53dd5c00a208.svg"
+              "name": "img/bacteriumb4151c0416fecabb6fcf.svg"
             },
             {
-              "name": "img/crossfed1adac5a7cbebd7145.svg"
+              "name": "img/cake-birthdayb7e550974979295dfd65.svg"
             },
             {
-              "name": "img/dog-attributesf30fc5d036f1882845ea.svg"
+              "name": "img/crossc0d231453a4a6a095f0f.svg"
+            },
+            {
+              "name": "img/dog-attributesafef3ba950e318b862e4.svg"
             },
             {
               "name": "img/heart8517b4f5b7a40c255ba7.svg"
             },
             {
-              "name": "img/info43428694d8c8751e5289.svg"
+              "name": "img/info6f418ff5cff36c867cb0.svg"
             },
             {
               "name": "img/oscar-sutton-unsplash-placeholdera0f58146c54ef3672af7.jpg"
             },
             {
-              "name": "img/scaleafc236170379f697bd8f.svg"
+              "name": "img/scale41983ffdf708474adf43.svg"
+            },
+            {
+              "name": "img/settings-slidersb91960e9804ac91be71d.svg"
             }
           ],
           "filteredAuxiliaryAssets": 0,
@@ -8076,28 +8428,34 @@
           "assetsSize": 0,
           "auxiliaryAssets": [
             {
-              "name": "img/bacteriumc07db5ba2857006d1eba.svg"
+              "name": "img/arrowade4e28c270193d89e5e.svg"
             },
             {
-              "name": "img/cake-birthdayfe031d6e53dd5c00a208.svg"
+              "name": "img/bacteriumb4151c0416fecabb6fcf.svg"
             },
             {
-              "name": "img/crossfed1adac5a7cbebd7145.svg"
+              "name": "img/cake-birthdayb7e550974979295dfd65.svg"
             },
             {
-              "name": "img/dog-attributesf30fc5d036f1882845ea.svg"
+              "name": "img/crossc0d231453a4a6a095f0f.svg"
+            },
+            {
+              "name": "img/dog-attributesafef3ba950e318b862e4.svg"
             },
             {
               "name": "img/heart8517b4f5b7a40c255ba7.svg"
             },
             {
-              "name": "img/info43428694d8c8751e5289.svg"
+              "name": "img/info6f418ff5cff36c867cb0.svg"
             },
             {
               "name": "img/oscar-sutton-unsplash-placeholdera0f58146c54ef3672af7.jpg"
             },
             {
-              "name": "img/scaleafc236170379f697bd8f.svg"
+              "name": "img/scale41983ffdf708474adf43.svg"
+            },
+            {
+              "name": "img/settings-slidersb91960e9804ac91be71d.svg"
             }
           ],
           "filteredAuxiliaryAssets": 0,
