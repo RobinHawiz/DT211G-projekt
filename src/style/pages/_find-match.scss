@@ -41,6 +41,9 @@
           margin-bottom: 7rem;
         }
       }
+      .dog-name-and-group h3 {
+        font-weight: 400;
+      }
     }
     .bio {
       @include m.flex(normal, center, column);
