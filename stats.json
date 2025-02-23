@@ -1,13 +1,13 @@
 {
-  "hash": "f271bf5b2e4d0a17312f",
+  "hash": "6121816b0ac6e7db9193",
   "version": "5.97.1",
-  "time": 34681,
-  "builtAt": 1740338068107,
+  "time": 34870,
+  "builtAt": 1740338750677,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.8690690a45929013b868.css",
+      "style/main.1cb22cba3956f60aba0b.css",
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "likeDislikePanel": [
@@ -577,15 +577,15 @@
     },
     {
       "type": "asset",
-      "name": "style/main.8690690a45929013b868.css",
-      "size": 22811,
+      "name": "style/main.1cb22cba3956f60aba0b.css",
+      "size": 22796,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "8690690a45929013b868",
-        "size": 22811
+        "contenthash": "1cb22cba3956f60aba0b",
+        "size": 22796
       },
       "chunkNames": [
         "main"
@@ -994,10 +994,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 28543,
+      "size": 28528,
       "sizes": {
         "javascript": 5038,
-        "css/mini-extract": 22810,
+        "css/mini-extract": 22795,
         "runtime": 695
       },
       "names": [
@@ -1008,11 +1008,11 @@
         "main"
       ],
       "files": [
-        "style/main.8690690a45929013b868.css",
+        "style/main.1cb22cba3956f60aba0b.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "8c7c8a1e40ce55c43e27",
+      "hash": "31cf44f4e9000e738703",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -1213,9 +1213,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 22810,
+          "size": 22795,
           "sizes": {
-            "css/mini-extract": 22810
+            "css/mini-extract": 22795
           },
           "built": true,
           "codeGenerated": true,
@@ -1708,9 +1708,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 22810,
+      "size": 22795,
       "sizes": {
-        "css/mini-extract": 22810
+        "css/mini-extract": 22795
       },
       "built": true,
       "codeGenerated": true,
@@ -1775,9 +1775,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 23252,
+      "size": 23237,
       "sizes": {
-        "javascript": 23252
+        "javascript": 23237
       },
       "built": true,
       "codeGenerated": true,
@@ -2296,8 +2296,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.8690690a45929013b868.css",
-          "size": 22811
+          "name": "style/main.1cb22cba3956f60aba0b.css",
+          "size": 22796
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -2305,7 +2305,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 26253,
+      "assetsSize": 26238,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2342,8 +2342,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.8690690a45929013b868.css",
-          "size": 22811
+          "name": "style/main.1cb22cba3956f60aba0b.css",
+          "size": 22796
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -2351,7 +2351,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 26253,
+      "assetsSize": 26238,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2398,8 +2398,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "ea7afad138bbcc38138c",
       "version": "5.97.1",
-      "time": 34390,
-      "builtAt": 1740338067842,
+      "time": 34582,
+      "builtAt": 1740338750419,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -4015,20 +4015,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "id": 251
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 251,
+              "issuerId": 355,
               "chunks": [
                 284,
                 783
@@ -5680,20 +5680,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "id": 251
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 251,
+              "issuerId": 355,
               "chunks": [
                 284,
                 783
@@ -6245,20 +6245,20 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
           "issuerPath": [
             {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-              "id": 251
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 711,
-          "issuerId": 251,
+          "issuerId": 355,
           "chunks": [
             284,
             783
