@@ -1,13 +1,13 @@
 {
-  "hash": "91dc029fd81e6a5ce795",
+  "hash": "46f1cd05d954e2687fd8",
   "version": "5.97.1",
-  "time": 35072,
-  "builtAt": 1740339056397,
+  "time": 35808,
+  "builtAt": 1740339967233,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.6c262366ec95592dcbda.css",
+      "style/main.dba590b1e7de65c247ee.css",
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "likeDislikePanel": [
@@ -577,14 +577,14 @@
     },
     {
       "type": "asset",
-      "name": "style/main.6c262366ec95592dcbda.css",
+      "name": "style/main.dba590b1e7de65c247ee.css",
       "size": 22796,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "6c262366ec95592dcbda",
+        "contenthash": "dba590b1e7de65c247ee",
         "size": 22796
       },
       "chunkNames": [
@@ -1008,11 +1008,11 @@
         "main"
       ],
       "files": [
-        "style/main.6c262366ec95592dcbda.css",
+        "style/main.dba590b1e7de65c247ee.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "75b2340f9b00c69eef34",
+      "hash": "85d6f64489204f0b4693",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -2296,7 +2296,7 @@
       ],
       "assets": [
         {
-          "name": "style/main.6c262366ec95592dcbda.css",
+          "name": "style/main.dba590b1e7de65c247ee.css",
           "size": 22796
         },
         {
@@ -2342,7 +2342,7 @@
       ],
       "assets": [
         {
-          "name": "style/main.6c262366ec95592dcbda.css",
+          "name": "style/main.dba590b1e7de65c247ee.css",
           "size": 22796
         },
         {
@@ -2398,8 +2398,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "ea7afad138bbcc38138c",
       "version": "5.97.1",
-      "time": 34773,
-      "builtAt": 1740339056125,
+      "time": 35529,
+      "builtAt": 1740339966979,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
