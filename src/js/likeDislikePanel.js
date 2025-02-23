@@ -1,5 +1,3 @@
-const { Root } = require("postcss");
-
 const header = document.querySelector("header");
 const likeDislikePanel = document.querySelector(".like-dislike-panel");
 const bio = document.querySelector(".bio");
@@ -10,20 +8,7 @@ toggleBioButton.addEventListener("click", () => {
   rotateToggleBioButton();
   displayBio();
   repositionPanel();
-  let bioDOMRect = bio.getBoundingClientRect();
-  let bioDistanceToTop = window.scrollY + bioDOMRect.top;
-  // Determines initial scroll speed. The smaller the value, the greater the speed.
-  // If true, value will be set for the desktop version of the webb app, otherwise set value for the mobile version.
-  let stepDenominator =
-    window.innerWidth > 534
-      ? bioDistanceToTop / 37.3
-      : bioDistanceToTop / 27 - 7000 / window.innerHeight;
-  // Determines how quickly the scroll speed tapers off. The smaller the value, the faster it slows down.
-  // If true, value will be set for the desktop version of the webb app, otherwise set value for the mobile version.
-  let diffDenominator =
-    window.innerWidth > 534 ? bioDistanceToTop / 86.9 : bioDistanceToTop / 86.9;
-
-  scrollToElem(bioDOMRect, stepDenominator, diffDenominator, bioDistanceToTop);
+  scrollPage();
 });
 
 function rotateToggleBioButton() {
@@ -61,40 +46,63 @@ function repositionPanel() {
   }
 }
 
-function scrollToElem(
-  bioDOMRect,
-  stepDenominator,
-  diffDenominator,
-  bioDistanceToTop
-) {
-  let isScrolledToBottom =
-    window.scrollY + window.innerHeight >= document.body.scrollHeight;
-  let rootScrollTopVal =
-    document.documentElement.scrollTop || document.body.scrollTop;
+function scrollPage() {
   // Scroll to the bio element that opened
   if (toggleBioButton.classList.contains("opened")) {
-    if (bioDOMRect.top - rootScrollTopVal > 0 && !isScrolledToBottom) {
-      let yCoordinate = Math.ceil(
-        rootScrollTopVal + bioDistanceToTop / stepDenominator
-      );
-      bioDistanceToTop -= bioDistanceToTop / diffDenominator;
-      window.scrollTo(0, yCoordinate);
+    const elemPosition = bio.getBoundingClientRect().top;
+    const scrollPosition = window.scrollY;
+    const scrollLimit =
+      Math.max(
+        document.body.scrollHeight,
+        document.body.offsetHeight,
+        document.documentElement.clientHeight,
+        document.documentElement.scrollHeight,
+        document.documentElement.offsetHeight
+      ) - window.innerHeight;
+    console.log("scrollPosition:" + scrollPosition);
+    console.log("elemPosition:" + elemPosition);
+    console.log("limit:" + scrollLimit);
+    let distance =
+      elemPosition > scrollLimit - scrollPosition
+        ? scrollLimit - scrollPosition
+        : elemPosition;
+    console.log("calc distance:" + distance);
 
-      window.requestAnimationFrame(() => {
-        scrollToElem(
-          bioDOMRect,
-          stepDenominator,
-          diffDenominator,
-          bioDistanceToTop
-        );
-      });
+    const duration = 700;
+    let startTime = null;
+    function scrollToElem(currentTime) {
+      if (startTime === null) startTime = currentTime;
+      const elapsedTime = currentTime - startTime;
+      const yCoordinate = easeOutQuint(
+        elapsedTime,
+        scrollPosition,
+        distance,
+        duration
+      );
+      window.scrollTo(0, yCoordinate);
+      if (elapsedTime < duration) window.requestAnimationFrame(scrollToElem);
     }
+    window.requestAnimationFrame(scrollToElem);
   }
   // Scroll to the top of the page
   else {
-    if (rootScrollTopVal > 0) {
-      window.scrollTo(0, rootScrollTopVal - rootScrollTopVal / 9);
-      window.requestAnimationFrame(scrollToElem);
+    function scrollToTop() {
+      let bodyScrollTop =
+        document.documentElement.scrollTop || document.body.scrollTop;
+      window.scrollTo(0, bodyScrollTop - bodyScrollTop / 6 - 0.5);
+      if (bodyScrollTop > 0) window.requestAnimationFrame(scrollToTop);
     }
+    window.requestAnimationFrame(scrollToTop);
   }
+}
+
+/*
+Got this function from: https://spicyyoghurt.com/tools/easing-functions
+t = Time - Amount of time that has passed since the beginning of the animation. Usually starts at 0 and is slowly increased using a game loop or other update function.
+b = Beginning value - The starting point of the animation. In my case it'll be the window.scrollY position.
+c = Change in value - The amount of change needed to go from starting point to end point. In my case it'll be the distance between the target element and the window.scrollY position.
+d = Duration - Amount of time the animation will take. 
+*/
+function easeOutQuint(t, b, c, d) {
+  return c * ((t = t / d - 1) * t * t * t * t + 1) + b + 2;
 }
