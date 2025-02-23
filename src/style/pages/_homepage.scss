@@ -2,7 +2,7 @@
 @use "../abstracts/mixins" as m;
 
 #homepage {
-  height: 80vh;
+  height: 80svh;
   margin: 0 10%;
   @include m.media-query(mobile) {
     margin: 0 5%;

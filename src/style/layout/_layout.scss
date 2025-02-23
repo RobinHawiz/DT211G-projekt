@@ -8,12 +8,10 @@
 
 html {
   scrollbar-width: none;
-  // 100vh height excluding the mobile addres bar.
-  height: 100svh;
 }
 
 header {
-  min-height: 10vh;
+  min-height: 10svh;
   padding: 1rem;
   @include m.flex(center, center, row);
   gap: 5rem;
