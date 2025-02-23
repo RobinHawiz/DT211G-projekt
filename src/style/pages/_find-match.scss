@@ -4,7 +4,6 @@
 #find-match {
   @include m.flex(center, center, column);
   @include m.media-query(mobile-find-match) {
-    height: 80svh;
     justify-content: flex-start;
   }
   .card-wrapper {
@@ -18,7 +17,7 @@
       overflow: hidden;
       @include m.media-query(mobile-find-match) {
         border-radius: 0;
-        height: 80vh;
+        height: 80svh;
         width: 100vw;
       }
       .img-wrapper {
