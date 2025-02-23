@@ -4,6 +4,9 @@
 #homepage {
   height: 80vh;
   margin: 0 10%;
+  @include m.media-query(mobile) {
+    margin: 0 5%;
+  }
   img {
     display: block;
     height: 100%;
