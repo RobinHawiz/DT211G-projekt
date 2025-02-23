@@ -8,12 +8,8 @@
 
 html {
   scrollbar-width: none;
-  // 100vh height when mobile addres bar is shown
-  height: 100dvh;
-}
-
-body {
-  height: 100%;
+  // 100vh height excluding the mobile addres bar.
+  height: 100svh;
 }
 
 header {
