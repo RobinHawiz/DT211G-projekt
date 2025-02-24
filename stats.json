@@ -1,14 +1,17 @@
 {
-  "hash": "7272d8f17f12b28cb14d",
+  "hash": "3c823600c64aa3656782",
   "version": "5.97.1",
-  "time": 35817,
-  "builtAt": 1740400996467,
+  "time": 36614,
+  "builtAt": 1740416438326,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
       "style/main.a18f925249a297eb970b.css",
       "js/main.6487bfdd71535d1244f1.js"
+    ],
+    "cardGenerator": [
+      "js/cardGenerator.fef2dfeaaf44cd55cc19.js"
     ],
     "likeDislikePanel": [
       "js/likeDislikePanel.7fa1f2e2b725051ebfbf.js"
@@ -549,6 +552,33 @@
     },
     {
       "type": "asset",
+      "name": "js/cardGenerator.fef2dfeaaf44cd55cc19.js",
+      "size": 24471,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "fef2dfeaaf44cd55cc19",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 24471
+      },
+      "chunkNames": [
+        "cardGenerator"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        132
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "img/jamie-street-unsplash1b2f1ab3870f8d7d81d4.avif",
       "size": 23643,
       "emitted": true,
@@ -622,12 +652,12 @@
     {
       "type": "asset",
       "name": "find-match/index.html",
-      "size": 8310,
+      "size": 8377,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 8310
+        "size": 8377
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -897,6 +927,356 @@
       "initial": true,
       "entry": true,
       "recorded": false,
+      "size": 36632,
+      "sizes": {
+        "javascript": 35937,
+        "runtime": 695
+      },
+      "names": [
+        "cardGenerator"
+      ],
+      "idHints": [],
+      "runtime": [
+        "cardGenerator"
+      ],
+      "files": [
+        "js/cardGenerator.fef2dfeaaf44cd55cc19.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "40e32381aa3addb02ad2",
+      "childrenByOrder": {},
+      "id": 132,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 11794,
+          "sizes": {
+            "javascript": 11794
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "name": "./src/js/cardGenerator.js",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 419,
+          "issuerId": null,
+          "chunks": [
+            132
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+              "loc": "cardGenerator",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 12989,
+          "sizes": {
+            "javascript": 12989
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+          "name": "./src/js/modules/convertData.js",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "issuerName": "./src/js/cardGenerator.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+              "name": "./src/js/cardGenerator.js",
+              "id": 419
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 549,
+          "issuerId": 419,
+          "chunks": [
+            132
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+              "module": "./src/js/cardGenerator.js",
+              "moduleName": "./src/js/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+              "resolvedModule": "./src/js/cardGenerator.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/convertData",
+              "loc": "7:16-48",
+              "moduleId": 419,
+              "resolvedModuleId": 419
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "convertDogData"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 11154,
+          "sizes": {
+            "javascript": 11154
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/fetchData.js",
+          "name": "./src/js/modules/fetchData.js",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/fetchData.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "issuerName": "./src/js/cardGenerator.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+              "name": "./src/js/cardGenerator.js",
+              "id": 419
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 442,
+          "issuerId": 419,
+          "chunks": [
+            132
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+              "module": "./src/js/cardGenerator.js",
+              "moduleName": "./src/js/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+              "resolvedModule": "./src/js/cardGenerator.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/fetchData",
+              "loc": "5:15-45",
+              "moduleId": 419,
+              "resolvedModuleId": 419
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+              "module": "./src/js/modules/convertData.js",
+              "moduleName": "./src/js/modules/convertData.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+              "resolvedModule": "./src/js/modules/convertData.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./fetchData",
+              "loc": "5:15-37",
+              "moduleId": 549,
+              "resolvedModuleId": 549
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "fetchData"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 313,
+          "sizes": {
+            "runtime": 313
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            132
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 103,
+          "sizes": {
+            "runtime": 103
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            132
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 279,
+          "sizes": {
+            "runtime": 279
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            132
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "cardGenerator",
+          "request": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
       "size": 3521,
       "sizes": {
         "javascript": 3521
@@ -934,10 +1314,10 @@
           "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
           "name": "./src/js/likeDislikePanel.js",
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
-          "index": 4,
-          "preOrderIndex": 4,
-          "index2": 4,
-          "postOrderIndex": 4,
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 7,
+          "postOrderIndex": 7,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1459,6 +1839,64 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 11794,
+      "sizes": {
+        "javascript": 11794
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+      "name": "./src/js/cardGenerator.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 419,
+      "issuerId": null,
+      "chunks": [
+        132
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "loc": "cardGenerator",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 3521,
       "sizes": {
         "javascript": 3521
@@ -1470,10 +1908,10 @@
       "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
       "name": "./src/js/likeDislikePanel.js",
       "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
-      "index": 4,
-      "preOrderIndex": 4,
-      "index2": 4,
-      "postOrderIndex": 4,
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 7,
+      "postOrderIndex": 7,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -1641,6 +2079,148 @@
       "optimizationBailout": [
         "Statement (VariableDeclaration) with side effects in source code at 4:0-58",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 11154,
+      "sizes": {
+        "javascript": 11154
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/fetchData.js",
+      "name": "./src/js/modules/fetchData.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/fetchData.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+      "issuerName": "./src/js/cardGenerator.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "name": "./src/js/cardGenerator.js",
+          "id": 419
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 442,
+      "issuerId": 419,
+      "chunks": [
+        132
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "module": "./src/js/cardGenerator.js",
+          "moduleName": "./src/js/cardGenerator.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "resolvedModule": "./src/js/cardGenerator.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/fetchData",
+          "loc": "5:15-45",
+          "moduleId": 419,
+          "resolvedModuleId": 419
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+          "module": "./src/js/modules/convertData.js",
+          "moduleName": "./src/js/modules/convertData.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+          "resolvedModule": "./src/js/modules/convertData.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./fetchData",
+          "loc": "5:15-37",
+          "moduleId": 549,
+          "resolvedModuleId": 549
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "fetchData"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 12989,
+      "sizes": {
+        "javascript": 12989
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+      "name": "./src/js/modules/convertData.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+      "issuerName": "./src/js/cardGenerator.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "name": "./src/js/cardGenerator.js",
+          "id": 419
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 549,
+      "issuerId": 419,
+      "chunks": [
+        132
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "module": "./src/js/cardGenerator.js",
+          "moduleName": "./src/js/cardGenerator.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/cardGenerator.js",
+          "resolvedModule": "./src/js/cardGenerator.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/convertData",
+          "loc": "7:16-48",
+          "moduleId": 419,
+          "resolvedModuleId": 419
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "convertDogData"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33"
       ],
       "depth": 1
     },
@@ -2151,6 +2731,41 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
+      "size": 313,
+      "sizes": {
+        "runtime": 313
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        132
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
       "size": 103,
       "sizes": {
         "runtime": 103
@@ -2209,6 +2824,41 @@
       "id": "",
       "chunks": [
         792
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 103,
+      "sizes": {
+        "runtime": 103
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        132
       ],
       "assets": [],
       "reasons": [],
@@ -2286,6 +2936,41 @@
       "providedExports": [],
       "optimizationBailout": [],
       "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 279,
+      "sizes": {
+        "runtime": 279
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        132
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
     }
   ],
   "entrypoints": {
@@ -2306,6 +2991,26 @@
       ],
       "filteredAssets": 0,
       "assetsSize": 26309,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "cardGenerator": {
+      "name": "cardGenerator",
+      "chunks": [
+        132
+      ],
+      "assets": [
+        {
+          "name": "js/cardGenerator.fef2dfeaaf44cd55cc19.js",
+          "size": 24471
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 24471,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -2359,6 +3064,26 @@
       "childAssets": {},
       "isOverSizeLimit": false
     },
+    "cardGenerator": {
+      "name": "cardGenerator",
+      "chunks": [
+        132
+      ],
+      "assets": [
+        {
+          "name": "js/cardGenerator.fef2dfeaaf44cd55cc19.js",
+          "size": 24471
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 24471,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
     "likeDislikePanel": {
       "name": "likeDislikePanel",
       "chunks": [
@@ -2398,8 +3123,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "ea7afad138bbcc38138c",
       "version": "5.97.1",
-      "time": 35519,
-      "builtAt": 1740400996198,
+      "time": 35995,
+      "builtAt": 1740416437733,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
