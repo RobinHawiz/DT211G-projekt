@@ -59,14 +59,10 @@ function scrollPage() {
         document.documentElement.scrollHeight,
         document.documentElement.offsetHeight
       ) - window.innerHeight;
-    console.log("scrollPosition:" + scrollPosition);
-    console.log("elemPosition:" + elemPosition);
-    console.log("limit:" + scrollLimit);
     let distance =
       elemPosition > scrollLimit - scrollPosition
         ? scrollLimit - scrollPosition
         : elemPosition;
-    console.log("calc distance:" + distance);
 
     const duration = 700;
     let startTime = null;
