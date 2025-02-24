@@ -1,8 +1,8 @@
 {
-  "hash": "f97250e3b20a1b53a2a8",
+  "hash": "cca88fba1d1953de2706",
   "version": "5.97.1",
-  "time": 35609,
-  "builtAt": 1740417137337,
+  "time": 35513,
+  "builtAt": 1740421362685,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "cardGenerator": [
-      "js/cardGenerator.22e7c87e8fe90c5966e1.js"
+      "js/cardGenerator.fe8b1ab213a5608e162b.js"
     ],
     "likeDislikePanel": [
       "js/likeDislikePanel.7fa1f2e2b725051ebfbf.js"
@@ -552,17 +552,17 @@
     },
     {
       "type": "asset",
-      "name": "js/cardGenerator.22e7c87e8fe90c5966e1.js",
-      "size": 24658,
+      "name": "js/cardGenerator.fe8b1ab213a5608e162b.js",
+      "size": 25552,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "22e7c87e8fe90c5966e1",
+        "contenthash": "fe8b1ab213a5608e162b",
         "javascriptModule": false,
         "minimized": true,
-        "size": 24658
+        "size": 25552
       },
       "chunkNames": [
         "cardGenerator"
@@ -927,9 +927,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 36986,
+      "size": 39161,
       "sizes": {
-        "javascript": 36291,
+        "javascript": 38466,
         "runtime": 695
       },
       "names": [
@@ -940,10 +940,10 @@
         "cardGenerator"
       ],
       "files": [
-        "js/cardGenerator.22e7c87e8fe90c5966e1.js"
+        "js/cardGenerator.fe8b1ab213a5608e162b.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "ba291ab5c5d03f8c742e",
+      "hash": "3b6a74aa35a11c6c4c63",
       "childrenByOrder": {},
       "id": 132,
       "siblings": [],
@@ -954,9 +954,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 12148,
+          "size": 12012,
           "sizes": {
-            "javascript": 12148
+            "javascript": 12012
           },
           "built": true,
           "codeGenerated": true,
@@ -1013,17 +1013,17 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 12989,
+          "size": 15300,
           "sizes": {
-            "javascript": 12989
+            "javascript": 15300
           },
           "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
-          "name": "./src/js/modules/convertData.js",
-          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
+          "name": "./src/js/modules/createDogDataCards.js",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
           "index": 6,
           "preOrderIndex": 6,
           "index2": 5,
@@ -1044,7 +1044,7 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 549,
+          "id": 353,
           "issuerId": 419,
           "chunks": [
             132
@@ -1060,15 +1060,15 @@
               "type": "cjs require",
               "active": true,
               "explanation": "",
-              "userRequest": "./modules/convertData",
-              "loc": "7:16-48",
+              "userRequest": "./modules/createDogDataCards",
+              "loc": "7:16-55",
               "moduleId": 419,
               "resolvedModuleId": 419
             }
           ],
           "usedExports": true,
           "providedExports": [
-            "convertDogData"
+            "createDogDataCards"
           ],
           "optimizationBailout": [
             "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33"
@@ -1132,18 +1132,18 @@
               "resolvedModuleId": 419
             },
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
-              "module": "./src/js/modules/convertData.js",
-              "moduleName": "./src/js/modules/convertData.js",
-              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
-              "resolvedModule": "./src/js/modules/convertData.js",
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
+              "module": "./src/js/modules/createDogDataCards.js",
+              "moduleName": "./src/js/modules/createDogDataCards.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
+              "resolvedModule": "./src/js/modules/createDogDataCards.js",
               "type": "cjs require",
               "active": true,
               "explanation": "",
               "userRequest": "./fetchData",
               "loc": "5:15-37",
-              "moduleId": 549,
-              "resolvedModuleId": 549
+              "moduleId": 353,
+              "resolvedModuleId": 353
             }
           ],
           "usedExports": true,
@@ -1839,9 +1839,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 12148,
+      "size": 12012,
       "sizes": {
-        "javascript": 12148
+        "javascript": 12012
       },
       "built": true,
       "codeGenerated": true,
@@ -2138,18 +2138,18 @@
           "resolvedModuleId": 419
         },
         {
-          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
-          "module": "./src/js/modules/convertData.js",
-          "moduleName": "./src/js/modules/convertData.js",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
-          "resolvedModule": "./src/js/modules/convertData.js",
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
+          "module": "./src/js/modules/createDogDataCards.js",
+          "moduleName": "./src/js/modules/createDogDataCards.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
+          "resolvedModule": "./src/js/modules/createDogDataCards.js",
           "type": "cjs require",
           "active": true,
           "explanation": "",
           "userRequest": "./fetchData",
           "loc": "5:15-37",
-          "moduleId": 549,
-          "resolvedModuleId": 549
+          "moduleId": 353,
+          "resolvedModuleId": 353
         }
       ],
       "usedExports": true,
@@ -2163,17 +2163,17 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 12989,
+      "size": 15300,
       "sizes": {
-        "javascript": 12989
+        "javascript": 15300
       },
       "built": true,
       "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
-      "name": "./src/js/modules/convertData.js",
-      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/convertData.js",
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
+      "name": "./src/js/modules/createDogDataCards.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
       "index": 6,
       "preOrderIndex": 6,
       "index2": 5,
@@ -2193,7 +2193,7 @@
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": 549,
+      "id": 353,
       "issuerId": 419,
       "chunks": [
         132
@@ -2209,15 +2209,15 @@
           "type": "cjs require",
           "active": true,
           "explanation": "",
-          "userRequest": "./modules/convertData",
-          "loc": "7:16-48",
+          "userRequest": "./modules/createDogDataCards",
+          "loc": "7:16-55",
           "moduleId": 419,
           "resolvedModuleId": 419
         }
       ],
       "usedExports": true,
       "providedExports": [
-        "convertDogData"
+        "createDogDataCards"
       ],
       "optimizationBailout": [
         "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33"
@@ -3005,12 +3005,12 @@
       ],
       "assets": [
         {
-          "name": "js/cardGenerator.22e7c87e8fe90c5966e1.js",
-          "size": 24658
+          "name": "js/cardGenerator.fe8b1ab213a5608e162b.js",
+          "size": 25552
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 24658,
+      "assetsSize": 25552,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -3071,12 +3071,12 @@
       ],
       "assets": [
         {
-          "name": "js/cardGenerator.22e7c87e8fe90c5966e1.js",
-          "size": 24658
+          "name": "js/cardGenerator.fe8b1ab213a5608e162b.js",
+          "size": 25552
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 24658,
+      "assetsSize": 25552,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -3123,8 +3123,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "ea7afad138bbcc38138c",
       "version": "5.97.1",
-      "time": 34970,
-      "builtAt": 1740417136724,
+      "time": 34894,
+      "builtAt": 1740421362092,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
