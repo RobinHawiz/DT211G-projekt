@@ -1,5 +1,5 @@
 const { fetchData } = require("./modules/fetchData");
-const { convertDogData } = require("./modules/convertData");
+const { createDogDataCards } = require("./modules/createDogDataCards");
 async function generateCard() {
   let completeDogData;
   if (localStorage.getItem("dogData") === null) {
@@ -12,21 +12,13 @@ async function generateCard() {
     }
     const dogGroupsData = await fetchData("https://dogapi.dog/api/v2/groups");
     //Convert data
-    completeDogData = await convertDogData(dogBreedsData, dogGroupsData);
+    completeDogData = await createDogDataCards(dogBreedsData, dogGroupsData);
     localStorage.setItem("dogData", JSON.stringify(completeDogData));
   } else {
     completeDogData = JSON.parse(localStorage.getItem("dogData"));
   }
   console.log("completeDogData:");
   console.log(completeDogData);
-}
-
-function querifyString(str) {
-  const chars = {
-    " ": "+",
-    é: "%C3%A9",
-  };
-  return str.replace(/ |,/g, (c) => chars[c]);
 }
 
 generateCard();
