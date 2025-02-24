@@ -1,8 +1,8 @@
 {
-  "hash": "3c823600c64aa3656782",
+  "hash": "f97250e3b20a1b53a2a8",
   "version": "5.97.1",
-  "time": 36614,
-  "builtAt": 1740416438326,
+  "time": 35609,
+  "builtAt": 1740417137337,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "cardGenerator": [
-      "js/cardGenerator.fef2dfeaaf44cd55cc19.js"
+      "js/cardGenerator.22e7c87e8fe90c5966e1.js"
     ],
     "likeDislikePanel": [
       "js/likeDislikePanel.7fa1f2e2b725051ebfbf.js"
@@ -552,17 +552,17 @@
     },
     {
       "type": "asset",
-      "name": "js/cardGenerator.fef2dfeaaf44cd55cc19.js",
-      "size": 24471,
+      "name": "js/cardGenerator.22e7c87e8fe90c5966e1.js",
+      "size": 24658,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "fef2dfeaaf44cd55cc19",
+        "contenthash": "22e7c87e8fe90c5966e1",
         "javascriptModule": false,
         "minimized": true,
-        "size": 24471
+        "size": 24658
       },
       "chunkNames": [
         "cardGenerator"
@@ -927,9 +927,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 36632,
+      "size": 36986,
       "sizes": {
-        "javascript": 35937,
+        "javascript": 36291,
         "runtime": 695
       },
       "names": [
@@ -940,10 +940,10 @@
         "cardGenerator"
       ],
       "files": [
-        "js/cardGenerator.fef2dfeaaf44cd55cc19.js"
+        "js/cardGenerator.22e7c87e8fe90c5966e1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "40e32381aa3addb02ad2",
+      "hash": "ba291ab5c5d03f8c742e",
       "childrenByOrder": {},
       "id": 132,
       "siblings": [],
@@ -954,9 +954,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 11794,
+          "size": 12148,
           "sizes": {
-            "javascript": 11794
+            "javascript": 12148
           },
           "built": true,
           "codeGenerated": true,
@@ -1839,9 +1839,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 11794,
+      "size": 12148,
       "sizes": {
-        "javascript": 11794
+        "javascript": 12148
       },
       "built": true,
       "codeGenerated": true,
@@ -3005,12 +3005,12 @@
       ],
       "assets": [
         {
-          "name": "js/cardGenerator.fef2dfeaaf44cd55cc19.js",
-          "size": 24471
+          "name": "js/cardGenerator.22e7c87e8fe90c5966e1.js",
+          "size": 24658
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 24471,
+      "assetsSize": 24658,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -3071,12 +3071,12 @@
       ],
       "assets": [
         {
-          "name": "js/cardGenerator.fef2dfeaaf44cd55cc19.js",
-          "size": 24471
+          "name": "js/cardGenerator.22e7c87e8fe90c5966e1.js",
+          "size": 24658
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 24471,
+      "assetsSize": 24658,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -3123,8 +3123,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "ea7afad138bbcc38138c",
       "version": "5.97.1",
-      "time": 35995,
-      "builtAt": 1740416437733,
+      "time": 34970,
+      "builtAt": 1740417136724,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
