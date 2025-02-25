@@ -1,32 +1,31 @@
 const { fetchData } = require("./fetchData");
 
 export async function createDogDataCards(dogBreedsData, dogGroupsData) {
-  let output = [];
-  await dogBreedsData.forEach(async (dogData) => {
-    await dogData.data.forEach(async (dog) => {
-      const dogImgUrl = await getDogImgUrl(dog.attributes.name);
-      const dogCard = {
-        name: dog.attributes.name,
-        description: dog.attributes.description,
-        lifeExpectancy: [dog.attributes.life.min, dog.attributes.life.max],
-        maleWeight: [
-          dog.attributes.male_weight.min,
-          dog.attributes.male_weight.max,
-        ],
-        femaleWeight: [
-          dog.attributes.female_weight.min,
-          dog.attributes.female_weight.max,
-        ],
-        hypoallergenic: dog.attributes.hypoallergenic,
-        group: dogGroupsData.data.find(
-          (groupType) => groupType.id === dog.relationships.group.data.id
-        ).attributes.name,
-        img: dogImgUrl,
-      };
-
-      output.push(dogCard);
-    });
-  });
+  let output = await Promise.all(
+    dogBreedsData.flatMap((dogData) =>
+      dogData.data.map(async (dog) => {
+        const dogImgUrl = await getDogImgUrl(dog.attributes.name);
+        return {
+          name: dog.attributes.name,
+          description: dog.attributes.description,
+          lifeExpectancy: [dog.attributes.life.min, dog.attributes.life.max],
+          maleWeight: [
+            dog.attributes.male_weight.min,
+            dog.attributes.male_weight.max,
+          ],
+          femaleWeight: [
+            dog.attributes.female_weight.min,
+            dog.attributes.female_weight.max,
+          ],
+          hypoallergenic: dog.attributes.hypoallergenic,
+          group: dogGroupsData.data.find(
+            (groupType) => groupType.id === dog.relationships.group.data.id
+          ).attributes.name,
+          img: dogImgUrl,
+        };
+      })
+    )
+  );
   return output;
 }
 
@@ -34,12 +33,18 @@ async function getDogImgUrl(dogName) {
   let output = "";
   let dogNameParam = querifyString(dogName);
   const regEx = /\bdog\b/i;
-  // The dog API has a dog with a grammatically incorrect name, which I have to fix here because I do not have access to their db.
-  if (dogNameParam === "Bavarian+Mountain+Scent+Houn") dogNameParam += "d";
+  switch (dogNameParam) {
+    // The dog API has a dog with a grammatically incorrect name, which I have to fix here because I do not have access to their db.
+    case "Bavarian+Mountain+Scent+Houn":
+      dogNameParam += "d";
+    // The dog name "Braque Francais Pyrenean" gives either zero search results or gives the wrong images. That is fixed by removing "Pyrenean" from the name.
+    case "Braque+Francais+Pyrenean":
+      dogNameParam = "Braque+Francais";
+  }
+
   // If the dogNameParam does not consist of the word "dog" then the flickr search results might not give us dog images. So to remedy that we add the word "dog" at the end.
   if (!regEx.test(dogNameParam)) {
     dogNameParam += "+dog";
-    console.log(dogNameParam);
   }
   const flickrImgData = await fetchData(
     `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=6ed90aad91cff221b0f95b03a3408089&text=${dogNameParam}&format=json&nojsoncallback=1`
