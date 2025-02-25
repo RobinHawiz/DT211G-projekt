@@ -92,6 +92,11 @@ header {
 }
 
 #find-match {
+  .card.behind {
+    .img-wrapper {
+      background: none;
+    }
+  }
   .img-wrapper {
     background: linear-gradient(
       0deg,
@@ -105,6 +110,10 @@ header {
         rgba(23, 24, 26, 0) 45%
       );
     }
+  }
+  .dog-img {
+    // This is applied in order to hide the image that is behind it, if it loads slower than the image behind it.
+    background-color: v.$light-color;
   }
   .dog-name-and-group {
     color: v.$light-color;

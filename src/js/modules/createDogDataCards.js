@@ -1,4 +1,6 @@
 const { fetchData } = require("./fetchData");
+import dogImg from "../../assets/oscar-sutton-unsplash-placeholder.jpg";
+import dogImgBarbado from "../../assets/barbado.jpg";
 
 export async function createDogDataCards(dogBreedsData, dogGroupsData) {
   let output = await Promise.all(
@@ -26,7 +28,24 @@ export async function createDogDataCards(dogBreedsData, dogGroupsData) {
       })
     )
   );
+  const myDog = createYourOwnDoggy("Nova Scotia Duck Tolling Retriever");
+  output.unshift(myDog);
   return output;
+}
+
+// For creating your very own doggies!
+function createYourOwnDoggy(name) {
+  return {
+    name,
+    description:
+      "intelligent, affectionate, and eager to please. Play fetch with a tireless Toller until your right arm falls off, and he will ask you to throw left-handed.",
+    lifeExpectancy: [13, 16],
+    maleWeight: [20, 23],
+    femaleWeight: [17, 20],
+    hypoallergenic: false,
+    group: "Sporting Group",
+    img: dogImg,
+  };
 }
 
 async function getDogImgUrl(dogName) {
@@ -47,14 +66,19 @@ async function getDogImgUrl(dogName) {
     dogNameParam += "+dog";
   }
   const flickrImgData = await fetchData(
-    `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=6ed90aad91cff221b0f95b03a3408089&text=${dogNameParam}&format=json&nojsoncallback=1`
+    `https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=6ed90aad91cff221b0f95b03a3408089&text=${dogNameParam}&tags="dog"&format=json&nojsoncallback=1`
   );
   const flickrImg = flickrImgData.photos.photo[0];
   try {
     output = `https://live.staticflickr.com/${flickrImg.server}/${flickrImg.id}_${flickrImg.secret}_b.jpg`;
   } catch (error) {
     console.log(error);
+    console.log("This doggy gives zero search results on Flickr :(");
     console.log(dogNameParam);
+  } finally {
+    if (dogNameParam === "Barbado+da+Terceira+dog") {
+      output = dogImgBarbado;
+    }
   }
   return output;
 }

@@ -1,7 +1,7 @@
 const { populateHtmlPlugins } = require("../utils/multipage.js");
 const pages = populateHtmlPlugins({
   index: ["main"],
-  "find-match": ["main", "cardGenerator", "likeDislikePanel"],
+  "find-match": ["main", "findMatch"],
 });
 const path = require("path");
 const BundleAnalyzerPlugin =
@@ -10,11 +10,10 @@ const BundleAnalyzerPlugin =
 module.exports = {
   entry: {
     main: path.resolve(__dirname, "../src/js/index.js"),
-    cardGenerator: path.resolve(__dirname, "../src/js/cardGenerator.js"),
-    likeDislikePanel: path.resolve(__dirname, "../src/js/likeDislikePanel.js"),
+    findMatch: path.resolve(__dirname, "../src/js/findMatch.js"),
   },
   output: {
-    assetModuleFilename: "img/[name][contenthash][ext][query]",
+    assetModuleFilename: "img/[name][id][ext][query]",
   },
   devServer: {
     static: {

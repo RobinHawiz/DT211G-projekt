@@ -1,30 +1,51 @@
-const header = document.querySelector("header");
-const likeDislikePanel = document.querySelector(".like-dislike-panel");
-const bio = document.querySelector(".bio");
-const bioArticles = document.querySelectorAll(".bio article");
-const toggleBioButton = document.querySelector(".toggle-bio");
+const { getDogData, generateInitialCard } = require("./modules/cardGenerator");
+const { generateCard } = require("./modules/cardGenerator");
+const { dogData } = require("./findMatch");
 
-toggleBioButton.addEventListener("click", () => {
-  rotateToggleBioButton();
+const likeDislikePanel = document.querySelector(".like-dislike-panel");
+let bio = document.querySelector(".bio");
+let bioArticles = document.querySelectorAll(".bio article");
+const bioButton = document.querySelector("button.toggle-bio");
+const likeButton = document.querySelector("button.like");
+
+likeButton.addEventListener("click", async () => {
+  // Remove the front card.
+  document.querySelector(".card").remove();
+  document.querySelector(".bio").remove();
+  // Move the card that was behind the front card forward.
+  document.querySelector(".card").classList.remove("behind");
+  document.querySelector(".bio").classList.remove("behind");
+
+  // Hook up the new bio.
+  bio = document.querySelector(".bio");
+  bioArticles = document.querySelectorAll(".bio article");
+
+  // Generate a new card that gets put behind the front card.
+  await generateCard(dogData[0]);
+  dogData.splice(0, 1);
+});
+
+bioButton.addEventListener("click", () => {
+  rotateBioButton();
   displayBio();
   repositionPanel();
   scrollPage();
 });
 
-function rotateToggleBioButton() {
+function rotateBioButton() {
   // true => open animation, false => close animation
-  const animation = !toggleBioButton.classList.contains("opened")
+  const animation = !bioButton.classList.contains("opened")
     ? "toggle-bio-button-open-animation"
     : "toggle-bio-button-close-animation";
 
-  toggleBioButton.querySelector(
+  bioButton.querySelector(
     "img"
   ).style.animation = `0.4s ease forwards ${animation}`;
 }
 
 function displayBio() {
-  !toggleBioButton.classList.contains("opened") ? showBio() : hideBio();
-  toggleBioButton.classList.toggle("opened");
+  !bioButton.classList.contains("opened") ? showBio() : hideBio();
+  bioButton.classList.toggle("opened");
   bioArticles.forEach((bioArticle) => {
     bioArticle.classList.toggle("bio-in-animation");
   });
@@ -39,7 +60,7 @@ function hideBio() {
 }
 
 function repositionPanel() {
-  if (toggleBioButton.classList.contains("opened")) {
+  if (bioButton.classList.contains("opened")) {
     likeDislikePanel.style.bottom = `${bio.offsetHeight}px`;
   } else {
     setTimeout(() => (likeDislikePanel.style.bottom = 0), 730);
@@ -48,7 +69,7 @@ function repositionPanel() {
 
 function scrollPage() {
   // Scroll to the bio element that opened
-  if (toggleBioButton.classList.contains("opened")) {
+  if (bioButton.classList.contains("opened")) {
     const elemPosition = bio.getBoundingClientRect().top;
     const scrollPosition = window.scrollY;
     const scrollLimit =
