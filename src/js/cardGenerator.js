@@ -1,6 +1,7 @@
 const { fetchData } = require("./modules/fetchData");
 const { createDogDataCards } = require("./modules/createDogDataCards");
-async function generateCard() {
+
+async function getDogData() {
   let completeDogData;
   if (localStorage.getItem("dogData") === null) {
     //Get data
@@ -17,8 +18,11 @@ async function generateCard() {
   } else {
     completeDogData = JSON.parse(localStorage.getItem("dogData"));
   }
-  console.log("completeDogData:");
-  console.log(completeDogData);
+  return completeDogData;
+}
+async function generateCard() {
+  const dogData = await getDogData();
+  console.log(dogData);
 }
 
 generateCard();
