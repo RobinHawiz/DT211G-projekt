@@ -8,10 +8,16 @@
   }
   .card-wrapper {
     position: relative;
-    max-width: 53.4rem;
+    height: 80rem;
+    width: 53.4rem;
+    @include m.media-query(mobile-find-match) {
+      border-radius: 0;
+      height: 85svh;
+      width: 100vw;
+    }
     .card {
-      position: relative;
-      width: 100%;
+      position: absolute;
+      width: 53.4rem;
       height: 80rem;
       border-radius: 2rem;
       overflow: hidden;
@@ -19,6 +25,9 @@
         position: absolute;
         top: 0;
         z-index: -2;
+      }
+      &.being-removed {
+        z-index: 3;
       }
       @include m.media-query(mobile-find-match) {
         border-radius: 0;
@@ -34,6 +43,7 @@
         height: 100%;
         object-fit: cover;
         z-index: -1;
+        user-select: none;
       }
       .dog-name-and-group {
         position: absolute;
@@ -117,6 +127,7 @@
       bottom: 0;
       left: 50%;
       transform: translate(-50%, 40%);
+      z-index: 4;
       @include m.media-query(mobile-find-match) {
         transform: translate(-50%, -4%);
       }
@@ -140,15 +151,31 @@
       }
       .dislike {
         background-color: #ececec;
+        animation: 0.5s ease forwards like-dislike-panel-scale-up-animation;
+        &.scale-down {
+          animation: 0.5s ease forwards like-dislike-panel-scale-down-animation;
+        }
       }
       .like {
         background-color: #ffebe6;
+        animation: 0.5s ease forwards like-dislike-panel-scale-up-animation;
+        &.scale-down {
+          animation: 0.5s ease forwards like-dislike-panel-scale-down-animation;
+        }
       }
       .toggle-bio {
         background-color: #f2e9f7;
+        animation: 0.5s ease forwards like-dislike-panel-scale-up-animation;
+        &.scale-down {
+          animation: 0.5s ease forwards like-dislike-panel-scale-down-animation;
+        }
       }
       .toggle-settings {
         background-color: #fdfde2;
+        animation: 0.5s ease forwards like-dislike-panel-scale-up-animation;
+        &.scale-down {
+          animation: 0.5s ease forwards like-dislike-panel-scale-down-animation;
+        }
       }
       img {
         position: absolute;
@@ -211,5 +238,25 @@
   }
   to {
     opacity: 0;
+  }
+}
+
+@keyframes like-dislike-panel-scale-down-animation {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0);
+  }
+}
+
+@keyframes like-dislike-panel-scale-up-animation {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
   }
 }
