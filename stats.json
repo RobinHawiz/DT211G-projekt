@@ -1,17 +1,17 @@
 {
-  "hash": "ec28c4afb917f3dad1f7",
+  "hash": "6853a0639f2a3111a809",
   "version": "5.97.1",
-  "time": 35815,
-  "builtAt": 1740688124245,
+  "time": 35637,
+  "builtAt": 1740750910870,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.f332a63834f92ce880bf.css",
+      "style/main.44144fefc0792ad5ab40.css",
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.b7aff7d18c600bc92fcd.js"
+      "js/findMatch.13fd2ccfb8e67884177d.js"
     ]
   },
   "assets": [
@@ -441,6 +441,33 @@
     },
     {
       "type": "asset",
+      "name": "js/findMatch.13fd2ccfb8e67884177d.js",
+      "size": 52078,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "13fd2ccfb8e67884177d",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 52078
+      },
+      "chunkNames": [
+        "findMatch"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        57
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "img/jamie-street-unsplash946.avif",
       "size": 51900,
       "emitted": true,
@@ -462,33 +489,6 @@
       "auxiliaryChunkIdHints": [],
       "related": [],
       "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "js/findMatch.b7aff7d18c600bc92fcd.js",
-      "size": 51720,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "immutable": true,
-        "contenthash": "b7aff7d18c600bc92fcd",
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 51720
-      },
-      "chunkNames": [
-        "findMatch"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [
-        57
-      ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
@@ -572,15 +572,15 @@
     },
     {
       "type": "asset",
-      "name": "style/main.f332a63834f92ce880bf.css",
-      "size": 25185,
+      "name": "style/main.44144fefc0792ad5ab40.css",
+      "size": 25364,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "f332a63834f92ce880bf",
-        "size": 25185
+        "contenthash": "44144fefc0792ad5ab40",
+        "size": 25364
       },
       "chunkNames": [
         "main"
@@ -893,9 +893,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2687641,
+      "size": 2688477,
       "sizes": {
-        "javascript": 78487,
+        "javascript": 79323,
         "asset": 2607211,
         "runtime": 1943
       },
@@ -907,7 +907,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.b7aff7d18c600bc92fcd.js"
+        "js/findMatch.13fd2ccfb8e67884177d.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -918,7 +918,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "85d4ba5d51e6e24c9cfd",
+      "hash": "1ac03598ca94605d43ee",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1657,9 +1657,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 20926,
+          "size": 21762,
           "sizes": {
-            "javascript": 20926
+            "javascript": 21762
           },
           "built": true,
           "codeGenerated": true,
@@ -2912,10 +2912,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 30917,
+      "size": 31096,
       "sizes": {
         "javascript": 5038,
-        "css/mini-extract": 25184,
+        "css/mini-extract": 25363,
         "runtime": 695
       },
       "names": [
@@ -2926,11 +2926,11 @@
         "main"
       ],
       "files": [
-        "style/main.f332a63834f92ce880bf.css",
+        "style/main.44144fefc0792ad5ab40.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "fd6edd13295f00107e94",
+      "hash": "74488a003f27505dbcd2",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -3131,9 +3131,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 25184,
+          "size": 25363,
           "sizes": {
-            "css/mini-extract": 25184
+            "css/mini-extract": 25363
           },
           "built": true,
           "codeGenerated": true,
@@ -4205,9 +4205,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 20926,
+      "size": 21762,
       "sizes": {
-        "javascript": 20926
+        "javascript": 21762
       },
       "built": true,
       "codeGenerated": true,
@@ -4329,9 +4329,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 25184,
+      "size": 25363,
       "sizes": {
-        "css/mini-extract": 25184
+        "css/mini-extract": 25363
       },
       "built": true,
       "codeGenerated": true,
@@ -5405,9 +5405,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 25626,
+      "size": 25805,
       "sizes": {
-        "javascript": 25626
+        "javascript": 25805
       },
       "built": true,
       "codeGenerated": true,
@@ -6101,8 +6101,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.f332a63834f92ce880bf.css",
-          "size": 25185
+          "name": "style/main.44144fefc0792ad5ab40.css",
+          "size": 25364
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -6110,7 +6110,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 28627,
+      "assetsSize": 28806,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -6125,12 +6125,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.b7aff7d18c600bc92fcd.js",
-          "size": 51720
+          "name": "js/findMatch.13fd2ccfb8e67884177d.js",
+          "size": 52078
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 51720,
+      "assetsSize": 52078,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6176,8 +6176,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.f332a63834f92ce880bf.css",
-          "size": 25185
+          "name": "style/main.44144fefc0792ad5ab40.css",
+          "size": 25364
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -6185,7 +6185,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 28627,
+      "assetsSize": 28806,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -6200,12 +6200,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.b7aff7d18c600bc92fcd.js",
-          "size": 51720
+          "name": "js/findMatch.13fd2ccfb8e67884177d.js",
+          "size": 52078
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 51720,
+      "assetsSize": 52078,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6261,8 +6261,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "a3acc1661444b376642f",
       "version": "5.97.1",
-      "time": 35019,
-      "builtAt": 1740688123476,
+      "time": 34861,
+      "builtAt": 1740750910120,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -7292,20 +7292,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 355,
+              "issuerId": 251,
               "chunks": [
                 284,
                 783
@@ -8957,20 +8957,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 355,
+              "issuerId": 251,
               "chunks": [
                 284,
                 783
@@ -9522,20 +9522,20 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
           "issuerPath": [
             {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-              "id": 355
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "id": 251
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 711,
-          "issuerId": 355,
+          "issuerId": 251,
           "chunks": [
             284,
             783
