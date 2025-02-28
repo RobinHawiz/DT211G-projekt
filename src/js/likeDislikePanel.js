@@ -89,8 +89,8 @@ function mouseMoveOrTouchMove(e) {
 }
 
 function changelikeDislikeIconOpacity() {
-  const likeIcon = document.querySelector(".like-icon");
-  const dislikeIcon = document.querySelector(".dislike-icon");
+  const likeIcon = document.querySelector(".card.current .like-icon");
+  const dislikeIcon = document.querySelector(".card.current .dislike-icon");
 
   cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
   windowCenterX = window.innerWidth / 2;
