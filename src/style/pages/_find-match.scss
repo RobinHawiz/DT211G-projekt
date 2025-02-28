@@ -53,8 +53,9 @@
           margin-bottom: 7rem;
         }
       }
+      .dog-name-and-group h2,
       .dog-name-and-group h3 {
-        font-weight: 400;
+        user-select: none;
       }
     }
     .bio {

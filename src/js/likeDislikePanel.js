@@ -77,6 +77,9 @@ function mouseMove(e) {
 }
 
 function moveCard() {
+  document
+    .querySelector(".card.current")
+    .removeEventListener("mousedown", mouseDown);
   document.removeEventListener("mousemove", mouseMove);
   document.removeEventListener("mouseup", moveCard);
   if (like.classList.contains("scale-down"))
@@ -103,7 +106,6 @@ function moveCard() {
     window.requestAnimationFrame(moveCardOutOfView);
     resetCardValues();
     initNewCard();
-    card.addEventListener("mousedown", mouseDown);
   } else if (isBeingDisliked) {
     distanceX =
       -window.innerWidth / 2 - card.offsetWidth / 2 - currentX / 2 - 200;
@@ -112,9 +114,8 @@ function moveCard() {
     window.requestAnimationFrame(moveCardOutOfView);
     resetCardValues();
     initNewCard();
-    card.addEventListener("mousedown", mouseDown);
   } else {
-    duration = 700;
+    duration = 500;
     distanceX = cardStylingLeft * -1;
     distanceY = cardStylingTop * -1;
     distanceRotationDeg = cardRotationDeg * -1;
@@ -189,25 +190,41 @@ async function initNewCard() {
   dogData.splice(0, 1);
 }
 
-bioButton.addEventListener("click", () => {
+bioButton.addEventListener("click", toggleBio);
+
+function toggleBio() {
+  disableBioButton();
   rotateBioButton();
-  displayBio();
+  displayBio(); // This function call toggles the class "opened" on the bioButton.
+  disableSwipe();
   changeCardStylingPosition();
   scrollPage();
-});
+  setTimeout(() => {
+    bioButton.addEventListener("click", toggleBio);
+    enableSwipe();
+  }, 730);
+}
 
 like.addEventListener("click", () => {
-  isBeingLiked = true;
-  isBeingDisliked = false;
-  likeOrDislikeButtonWasClicked = true;
-  moveCard();
+  let timeOutDuration = 730;
+  bioButton.classList.contains("opened") ? toggleBio() : (timeOutDuration = 0);
+  setTimeout(() => {
+    isBeingLiked = true;
+    isBeingDisliked = false;
+    likeOrDislikeButtonWasClicked = true;
+    moveCard();
+  }, timeOutDuration);
 });
 
 dislike.addEventListener("click", () => {
-  isBeingDisliked = true;
-  isBeingLiked = false;
-  likeOrDislikeButtonWasClicked = true;
-  moveCard();
+  let timeOutDuration = 730;
+  bioButton.classList.contains("opened") ? toggleBio() : (timeOutDuration = 0);
+  setTimeout(() => {
+    isBeingDisliked = true;
+    isBeingLiked = false;
+    likeOrDislikeButtonWasClicked = true;
+    moveCard();
+  }, timeOutDuration);
 });
 
 function resetCardValues() {
@@ -219,6 +236,10 @@ function resetCardValues() {
   likeOrDislikeButtonWasClicked = false;
 }
 
+function disableBioButton() {
+  bioButton.removeEventListener("click", toggleBio);
+}
+
 function rotateBioButton() {
   // true => open animation, false => close animation
   const animation = !bioButton.classList.contains("opened")
@@ -228,6 +249,15 @@ function rotateBioButton() {
   bioButton.querySelector(
     "img"
   ).style.animation = `0.4s ease forwards ${animation}`;
+}
+
+function disableSwipe() {
+  card.removeEventListener("mousedown", mouseDown);
+}
+
+function enableSwipe() {
+  if (!bioButton.classList.contains("opened"))
+    card.addEventListener("mousedown", mouseDown);
 }
 
 function displayBio() {
