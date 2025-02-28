@@ -97,7 +97,6 @@ function changelikeDislikeIconOpacity() {
 
   let dislikeIconOpacity = (windowCenterX - cardCenterX - 100) / 100;
   let likeIconOpacity = (cardCenterX - windowCenterX - 50) / 100;
-  console.log(likeIconOpacity);
 
   dislikeIcon.style.opacity =
     dislikeIconOpacity > 0.04 ? dislikeIconOpacity : 0;
