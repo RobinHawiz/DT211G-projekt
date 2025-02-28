@@ -1,17 +1,17 @@
 {
-  "hash": "6853a0639f2a3111a809",
+  "hash": "33887f7c2e1f7d8121f0",
   "version": "5.97.1",
-  "time": 35637,
-  "builtAt": 1740750910870,
+  "time": 36577,
+  "builtAt": 1740762999664,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.44144fefc0792ad5ab40.css",
+      "style/main.9a348d0bccba3b1c2ae0.css",
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.13fd2ccfb8e67884177d.js"
+      "js/findMatch.2a0c6786dfc90f02adbc.js"
     ]
   },
   "assets": [
@@ -415,6 +415,33 @@
     },
     {
       "type": "asset",
+      "name": "js/findMatch.2a0c6786dfc90f02adbc.js",
+      "size": 55729,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "2a0c6786dfc90f02adbc",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 55729
+      },
+      "chunkNames": [
+        "findMatch"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        57
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "img/jamie-street-unsplash945.webp",
       "size": 54000,
       "emitted": true,
@@ -436,33 +463,6 @@
       "auxiliaryChunkIdHints": [],
       "related": [],
       "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "js/findMatch.13fd2ccfb8e67884177d.js",
-      "size": 52078,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "immutable": true,
-        "contenthash": "13fd2ccfb8e67884177d",
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 52078
-      },
-      "chunkNames": [
-        "findMatch"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [
-        57
-      ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
     },
@@ -572,15 +572,15 @@
     },
     {
       "type": "asset",
-      "name": "style/main.44144fefc0792ad5ab40.css",
-      "size": 25364,
+      "name": "style/main.9a348d0bccba3b1c2ae0.css",
+      "size": 25874,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "44144fefc0792ad5ab40",
-        "size": 25364
+        "contenthash": "9a348d0bccba3b1c2ae0",
+        "size": 25874
       },
       "chunkNames": [
         "main"
@@ -756,6 +756,54 @@
     },
     {
       "type": "asset",
+      "name": "img/dislike34.svg",
+      "size": 1438,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/dislike.svg",
+        "size": 1438
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "findMatch"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        57
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/like792.svg",
+      "size": 934,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/like.svg",
+        "size": 934
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "findMatch"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        57
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "img/cross875.svg",
       "size": 864,
       "emitted": true,
@@ -893,10 +941,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2688477,
+      "size": 2696140,
       "sizes": {
-        "javascript": 79323,
-        "asset": 2607211,
+        "javascript": 84614,
+        "asset": 2609583,
         "runtime": 1943
       },
       "names": [
@@ -907,18 +955,20 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.13fd2ccfb8e67884177d.js"
+        "js/findMatch.2a0c6786dfc90f02adbc.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
         "img/barbado663.jpg",
         "img/cake-birthday309.svg",
+        "img/dislike34.svg",
         "img/dog-attributes797.svg",
         "img/info397.svg",
+        "img/like792.svg",
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "1ac03598ca94605d43ee",
+      "hash": "f0a329d12bb8d6c1f5d3",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -997,7 +1047,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "88:1467-1480",
+              "loc": "90:1467-1480",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1011,7 +1061,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "121:1035-1048",
+              "loc": "123:1035-1048",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1180,7 +1230,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "88:717-725",
+              "loc": "90:717-725",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1194,7 +1244,103 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "121:289-297",
+              "loc": "123:289-297",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 1438,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/dislike.svg",
+          "name": "./src/assets/dislike.svg",
+          "nameForCondition": "src/assets/dislike.svg",
+          "index": 16,
+          "preOrderIndex": 16,
+          "index2": 14,
+          "postOrderIndex": 14,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "issuerName": "./src/js/modules/cardGenerator.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+              "name": "./src/js/findMatch.js",
+              "id": 528
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "name": "./src/js/modules/cardGenerator.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 34,
+          "issuerId": null,
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/dislike.svg",
+              "loc": "15:0-51",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/dislike.svg",
+              "loc": "86:303-314",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/dislike.svg",
+              "loc": "114:282-293",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1276,7 +1422,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "88:554-561",
+              "loc": "90:554-561",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1290,7 +1436,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "121:134-141",
+              "loc": "123:134-141",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1372,7 +1518,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "88:184-192",
+              "loc": "90:184-192",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1386,7 +1532,103 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "118:147-155",
+              "loc": "120:147-155",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 934,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/like.svg",
+          "name": "./src/assets/like.svg",
+          "nameForCondition": "src/assets/like.svg",
+          "index": 15,
+          "preOrderIndex": 15,
+          "index2": 13,
+          "postOrderIndex": 13,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "issuerName": "./src/js/modules/cardGenerator.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+              "name": "./src/js/findMatch.js",
+              "id": 528
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "name": "./src/js/modules/cardGenerator.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 792,
+          "issuerId": null,
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/like.svg",
+              "loc": "14:0-45",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/like.svg",
+              "loc": "86:153-161",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/like.svg",
+              "loc": "114:120-128",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1555,7 +1797,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "88:1005-1014",
+              "loc": "90:1005-1014",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1569,7 +1811,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "121:577-586",
+              "loc": "123:577-586",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1596,8 +1838,8 @@
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
           "index": 4,
           "preOrderIndex": 4,
-          "index2": 15,
-          "postOrderIndex": 15,
+          "index2": 17,
+          "postOrderIndex": 17,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1657,9 +1899,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 21762,
+          "size": 26167,
           "sizes": {
-            "javascript": 21762
+            "javascript": 26167
           },
           "built": true,
           "codeGenerated": true,
@@ -1668,10 +1910,10 @@
           "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
           "name": "./src/js/likeDislikePanel.js",
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
-          "index": 15,
-          "preOrderIndex": 15,
-          "index2": 14,
-          "postOrderIndex": 14,
+          "index": 17,
+          "preOrderIndex": 17,
+          "index2": 16,
+          "postOrderIndex": 16,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1722,21 +1964,21 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 18894,
+          "size": 19696,
           "sizes": {
-            "javascript": 18894
+            "javascript": 19696
           },
           "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|63798810ad0935ce0f44199dac5be98f",
-          "name": "./src/js/modules/cardGenerator.js + 5 modules",
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|7ad5b4979408e4d585ebcb1ec2d5a3c2",
+          "name": "./src/js/modules/cardGenerator.js + 7 modules",
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
           "index": 5,
           "preOrderIndex": 5,
-          "index2": 13,
-          "postOrderIndex": 13,
+          "index2": 15,
+          "postOrderIndex": 15,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -1744,7 +1986,7 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 953,
+          "id": 197,
           "chunks": [
             57
           ],
@@ -1820,9 +2062,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 18684,
+              "size": 19402,
               "sizes": {
-                "javascript": 18684
+                "javascript": 19402
               },
               "built": true,
               "codeGenerated": false,
@@ -1833,8 +2075,8 @@
               "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
               "index": 5,
               "preOrderIndex": 5,
-              "index2": 13,
-              "postOrderIndex": 13,
+              "index2": 15,
+              "postOrderIndex": 15,
               "cacheable": true,
               "optional": false,
               "orphan": false,
@@ -1939,7 +2181,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/info.svg",
-                  "loc": "88:184-192",
+                  "loc": "90:184-192",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -1953,7 +2195,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/info.svg",
-                  "loc": "118:147-155",
+                  "loc": "120:147-155",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2035,7 +2277,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dog-attributes.svg",
-                  "loc": "88:554-561",
+                  "loc": "90:554-561",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2049,7 +2291,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dog-attributes.svg",
-                  "loc": "121:134-141",
+                  "loc": "123:134-141",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2131,7 +2373,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/cake-birthday.svg",
-                  "loc": "88:717-725",
+                  "loc": "90:717-725",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2145,7 +2387,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/cake-birthday.svg",
-                  "loc": "121:289-297",
+                  "loc": "123:289-297",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2227,7 +2469,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/scale.svg",
-                  "loc": "88:1005-1014",
+                  "loc": "90:1005-1014",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2241,7 +2483,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/scale.svg",
-                  "loc": "121:577-586",
+                  "loc": "123:577-586",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2323,7 +2565,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/bacterium.svg",
-                  "loc": "88:1467-1480",
+                  "loc": "90:1467-1480",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2337,7 +2579,199 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/bacterium.svg",
-                  "loc": "121:1035-1048",
+                  "loc": "123:1035-1048",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 2
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 934,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/like.svg",
+              "name": "./src/assets/like.svg",
+              "nameForCondition": "src/assets/like.svg",
+              "index": 15,
+              "preOrderIndex": 15,
+              "index2": 13,
+              "postOrderIndex": 13,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "issuerName": "./src/js/modules/cardGenerator.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+                  "name": "./src/js/findMatch.js",
+                  "id": 528
+                },
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "name": "./src/js/modules/cardGenerator.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 792,
+              "issuerId": null,
+              "chunks": [
+                57
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "module": "./src/js/modules/cardGenerator.js",
+                  "moduleName": "./src/js/modules/cardGenerator.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "resolvedModule": "./src/js/modules/cardGenerator.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/like.svg",
+                  "loc": "14:0-45",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "module": "./src/js/modules/cardGenerator.js",
+                  "moduleName": "./src/js/modules/cardGenerator.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "resolvedModule": "./src/js/modules/cardGenerator.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/like.svg",
+                  "loc": "86:153-161",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "module": "./src/js/modules/cardGenerator.js",
+                  "moduleName": "./src/js/modules/cardGenerator.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "resolvedModule": "./src/js/modules/cardGenerator.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/like.svg",
+                  "loc": "114:120-128",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 2
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 1438,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/dislike.svg",
+              "name": "./src/assets/dislike.svg",
+              "nameForCondition": "src/assets/dislike.svg",
+              "index": 16,
+              "preOrderIndex": 16,
+              "index2": 14,
+              "postOrderIndex": 14,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "issuerName": "./src/js/modules/cardGenerator.js",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+                  "name": "./src/js/findMatch.js",
+                  "id": 528
+                },
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "name": "./src/js/modules/cardGenerator.js",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 34,
+              "issuerId": null,
+              "chunks": [
+                57
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "module": "./src/js/modules/cardGenerator.js",
+                  "moduleName": "./src/js/modules/cardGenerator.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "resolvedModule": "./src/js/modules/cardGenerator.js",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/dislike.svg",
+                  "loc": "15:0-51",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "module": "./src/js/modules/cardGenerator.js",
+                  "moduleName": "./src/js/modules/cardGenerator.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "resolvedModule": "./src/js/modules/cardGenerator.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/dislike.svg",
+                  "loc": "86:303-314",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "module": "./src/js/modules/cardGenerator.js",
+                  "moduleName": "./src/js/modules/cardGenerator.js",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+                  "resolvedModule": "./src/js/modules/cardGenerator.js",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/dislike.svg",
+                  "loc": "114:282-293",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2382,9 +2816,9 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|63798810ad0935ce0f44199dac5be98f",
-              "module": "./src/js/modules/cardGenerator.js + 5 modules",
-              "moduleName": "./src/js/modules/cardGenerator.js + 5 modules",
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|7ad5b4979408e4d585ebcb1ec2d5a3c2",
+              "module": "./src/js/modules/cardGenerator.js + 7 modules",
+              "moduleName": "./src/js/modules/cardGenerator.js + 7 modules",
               "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
               "resolvedModule": "./src/js/modules/cardGenerator.js",
               "type": "cjs require",
@@ -2392,7 +2826,7 @@
               "explanation": "",
               "userRequest": "./createDogDataCards",
               "loc": "7:16-47",
-              "moduleId": 953,
+              "moduleId": 197,
               "resolvedModuleId": null
             }
           ],
@@ -2681,9 +3115,9 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|63798810ad0935ce0f44199dac5be98f",
-              "module": "./src/js/modules/cardGenerator.js + 5 modules",
-              "moduleName": "./src/js/modules/cardGenerator.js + 5 modules",
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|7ad5b4979408e4d585ebcb1ec2d5a3c2",
+              "module": "./src/js/modules/cardGenerator.js + 7 modules",
+              "moduleName": "./src/js/modules/cardGenerator.js + 7 modules",
               "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
               "resolvedModule": "./src/js/modules/cardGenerator.js",
               "type": "cjs require",
@@ -2691,7 +3125,7 @@
               "explanation": "",
               "userRequest": "./fetchData",
               "loc": "5:15-37",
-              "moduleId": 953,
+              "moduleId": 197,
               "resolvedModuleId": null
             },
             {
@@ -2912,10 +3346,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 31096,
+      "size": 31606,
       "sizes": {
         "javascript": 5038,
-        "css/mini-extract": 25363,
+        "css/mini-extract": 25873,
         "runtime": 695
       },
       "names": [
@@ -2926,11 +3360,11 @@
         "main"
       ],
       "files": [
-        "style/main.44144fefc0792ad5ab40.css",
+        "style/main.9a348d0bccba3b1c2ae0.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "74488a003f27505dbcd2",
+      "hash": "12ade1da6ec489a4975c",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -3131,9 +3565,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 25363,
+          "size": 25873,
           "sizes": {
-            "css/mini-extract": 25363
+            "css/mini-extract": 25873
           },
           "built": true,
           "codeGenerated": true,
@@ -3390,8 +3824,8 @@
       "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
       "index": 4,
       "preOrderIndex": 4,
-      "index2": 15,
-      "postOrderIndex": 15,
+      "index2": 17,
+      "postOrderIndex": 17,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -3581,28 +4015,28 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 18894,
+      "size": 19696,
       "sizes": {
-        "javascript": 18894
+        "javascript": 19696
       },
       "built": true,
       "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|63798810ad0935ce0f44199dac5be98f",
-      "name": "./src/js/modules/cardGenerator.js + 5 modules",
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|7ad5b4979408e4d585ebcb1ec2d5a3c2",
+      "name": "./src/js/modules/cardGenerator.js + 7 modules",
       "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
       "index": 5,
       "preOrderIndex": 5,
-      "index2": 13,
-      "postOrderIndex": 13,
+      "index2": 15,
+      "postOrderIndex": 15,
       "cacheable": true,
       "optional": false,
       "orphan": false,
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": 953,
+      "id": 197,
       "chunks": [
         57
       ],
@@ -3678,9 +4112,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 18684,
+          "size": 19402,
           "sizes": {
-            "javascript": 18684
+            "javascript": 19402
           },
           "built": true,
           "codeGenerated": false,
@@ -3691,8 +4125,8 @@
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
           "index": 5,
           "preOrderIndex": 5,
-          "index2": 13,
-          "postOrderIndex": 13,
+          "index2": 15,
+          "postOrderIndex": 15,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3795,7 +4229,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "88:184-192",
+              "loc": "90:184-192",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -3809,7 +4243,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "118:147-155",
+              "loc": "120:147-155",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -3890,7 +4324,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "88:554-561",
+              "loc": "90:554-561",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -3904,7 +4338,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "121:134-141",
+              "loc": "123:134-141",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -3985,7 +4419,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "88:717-725",
+              "loc": "90:717-725",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -3999,7 +4433,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "121:289-297",
+              "loc": "123:289-297",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4080,7 +4514,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "88:1005-1014",
+              "loc": "90:1005-1014",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4094,7 +4528,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "121:577-586",
+              "loc": "123:577-586",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4175,7 +4609,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "88:1467-1480",
+              "loc": "90:1467-1480",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4189,7 +4623,197 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "121:1035-1048",
+              "loc": "123:1035-1048",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 934,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/like.svg",
+          "name": "./src/assets/like.svg",
+          "nameForCondition": "src/assets/like.svg",
+          "index": 15,
+          "preOrderIndex": 15,
+          "index2": 13,
+          "postOrderIndex": 13,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "issuerName": "./src/js/modules/cardGenerator.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+              "name": "./src/js/findMatch.js",
+              "id": 528
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "name": "./src/js/modules/cardGenerator.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 792,
+          "issuerId": null,
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/like.svg",
+              "loc": "14:0-45",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/like.svg",
+              "loc": "86:153-161",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/like.svg",
+              "loc": "114:120-128",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "asset/resource",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "asset": 1438,
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/dislike.svg",
+          "name": "./src/assets/dislike.svg",
+          "nameForCondition": "src/assets/dislike.svg",
+          "index": 16,
+          "preOrderIndex": 16,
+          "index2": 14,
+          "postOrderIndex": 14,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "issuerName": "./src/js/modules/cardGenerator.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+              "name": "./src/js/findMatch.js",
+              "id": 528
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "name": "./src/js/modules/cardGenerator.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 34,
+          "issuerId": null,
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/dislike.svg",
+              "loc": "15:0-51",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/dislike.svg",
+              "loc": "86:303-314",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "module": "./src/js/modules/cardGenerator.js",
+              "moduleName": "./src/js/modules/cardGenerator.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/dislike.svg",
+              "loc": "114:282-293",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4205,9 +4829,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 21762,
+      "size": 26167,
       "sizes": {
-        "javascript": 21762
+        "javascript": 26167
       },
       "built": true,
       "codeGenerated": true,
@@ -4216,10 +4840,10 @@
       "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
       "name": "./src/js/likeDislikePanel.js",
       "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/likeDislikePanel.js",
-      "index": 15,
-      "preOrderIndex": 15,
-      "index2": 14,
-      "postOrderIndex": 14,
+      "index": 17,
+      "preOrderIndex": 17,
+      "index2": 16,
+      "postOrderIndex": 16,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -4329,9 +4953,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 25363,
+      "size": 25873,
       "sizes": {
-        "css/mini-extract": 25363
+        "css/mini-extract": 25873
       },
       "built": true,
       "codeGenerated": true,
@@ -4439,9 +5063,9 @@
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|63798810ad0935ce0f44199dac5be98f",
-          "module": "./src/js/modules/cardGenerator.js + 5 modules",
-          "moduleName": "./src/js/modules/cardGenerator.js + 5 modules",
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|7ad5b4979408e4d585ebcb1ec2d5a3c2",
+          "module": "./src/js/modules/cardGenerator.js + 7 modules",
+          "moduleName": "./src/js/modules/cardGenerator.js + 7 modules",
           "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
           "resolvedModule": "./src/js/modules/cardGenerator.js",
           "type": "cjs require",
@@ -4449,7 +5073,7 @@
           "explanation": "",
           "userRequest": "./fetchData",
           "loc": "5:15-37",
-          "moduleId": 953,
+          "moduleId": 197,
           "resolvedModuleId": null
         },
         {
@@ -4506,9 +5130,9 @@
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|63798810ad0935ce0f44199dac5be98f",
-          "module": "./src/js/modules/cardGenerator.js + 5 modules",
-          "moduleName": "./src/js/modules/cardGenerator.js + 5 modules",
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|7ad5b4979408e4d585ebcb1ec2d5a3c2",
+          "module": "./src/js/modules/cardGenerator.js + 7 modules",
+          "moduleName": "./src/js/modules/cardGenerator.js + 7 modules",
           "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
           "resolvedModule": "./src/js/modules/cardGenerator.js",
           "type": "cjs require",
@@ -4516,7 +5140,7 @@
           "explanation": "",
           "userRequest": "./createDogDataCards",
           "loc": "7:16-47",
-          "moduleId": 953,
+          "moduleId": 197,
           "resolvedModuleId": null
         }
       ],
@@ -4825,7 +5449,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/info.svg",
-          "loc": "88:184-192",
+          "loc": "90:184-192",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -4839,7 +5463,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/info.svg",
-          "loc": "118:147-155",
+          "loc": "120:147-155",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -4920,7 +5544,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dog-attributes.svg",
-          "loc": "88:554-561",
+          "loc": "90:554-561",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -4934,7 +5558,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dog-attributes.svg",
-          "loc": "121:134-141",
+          "loc": "123:134-141",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5015,7 +5639,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/cake-birthday.svg",
-          "loc": "88:717-725",
+          "loc": "90:717-725",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5029,7 +5653,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/cake-birthday.svg",
-          "loc": "121:289-297",
+          "loc": "123:289-297",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5110,7 +5734,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/scale.svg",
-          "loc": "88:1005-1014",
+          "loc": "90:1005-1014",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5124,7 +5748,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/scale.svg",
-          "loc": "121:577-586",
+          "loc": "123:577-586",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5205,7 +5829,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/bacterium.svg",
-          "loc": "88:1467-1480",
+          "loc": "90:1467-1480",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5219,7 +5843,197 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/bacterium.svg",
-          "loc": "121:1035-1048",
+          "loc": "123:1035-1048",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/resource",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "asset": 934,
+        "javascript": 42
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/like.svg",
+      "name": "./src/assets/like.svg",
+      "nameForCondition": "src/assets/like.svg",
+      "index": 15,
+      "preOrderIndex": 15,
+      "index2": 13,
+      "postOrderIndex": 13,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+      "issuerName": "./src/js/modules/cardGenerator.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+          "name": "./src/js/findMatch.js",
+          "id": 528
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "name": "./src/js/modules/cardGenerator.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 792,
+      "issuerId": null,
+      "chunks": [
+        57
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "module": "./src/js/modules/cardGenerator.js",
+          "moduleName": "./src/js/modules/cardGenerator.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "resolvedModule": "./src/js/modules/cardGenerator.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../assets/like.svg",
+          "loc": "14:0-45",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "module": "./src/js/modules/cardGenerator.js",
+          "moduleName": "./src/js/modules/cardGenerator.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "resolvedModule": "./src/js/modules/cardGenerator.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../assets/like.svg",
+          "loc": "86:153-161",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "module": "./src/js/modules/cardGenerator.js",
+          "moduleName": "./src/js/modules/cardGenerator.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "resolvedModule": "./src/js/modules/cardGenerator.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../assets/like.svg",
+          "loc": "114:120-128",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "asset/resource",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "asset": 1438,
+        "javascript": 42
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/dislike.svg",
+      "name": "./src/assets/dislike.svg",
+      "nameForCondition": "src/assets/dislike.svg",
+      "index": 16,
+      "preOrderIndex": 16,
+      "index2": 14,
+      "postOrderIndex": 14,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+      "issuerName": "./src/js/modules/cardGenerator.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+          "name": "./src/js/findMatch.js",
+          "id": 528
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "name": "./src/js/modules/cardGenerator.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 34,
+      "issuerId": null,
+      "chunks": [
+        57
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "module": "./src/js/modules/cardGenerator.js",
+          "moduleName": "./src/js/modules/cardGenerator.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "resolvedModule": "./src/js/modules/cardGenerator.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../assets/dislike.svg",
+          "loc": "15:0-51",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "module": "./src/js/modules/cardGenerator.js",
+          "moduleName": "./src/js/modules/cardGenerator.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "resolvedModule": "./src/js/modules/cardGenerator.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../assets/dislike.svg",
+          "loc": "86:303-314",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "module": "./src/js/modules/cardGenerator.js",
+          "moduleName": "./src/js/modules/cardGenerator.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "resolvedModule": "./src/js/modules/cardGenerator.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../assets/dislike.svg",
+          "loc": "114:282-293",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5405,9 +6219,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 25805,
+      "size": 26315,
       "sizes": {
-        "javascript": 25805
+        "javascript": 26315
       },
       "built": true,
       "codeGenerated": true,
@@ -6101,8 +6915,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.44144fefc0792ad5ab40.css",
-          "size": 25364
+          "name": "style/main.9a348d0bccba3b1c2ae0.css",
+          "size": 25874
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -6110,7 +6924,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 28806,
+      "assetsSize": 29316,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -6125,12 +6939,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.13fd2ccfb8e67884177d.js",
-          "size": 52078
+          "name": "js/findMatch.2a0c6786dfc90f02adbc.js",
+          "size": 55729
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 52078,
+      "assetsSize": 55729,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6145,12 +6959,20 @@
           "size": 721
         },
         {
+          "name": "img/dislike34.svg",
+          "size": 1438
+        },
+        {
           "name": "img/dog-attributes797.svg",
           "size": 1558
         },
         {
           "name": "img/info397.svg",
           "size": 416
+        },
+        {
+          "name": "img/like792.svg",
+          "size": 934
         },
         {
           "name": "img/oscar-sutton-unsplash-placeholder579.jpg",
@@ -6162,7 +6984,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2607211,
+      "auxiliaryAssetsSize": 2609583,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -6176,8 +6998,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.44144fefc0792ad5ab40.css",
-          "size": 25364
+          "name": "style/main.9a348d0bccba3b1c2ae0.css",
+          "size": 25874
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -6185,7 +7007,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 28806,
+      "assetsSize": 29316,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -6200,12 +7022,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.13fd2ccfb8e67884177d.js",
-          "size": 52078
+          "name": "js/findMatch.2a0c6786dfc90f02adbc.js",
+          "size": 55729
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 52078,
+      "assetsSize": 55729,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6220,12 +7042,20 @@
           "size": 721
         },
         {
+          "name": "img/dislike34.svg",
+          "size": 1438
+        },
+        {
           "name": "img/dog-attributes797.svg",
           "size": 1558
         },
         {
           "name": "img/info397.svg",
           "size": 416
+        },
+        {
+          "name": "img/like792.svg",
+          "size": 934
         },
         {
           "name": "img/oscar-sutton-unsplash-placeholder579.jpg",
@@ -6237,7 +7067,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2607211,
+      "auxiliaryAssetsSize": 2609583,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -6261,8 +7091,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "a3acc1661444b376642f",
       "version": "5.97.1",
-      "time": 34861,
-      "builtAt": 1740750910120,
+      "time": 35769,
+      "builtAt": 1740762998882,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -7292,20 +8122,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "id": 251
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 251,
+              "issuerId": 355,
               "chunks": [
                 284,
                 783
@@ -8957,20 +9787,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "id": 251
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 251,
+              "issuerId": 355,
               "chunks": [
                 284,
                 783
@@ -9522,20 +10352,20 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
           "issuerPath": [
             {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-              "id": 251
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 711,
-          "issuerId": 251,
+          "issuerId": 355,
           "chunks": [
             284,
             783
