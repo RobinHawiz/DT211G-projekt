@@ -62,6 +62,8 @@ function mouseMoveOrTouchMove(e) {
   card.style.top = card.offsetTop - newY + "px";
   card.style.transform = `rotate(${cardRotationDeg}deg)`;
 
+  changelikeDislikeIconOpacity();
+
   // Dog is being disliked.
   if (windowCenterX - cardCenterX > 200) {
     isBeingDisliked = true;
@@ -84,6 +86,22 @@ function mouseMoveOrTouchMove(e) {
     if (!like.classList.contains("scale-down"))
       like.classList.toggle("scale-down");
   }
+}
+
+function changelikeDislikeIconOpacity() {
+  const likeIcon = document.querySelector(".like-icon");
+  const dislikeIcon = document.querySelector(".dislike-icon");
+
+  cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
+  windowCenterX = window.innerWidth / 2;
+
+  let dislikeIconOpacity = (windowCenterX - cardCenterX - 100) / 100;
+  let likeIconOpacity = (cardCenterX - windowCenterX - 50) / 100;
+  console.log(likeIconOpacity);
+
+  dislikeIcon.style.opacity =
+    dislikeIconOpacity > 0.04 ? dislikeIconOpacity : 0;
+  likeIcon.style.opacity = likeIconOpacity > 0.04 ? likeIconOpacity : 0;
 }
 
 function moveCard() {
@@ -150,6 +168,7 @@ function moveCard() {
     card.style.transform = `rotate(${rotDeg}deg)`;
     if (elapsedTime < duration)
       animationFrameId = window.requestAnimationFrame(moveCardOutOfView);
+    changelikeDislikeIconOpacity();
   }
   function moveCardToInitialPos(currentTime) {
     if (startTime === null) startTime = currentTime;
@@ -173,6 +192,7 @@ function moveCard() {
         ? card.addEventListener("touchstart", mouseDownOrTouchStart)
         : card.addEventListener("mousedown", mouseDownOrTouchStart);
     }
+    changelikeDislikeIconOpacity();
   }
 }
 

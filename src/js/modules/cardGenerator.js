@@ -5,6 +5,8 @@ import dogIcon from "../../assets/dog-attributes.svg";
 import cakeIcon from "../../assets/cake-birthday.svg";
 import scaleIcon from "../../assets/scale.svg";
 import bacteriumIcon from "../../assets/bacterium.svg";
+import likeIcon from "../../assets/like.svg";
+import dislikeIcon from "../../assets/dislike.svg";
 
 export async function getDogData() {
   let completeDogData;
@@ -34,6 +36,16 @@ export async function generateCard(dogData) {
   card.classList.add("behind");
   card.innerHTML = `
             <div class="img-wrapper">
+            <img
+              class="like-icon"
+              src="${likeIcon}"
+              alt="Like icon"
+            />
+            <img
+              class="dislike-icon"
+              src="${dislikeIcon}"
+              alt="Dislike icon"
+            />
             <img
               class="dog-img"
               src="${dogData.img}"
@@ -109,6 +121,16 @@ export async function generateInitialCard(dogData) {
   let imgWrapper = document.createElement("div");
   imgWrapper.classList.add("img-wrapper");
   imgWrapper.innerHTML = `
+              <img
+              class="like-icon"
+              src="${likeIcon}"
+              alt="Like icon"
+            />
+                        <img
+              class="dislike-icon"
+              src="${dislikeIcon}"
+              alt="Dislike icon"
+            />
             <img
               class="dog-img"
               src="${dogData.img}"

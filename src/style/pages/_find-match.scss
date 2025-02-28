@@ -21,13 +21,14 @@
       height: 80rem;
       border-radius: 2rem;
       overflow: hidden;
+      z-index: 6;
       &.behind {
         position: absolute;
         top: 0;
         z-index: -2;
       }
       &.being-removed {
-        z-index: 3;
+        z-index: 7;
       }
       @include m.media-query(mobile-find-match) {
         border-radius: 0;
@@ -35,7 +36,32 @@
         width: 100vw;
       }
       .img-wrapper {
+        position: relative;
         height: 100%;
+      }
+      .like-icon,
+      .dislike-icon {
+        position: absolute;
+        top: 5rem;
+        opacity: 0;
+      }
+      .like-icon {
+        left: 5rem;
+      }
+      .dislike-icon {
+        right: 5rem;
+      }
+      @include m.media-query(mobile-find-match) {
+        .like-icon,
+        .dislike-icon {
+          top: 3rem;
+        }
+        .like-icon {
+          left: 3rem;
+        }
+        .dislike-icon {
+          right: 3rem;
+        }
       }
       .dog-img {
         position: relative;
@@ -128,7 +154,7 @@
       bottom: 0;
       left: 50%;
       transform: translate(-50%, 40%);
-      z-index: 4;
+      z-index: 7;
       @include m.media-query(mobile-find-match) {
         transform: translate(-50%, -4%);
       }
@@ -152,30 +178,30 @@
       }
       .dislike {
         background-color: #ececec;
-        animation: 0.5s ease forwards like-dislike-panel-scale-up-animation;
+        animation: 0.3s ease forwards like-dislike-panel-scale-up-animation;
         &.scale-down {
-          animation: 0.5s ease forwards like-dislike-panel-scale-down-animation;
+          animation: 0.3s ease forwards like-dislike-panel-scale-down-animation;
         }
       }
       .like {
         background-color: #ffebe6;
-        animation: 0.5s ease forwards like-dislike-panel-scale-up-animation;
+        animation: 0.3s ease forwards like-dislike-panel-scale-up-animation;
         &.scale-down {
-          animation: 0.5s ease forwards like-dislike-panel-scale-down-animation;
+          animation: 0.3s ease forwards like-dislike-panel-scale-down-animation;
         }
       }
       .toggle-bio {
         background-color: #f2e9f7;
-        animation: 0.5s ease forwards like-dislike-panel-scale-up-animation;
+        animation: 0.3s ease forwards like-dislike-panel-scale-up-animation;
         &.scale-down {
-          animation: 0.5s ease forwards like-dislike-panel-scale-down-animation;
+          animation: 0.3s ease forwards like-dislike-panel-scale-down-animation;
         }
       }
       .toggle-settings {
         background-color: #fdfde2;
-        animation: 0.5s ease forwards like-dislike-panel-scale-up-animation;
+        animation: 0.3s ease forwards like-dislike-panel-scale-up-animation;
         &.scale-down {
-          animation: 0.5s ease forwards like-dislike-panel-scale-down-animation;
+          animation: 0.3s ease forwards like-dislike-panel-scale-down-animation;
         }
       }
       img {
