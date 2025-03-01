@@ -296,6 +296,7 @@
         border-radius: 50px;
         transition: all 0.7s;
         --spread: 2rem;
+        pointer-events: none;
         @include m.media-query(mobile-find-match) {
           font-size: 2rem;
         }
