@@ -1,4 +1,3 @@
-const { getDogData, generateInitialCard } = require("./modules/cardGenerator");
 const { generateCard } = require("./modules/cardGenerator");
 const { dogData } = require("./findMatch");
 
@@ -13,6 +12,7 @@ let cardRotationDeg = 0;
 let isBeingLiked = false;
 let isBeingDisliked = false;
 let likeOrDislikeButtonWasClicked = false;
+let areFiltersToggled = false;
 let isMobileDevice = userDeviceIsMobile();
 let bioArticles = document.querySelectorAll(".bio article");
 const bioButton = document.querySelector("button.toggle-bio");
@@ -20,6 +20,34 @@ let newX = 0,
   newY = 0,
   startX = 0,
   startY = 0;
+const filtersWrapper = document.querySelector(".filters-wrapper");
+const filters = document.querySelector(".filters");
+const filtersContainers = document.querySelectorAll(".filters .container");
+
+toggleSettings.addEventListener("click", toggleFilters);
+
+filtersContainers.forEach((container) => {
+  container.addEventListener("click", toggleSelected);
+});
+
+// This is done because the filters are being hidden from showing in the beginning. When the filters are out of view, then we apply opacity 1.
+filters.addEventListener(
+  "transitionend",
+  () => {
+    filters.style.opacity = 1;
+  },
+  { once: true }
+);
+
+function toggleFilters() {
+  areFiltersToggled = areFiltersToggled ? false : true;
+  filtersWrapper.classList.toggle("show");
+  filters.classList.toggle("show");
+}
+
+function toggleSelected(e) {
+  e.target.classList.toggle("selected");
+}
 
 isMobileDevice
   ? card.addEventListener("touchstart", mouseDownOrTouchStart)
@@ -231,39 +259,49 @@ async function initNewCard() {
 bioButton.addEventListener("click", toggleBio);
 
 function toggleBio() {
-  disableBioButton();
-  rotateBioButton();
-  displayBio(); // This function call toggles the class "opened" on the bioButton.
-  disableSwipe();
-  removeHtmlOverflowHidden();
-  changeCardStylingPosition();
-  scrollPage();
-  setTimeout(() => {
-    bioButton.addEventListener("click", toggleBio);
-    enableSwipe();
-  }, 730);
+  if (!areFiltersToggled) {
+    disableBioButton();
+    rotateBioButton();
+    displayBio(); // This function call toggles the class "opened" on the bioButton.
+    disableSwipe();
+    removeHtmlOverflowHidden();
+    changeCardStylingPosition();
+    scrollPage();
+    setTimeout(() => {
+      bioButton.addEventListener("click", toggleBio);
+      enableSwipe();
+    }, 730);
+  }
 }
 
 like.addEventListener("click", () => {
-  let timeOutDuration = 730;
-  bioButton.classList.contains("opened") ? toggleBio() : (timeOutDuration = 0);
-  setTimeout(() => {
-    isBeingLiked = true;
-    isBeingDisliked = false;
-    likeOrDislikeButtonWasClicked = true;
-    moveCard();
-  }, timeOutDuration);
+  if (!areFiltersToggled) {
+    let timeOutDuration = 730;
+    bioButton.classList.contains("opened")
+      ? toggleBio()
+      : (timeOutDuration = 0);
+    setTimeout(() => {
+      isBeingLiked = true;
+      isBeingDisliked = false;
+      likeOrDislikeButtonWasClicked = true;
+      moveCard();
+    }, timeOutDuration);
+  }
 });
 
 dislike.addEventListener("click", () => {
-  let timeOutDuration = 730;
-  bioButton.classList.contains("opened") ? toggleBio() : (timeOutDuration = 0);
-  setTimeout(() => {
-    isBeingDisliked = true;
-    isBeingLiked = false;
-    likeOrDislikeButtonWasClicked = true;
-    moveCard();
-  }, timeOutDuration);
+  if (!areFiltersToggled) {
+    let timeOutDuration = 730;
+    bioButton.classList.contains("opened")
+      ? toggleBio()
+      : (timeOutDuration = 0);
+    setTimeout(() => {
+      isBeingDisliked = true;
+      isBeingLiked = false;
+      likeOrDislikeButtonWasClicked = true;
+      moveCard();
+    }, timeOutDuration);
+  }
 });
 
 function resetCardValues() {

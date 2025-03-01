@@ -27,6 +27,13 @@ p {
   }
 }
 
+label {
+  font-size: v.$label-font;
+  @include m.media-query(mobile-find-match) {
+    font-size: v.$label-mobile-font;
+  }
+}
+
 .logo a {
   font-size: v.$logo-font;
   font-weight: 700;

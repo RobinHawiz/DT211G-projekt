@@ -154,7 +154,7 @@
       bottom: 0;
       left: 50%;
       transform: translate(-50%, 40%);
-      z-index: 7;
+      z-index: 8;
       @include m.media-query(mobile-find-match) {
         transform: translate(-50%, -4%);
       }
@@ -209,6 +209,140 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+      }
+    }
+    .filters-wrapper {
+      position: absolute;
+      overflow-y: hidden;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      border-radius: 2rem;
+      @include m.media-query(mobile-find-match) {
+        border-radius: 0;
+      }
+      &.show {
+        overflow-y: auto;
+      }
+      .filters {
+        position: absolute;
+        background-color: v.$dark-color;
+        color: white;
+        z-index: 7;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        opacity: 0;
+      }
+      .filters.show {
+        transform: translateX(0);
+      }
+      .breed-groups-container {
+        padding: 3rem;
+        padding-bottom: 0;
+      }
+      li {
+        list-style-type: none;
+        margin: 2rem 0;
+      }
+      // I got the checkbox styling from: https://getcssscan.com/css-checkboxes-examples?ref=beautifulboxshadow-bottom
+      // But I modified it a bit to make it fit with my webapp.
+      .input-box input[type="checkbox"] {
+        visibility: hidden;
+        display: none;
+      }
+
+      .input-box {
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        height: 7rem;
+      }
+
+      .input-box *,
+      .input-box ::after,
+      .input-box ::before {
+        box-sizing: border-box;
+        display: inline-block;
+      }
+
+      .container {
+        @include m.flex(center, space-between, row);
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0 2rem;
+        cursor: pointer;
+        user-select: none;
+        border: 0.2rem solid #3c444f;
+        border-radius: 0.8rem;
+        @include m.media-query(mobile-find-match) {
+          padding-right: 6rem;
+          padding-left: 1rem;
+        }
+      }
+      .container.selected {
+        border: 0.2rem solid #ff4458;
+      }
+
+      /* Create a custom checkbox */
+      .input-box .checkmark {
+        position: absolute;
+        font-size: 2.5rem;
+        top: 50%;
+        right: 2rem;
+        transform: translateY(-50%);
+        height: 1.3em;
+        width: 1.3em;
+        border-radius: 50px;
+        transition: all 0.7s;
+        --spread: 2rem;
+        @include m.media-query(mobile-find-match) {
+          font-size: 2rem;
+        }
+      }
+
+      /* When the checkbox is checked, add a blue background */
+      .input-box .container input:checked ~ .checkmark {
+        box-shadow: -10px -10px var(--spread) 0px #5b51d8,
+          0 -10px var(--spread) 0px #833ab4,
+          10px -10px var(--spread) 0px #e1306c, 10px 0 var(--spread) 0px #fd1d1d,
+          10px 10px var(--spread) 0px #f77737, 0 10px var(--spread) 0px #fcaf45,
+          -10px 10px var(--spread) 0px #ffdc80;
+      }
+
+      /* Create the checkmark/indicator (hidden when not checked) */
+      .input-box .checkmark::after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+
+      /* Show the checkmark when checked */
+      .input-box .container input:checked ~ .checkmark::after {
+        display: block;
+      }
+
+      /* Style the checkmark/indicator */
+      .input-box .container .checkmark::after {
+        left: 0.5em;
+        top: 0.34em;
+        width: 0.25em;
+        height: 0.5em;
+        border: solid #f0f0f0;
+        border-width: 0 0.15em 0.15em 0;
+        transform: rotate(45deg);
+      }
+
+      .hide-behind-panel {
+        position: sticky;
+        width: 100%;
+        height: 5rem;
+        bottom: 0;
+        left: 0;
+        background-color: v.$dark-color;
+        @include m.media-query(mobile-find-match) {
+          height: 8rem;
+        }
       }
     }
   }
