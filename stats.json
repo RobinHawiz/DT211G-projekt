@@ -1,8 +1,8 @@
 {
-  "hash": "4d9a07825296653c0fca",
+  "hash": "241f73e8baaf533c63ee",
   "version": "5.97.1",
-  "time": 35785,
-  "builtAt": 1740862660064,
+  "time": 36993,
+  "builtAt": 1740863140106,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.4ad572ef561fd04bd3c4.js"
+      "js/findMatch.cdf297d136aa297e49ff.js"
     ]
   },
   "assets": [
@@ -415,17 +415,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.4ad572ef561fd04bd3c4.js",
-      "size": 54979,
+      "name": "js/findMatch.cdf297d136aa297e49ff.js",
+      "size": 54976,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "4ad572ef561fd04bd3c4",
+        "contenthash": "cdf297d136aa297e49ff",
         "javascriptModule": false,
         "minimized": true,
-        "size": 54979
+        "size": 54976
       },
       "chunkNames": [
         "findMatch"
@@ -941,9 +941,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2696061,
+      "size": 2696056,
       "sizes": {
-        "javascript": 84535,
+        "javascript": 84530,
         "asset": 2609583,
         "runtime": 1943
       },
@@ -955,7 +955,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.4ad572ef561fd04bd3c4.js"
+        "js/findMatch.cdf297d136aa297e49ff.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -968,7 +968,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "770aaf8b4404ee3f54ca",
+      "hash": "7dfd6a994476cfb722a8",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1801,9 +1801,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 27042,
+          "size": 27037,
           "sizes": {
-            "javascript": 27042
+            "javascript": 27037
           },
           "built": true,
           "codeGenerated": true,
@@ -4507,9 +4507,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 27042,
+      "size": 27037,
       "sizes": {
-        "javascript": 27042
+        "javascript": 27037
       },
       "built": true,
       "codeGenerated": true,
@@ -6519,12 +6519,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.4ad572ef561fd04bd3c4.js",
-          "size": 54979
+          "name": "js/findMatch.cdf297d136aa297e49ff.js",
+          "size": 54976
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54979,
+      "assetsSize": 54976,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6602,12 +6602,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.4ad572ef561fd04bd3c4.js",
-          "size": 54979
+          "name": "js/findMatch.cdf297d136aa297e49ff.js",
+          "size": 54976
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54979,
+      "assetsSize": 54976,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6671,8 +6671,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "59335254c01e2c0d30af",
       "version": "5.97.1",
-      "time": 35007,
-      "builtAt": 1740862659312,
+      "time": 36236,
+      "builtAt": 1740863139375,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
