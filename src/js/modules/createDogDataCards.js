@@ -75,7 +75,7 @@ async function getDogImgUrl(dogName) {
     console.log(error);
     console.log("This doggy gives zero search results on Flickr :(");
     console.log(dogNameParam);
-  } finally {
+    // So far this is the only dog not giving a result, so I added my own image to use instead.
     if (dogNameParam === "Barbado+da+Terceira+dog") {
       output = dogImgBarbado;
     }
