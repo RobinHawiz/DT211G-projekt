@@ -31,13 +31,9 @@ filtersContainers.forEach((container) => {
 });
 
 // This is done because the filters are being hidden from showing in the beginning. When the filters are out of view, then we apply opacity 1.
-filters.addEventListener(
-  "transitionend",
-  () => {
-    filters.style.opacity = 1;
-  },
-  { once: true }
-);
+setTimeout(() => {
+  filters.style.opacity = 1;
+}, 300);
 
 function toggleFilters() {
   areFiltersToggled = areFiltersToggled ? false : true;
