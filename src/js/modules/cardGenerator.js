@@ -10,6 +10,7 @@ import dislikeIcon from "../../assets/dislike.svg";
 
 export async function getDogData() {
   let completeDogData;
+  localStorage.clear();
   if (localStorage.getItem("dogData") === null) {
     //Get data
     let dogBreedsData = [await fetchData("https://dogapi.dog/api/v2/breeds")];
