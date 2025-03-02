@@ -56,8 +56,10 @@ function mouseDownOrTouchStart(e) {
   toggleSettings.classList.toggle("scale-down");
   bioButton.classList.toggle("scale-down");
 
-  startX = isMobileDevice ? e.targetTouches[0].clientX : e.clientX;
-  startY = isMobileDevice ? e.targetTouches[0].clientY : e.clientY;
+  const touch = isMobileDevice ? e.targetTouches[0] : e;
+
+  startX = touch.clientX;
+  startY = touch.clientY;
 
   if (isMobileDevice) {
     document.addEventListener("touchmove", mouseMoveOrTouchMove);
@@ -69,11 +71,13 @@ function mouseDownOrTouchStart(e) {
 }
 
 function mouseMoveOrTouchMove(e) {
-  newX = startX - (isMobileDevice ? e.targetTouches[0].clientX : e.clientX);
-  newY = startY - (isMobileDevice ? e.targetTouches[0].clientY : e.clientY);
+  const touch = isMobileDevice ? e.targetTouches[0] : e;
 
-  startX = isMobileDevice ? e.targetTouches[0].clientX : e.clientX;
-  startY = isMobileDevice ? e.targetTouches[0].clientY : e.clientY;
+  newX = startX - touch.clientX;
+  newY = startY - touch.clientY;
+
+  startX = touch.clientX;
+  startY = touch.clientY;
 
   cardStylingLeft = card.offsetLeft - newX;
   cardStylingTop = card.offsetTop - newY;
