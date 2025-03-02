@@ -84,8 +84,8 @@ function mouseMoveOrTouchMove(e) {
   startX = touch.clientX;
   startY = touch.clientY;
 
-  cardStylingLeft = card.offsetLeft - newX;
-  cardStylingTop = card.offsetTop - newY;
+  cardStylingLeft = card.offsetLeft - deltaX;
+  cardStylingTop = card.offsetTop - deltaY;
 
   cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
   windowCenterX = window.innerWidth / 2;
