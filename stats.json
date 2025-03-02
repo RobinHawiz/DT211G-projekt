@@ -1,8 +1,8 @@
 {
-  "hash": "ce230591e07c8aac614d",
+  "hash": "6d048bc36d95d38cbfad",
   "version": "5.97.1",
-  "time": 35798,
-  "builtAt": 1740929643233,
+  "time": 35769,
+  "builtAt": 1740931661986,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.ab80575a0fc36da1eb5f.js"
+      "js/findMatch.3cf4206b577e8222a107.js"
     ]
   },
   "assets": [
@@ -415,17 +415,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.ab80575a0fc36da1eb5f.js",
-      "size": 54830,
+      "name": "js/findMatch.3cf4206b577e8222a107.js",
+      "size": 54967,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "ab80575a0fc36da1eb5f",
+        "contenthash": "3cf4206b577e8222a107",
         "javascriptModule": false,
         "minimized": true,
-        "size": 54830
+        "size": 54967
       },
       "chunkNames": [
         "findMatch"
@@ -941,9 +941,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2696015,
+      "size": 2696499,
       "sizes": {
-        "javascript": 84489,
+        "javascript": 84973,
         "asset": 2609583,
         "runtime": 1943
       },
@@ -955,7 +955,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.ab80575a0fc36da1eb5f.js"
+        "js/findMatch.3cf4206b577e8222a107.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -968,7 +968,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "e5170ea9e25fa93ee23c",
+      "hash": "e36ecde3b2090dae6cee",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1801,9 +1801,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 26996,
+          "size": 27480,
           "sizes": {
-            "javascript": 26996
+            "javascript": 27480
           },
           "built": true,
           "codeGenerated": true,
@@ -4507,9 +4507,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 26996,
+      "size": 27480,
       "sizes": {
-        "javascript": 26996
+        "javascript": 27480
       },
       "built": true,
       "codeGenerated": true,
@@ -6519,12 +6519,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.ab80575a0fc36da1eb5f.js",
-          "size": 54830
+          "name": "js/findMatch.3cf4206b577e8222a107.js",
+          "size": 54967
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54830,
+      "assetsSize": 54967,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6602,12 +6602,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.ab80575a0fc36da1eb5f.js",
-          "size": 54830
+          "name": "js/findMatch.3cf4206b577e8222a107.js",
+          "size": 54967
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54830,
+      "assetsSize": 54967,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6671,8 +6671,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "59335254c01e2c0d30af",
       "version": "5.97.1",
-      "time": 35038,
-      "builtAt": 1740929642499,
+      "time": 35000,
+      "builtAt": 1740931661243,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -7702,20 +7702,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 355,
+              "issuerId": 251,
               "chunks": [
                 284,
                 783
@@ -9367,20 +9367,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 355,
+              "issuerId": 251,
               "chunks": [
                 284,
                 783
@@ -9932,20 +9932,20 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
           "issuerPath": [
             {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-              "id": 355
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "id": 251
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 711,
-          "issuerId": 355,
+          "issuerId": 251,
           "chunks": [
             284,
             783
