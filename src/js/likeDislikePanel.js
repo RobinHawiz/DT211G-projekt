@@ -6,8 +6,8 @@ const dislike = document.querySelector(".dislike");
 const toggleSettings = document.querySelector(".toggle-settings");
 let card = document.querySelector(".card.current");
 let bio = document.querySelector(".bio.current");
-let cardStylingLeft = 0;
-let cardStylingTop = 0;
+let newCardXCoord = 0;
+let newCardYCoord = 0;
 let cardRotationDeg = 0;
 let isBeingLiked = false;
 let isBeingDisliked = false;
@@ -61,11 +61,6 @@ function mouseDownOrTouchStart(e) {
   startX = touch.clientX;
   startY = touch.clientY;
 
-  // Cache initial position values
-  const cardRect = card.getBoundingClientRect();
-  cardStartX = card.offsetLeft;
-  cardStartY = card.offsetTop;
-
   if (isMobileDevice) {
     document.addEventListener("touchmove", mouseMoveOrTouchMove);
     document.addEventListener("touchend", moveCard);
@@ -84,16 +79,14 @@ function mouseMoveOrTouchMove(e) {
   startX = touch.clientX;
   startY = touch.clientY;
 
-  cardStylingLeft = card.offsetLeft - deltaX;
-  cardStylingTop = card.offsetTop - deltaY;
+  newCardXCoord += deltaX;
+  newCardYCoord += deltaY;
 
   cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
   windowCenterX = window.innerWidth / 2;
   cardRotationDeg = (windowCenterX - cardCenterX) / 30;
-
-  card.style.left = card.offsetLeft + deltaX + "px";
-  card.style.top = card.offsetTop + deltaY + "px";
-  card.style.transform = `rotate(${cardRotationDeg}deg)`;
+  // We use translate3d because then the rendering will be done by the GPU, which is much faster and more efficient than using the CPU.
+  card.style.transform = `translate3d(${newCardXCoord}px, ${newCardYCoord}px, 0) rotate(${cardRotationDeg}deg)`;
 
   changelikeDislikeIconOpacity();
 
@@ -157,8 +150,8 @@ function moveCard() {
   if (bioButton.classList.toggle("scale-down"))
     bioButton.classList.toggle("scale-down");
   let duration = 900; // Milliseconds.
-  let currentX = cardStylingLeft;
-  let currentY = cardStylingTop;
+  let currentX = newCardXCoord;
+  let currentY = newCardYCoord;
   let distanceX;
   let distanceY;
   let currentRotationDeg = cardRotationDeg;
@@ -181,23 +174,23 @@ function moveCard() {
     initNewCard();
   } else {
     duration = 500;
-    distanceX = cardStylingLeft * -1;
-    distanceY = cardStylingTop * -1;
+    distanceX = newCardXCoord * -1;
+    distanceY = newCardYCoord * -1;
     distanceRotationDeg = cardRotationDeg * -1;
     window.requestAnimationFrame(moveCardToInitialPos);
   }
   function moveCardOutOfView(currentTime) {
     if (startTime === null) startTime = currentTime;
     const elapsedTime = currentTime - startTime;
-    const leftPos = easeOutQuint(elapsedTime, currentX, distanceX, duration);
+    const xCoord = easeOutQuint(elapsedTime, currentX, distanceX, duration);
     const rotDeg = easeOutQuintCard(
       elapsedTime,
       currentRotationDeg,
       distanceRotationDeg,
       duration
     );
-    card.style.left = leftPos + "px";
-    card.style.transform = `rotate(${rotDeg}deg)`;
+    // We only change card x coordinates and its rotation.
+    card.style.transform = `translate3d(${xCoord}px, ${currentY}px, 0) rotate(${rotDeg}deg)`;
     if (elapsedTime < duration)
       animationFrameId = window.requestAnimationFrame(moveCardOutOfView);
     changelikeDislikeIconOpacity();
@@ -205,17 +198,15 @@ function moveCard() {
   function moveCardToInitialPos(currentTime) {
     if (startTime === null) startTime = currentTime;
     const elapsedTime = currentTime - startTime;
-    const leftPos = easeOutBack(elapsedTime, currentX, distanceX, duration);
-    const topPos = easeOutBack(elapsedTime, currentY, distanceY, duration);
+    const xCoord = easeOutBack(elapsedTime, currentX, distanceX, duration);
+    const yCoord = easeOutBack(elapsedTime, currentY, distanceY, duration);
     const rotDeg = easeOutQuintCard(
       elapsedTime,
       currentRotationDeg,
       distanceRotationDeg,
       duration
     );
-    card.style.left = leftPos + "px";
-    card.style.top = topPos + "px";
-    card.style.transform = `rotate(${rotDeg}deg)`;
+    card.style.transform = `translate3d(${xCoord}px, ${yCoord}px, 0) rotate(${rotDeg}deg)`;
     if (elapsedTime < duration)
       window.requestAnimationFrame(moveCardToInitialPos);
     else {
@@ -310,8 +301,8 @@ dislike.addEventListener("click", () => {
 });
 
 function resetCardValues() {
-  cardStylingLeft = 0;
-  cardStylingTop = 0;
+  newCardXCoord = 0;
+  newCardYCoord = 0;
   cardRotationDeg = 0;
   isBeingLiked = false;
   isBeingDisliked = false;
