@@ -90,6 +90,7 @@ function mouseMoveOrTouchMove(e) {
   windowCenterX = window.innerWidth / 2;
   cardRotationDeg = (windowCenterX - cardCenterX) / 30;
 
+  // We do this in order to avoid overlapping animations (this could happen if the user swipes too fast).
   if (reqAnimFrameId) {
     cancelAnimationFrame(reqAnimFrameId);
   }
@@ -99,8 +100,6 @@ function mouseMoveOrTouchMove(e) {
     card.style.transform = `translate3d(${newCardXCoord}px, ${newCardYCoord}px, 0) rotate(${cardRotationDeg}deg)`;
     changelikeDislikeIconOpacity();
   });
-
-  changelikeDislikeIconOpacity();
 
   // Dog is being disliked.
   if (windowCenterX - cardCenterX > 200) {
@@ -125,9 +124,10 @@ function mouseMoveOrTouchMove(e) {
       like.classList.toggle("scale-down");
   }
 
-  // Reset the flag once the frame has been handled
+  // Reset the flag once the frame has been handled.
+  // This is done via requestAnimationFrame in order to ensure that the flag is changed only when the current frame has been rendered.
   requestAnimationFrame(() => {
-    isMoving = false; // Allow the next swipe action
+    isMoving = false;
   });
 }
 
