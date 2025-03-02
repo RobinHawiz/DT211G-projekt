@@ -20,6 +20,8 @@ let deltaX = 0,
   deltaY = 0,
   startX = 0,
   startY = 0;
+let isMoving = false;
+let reqAnimFrameId = null;
 const filtersWrapper = document.querySelector(".filters-wrapper");
 const filters = document.querySelector(".filters");
 const filtersContainers = document.querySelectorAll(".filters .container");
@@ -71,6 +73,8 @@ function mouseDownOrTouchStart(e) {
 }
 
 function mouseMoveOrTouchMove(e) {
+  if (isMoving) return; // Prevents the function from being called when it is already running.
+  isMoving = true;
   const touch = isMobileDevice ? e.targetTouches[0] : e;
 
   deltaX = touch.clientX - startX;
@@ -85,8 +89,16 @@ function mouseMoveOrTouchMove(e) {
   cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
   windowCenterX = window.innerWidth / 2;
   cardRotationDeg = (windowCenterX - cardCenterX) / 30;
-  // We use translate3d because then the rendering will be done by the GPU, which is much faster and more efficient than using the CPU.
-  card.style.transform = `translate3d(${newCardXCoord}px, ${newCardYCoord}px, 0) rotate(${cardRotationDeg}deg)`;
+
+  if (reqAnimFrameId) {
+    cancelAnimationFrame(reqAnimFrameId);
+  }
+
+  reqAnimFrameId = requestAnimationFrame(() => {
+    // We use translate3d because then the rendering will be done by the GPU, which is much faster and more efficient than using the CPU.
+    card.style.transform = `translate3d(${newCardXCoord}px, ${newCardYCoord}px, 0) rotate(${cardRotationDeg}deg)`;
+    changelikeDislikeIconOpacity();
+  });
 
   changelikeDislikeIconOpacity();
 
@@ -112,6 +124,11 @@ function mouseMoveOrTouchMove(e) {
     if (!like.classList.contains("scale-down"))
       like.classList.toggle("scale-down");
   }
+
+  // Reset the flag once the frame has been handled
+  requestAnimationFrame(() => {
+    isMoving = false; // Allow the next swipe action
+  });
 }
 
 function changelikeDislikeIconOpacity() {
