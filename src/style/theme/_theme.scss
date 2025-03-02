@@ -5,17 +5,11 @@
 
 header {
   background-color: v.$light-color;
-  @include m.media-query(mobile-find-match) {
-    background-color: v.$dark-color;
-  }
   .logo {
     a {
       color: v.$dark-color;
       text-decoration: none;
       transition: color 1s ease;
-      @include m.media-query(mobile-find-match) {
-        color: v.$light-color;
-      }
     }
     &.nav-opened {
       a {
@@ -97,6 +91,18 @@ header {
 .body-find-match {
   @include m.media-query(mobile-find-match) {
     background-color: v.$dark-color;
+  }
+  header {
+    @include m.media-query(mobile-find-match) {
+      background-color: v.$dark-color;
+    }
+    .logo {
+      a {
+        @include m.media-query(mobile-find-match) {
+          color: v.$light-color;
+        }
+      }
+    }
   }
 }
 
