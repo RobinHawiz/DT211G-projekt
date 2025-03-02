@@ -1,13 +1,13 @@
 {
-  "hash": "49455e3fc17484a02d07",
+  "hash": "404fcc6ebf660e574f1b",
   "version": "5.97.1",
-  "time": 36605,
-  "builtAt": 1740944535034,
+  "time": 35739,
+  "builtAt": 1740944805524,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
     "main": [
-      "style/main.065584484209fec6d013.css",
+      "style/main.89f9547db22757faa9a4.css",
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
@@ -572,15 +572,15 @@
     },
     {
       "type": "asset",
-      "name": "style/main.065584484209fec6d013.css",
-      "size": 30637,
+      "name": "style/main.89f9547db22757faa9a4.css",
+      "size": 30671,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "065584484209fec6d013",
-        "size": 30637
+        "contenthash": "89f9547db22757faa9a4",
+        "size": 30671
       },
       "chunkNames": [
         "main"
@@ -3136,10 +3136,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 36369,
+      "size": 36403,
       "sizes": {
         "javascript": 5038,
-        "css/mini-extract": 30636,
+        "css/mini-extract": 30670,
         "runtime": 695
       },
       "names": [
@@ -3150,11 +3150,11 @@
         "main"
       ],
       "files": [
-        "style/main.065584484209fec6d013.css",
+        "style/main.89f9547db22757faa9a4.css",
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "4a98f28283e3eaaa644a",
+      "hash": "450bb60b0c7171cb9b0e",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -3355,9 +3355,9 @@
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 30636,
+          "size": 30670,
           "sizes": {
-            "css/mini-extract": 30636
+            "css/mini-extract": 30670
           },
           "built": true,
           "codeGenerated": true,
@@ -4631,9 +4631,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 30636,
+      "size": 30670,
       "sizes": {
-        "css/mini-extract": 30636
+        "css/mini-extract": 30670
       },
       "built": true,
       "codeGenerated": true,
@@ -5799,9 +5799,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 31080,
+      "size": 31114,
       "sizes": {
-        "javascript": 31080
+        "javascript": 31114
       },
       "built": true,
       "codeGenerated": true,
@@ -6495,8 +6495,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.065584484209fec6d013.css",
-          "size": 30637
+          "name": "style/main.89f9547db22757faa9a4.css",
+          "size": 30671
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -6504,7 +6504,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 34079,
+      "assetsSize": 34113,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -6578,8 +6578,8 @@
       ],
       "assets": [
         {
-          "name": "style/main.065584484209fec6d013.css",
-          "size": 30637
+          "name": "style/main.89f9547db22757faa9a4.css",
+          "size": 30671
         },
         {
           "name": "js/main.6487bfdd71535d1244f1.js",
@@ -6587,7 +6587,7 @@
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 34079,
+      "assetsSize": 34113,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -6671,8 +6671,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "59335254c01e2c0d30af",
       "version": "5.97.1",
-      "time": 35830,
-      "builtAt": 1740944534288,
+      "time": 34969,
+      "builtAt": 1740944804779,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
