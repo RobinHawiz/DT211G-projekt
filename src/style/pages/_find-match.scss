@@ -11,7 +11,6 @@
     height: 80rem;
     width: 53.4rem;
     @include m.media-query(mobile-find-match) {
-      border-radius: 0;
       height: 85svh;
       width: 100vw;
     }
@@ -31,7 +30,6 @@
         z-index: 7;
       }
       @include m.media-query(mobile-find-match) {
-        border-radius: 0;
         height: 85svh;
         width: 100vw;
       }

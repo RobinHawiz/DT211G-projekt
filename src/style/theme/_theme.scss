@@ -5,11 +5,17 @@
 
 header {
   background-color: v.$light-color;
+  @include m.media-query(mobile-find-match) {
+    background-color: v.$dark-color;
+  }
   .logo {
     a {
       color: v.$dark-color;
       text-decoration: none;
       transition: color 1s ease;
+      @include m.media-query(mobile-find-match) {
+        color: v.$light-color;
+      }
     }
     &.nav-opened {
       a {
@@ -64,6 +70,9 @@ header {
   border: none;
   .line {
     background-color: v.$dark-color;
+    @include m.media-query(mobile-find-match) {
+      background-color: v.$light-color;
+    }
     &.toggle {
       background-color: v.$light-color;
     }
