@@ -22,7 +22,7 @@ header {
   .logo {
     @include m.flex(center, normal, row);
     overflow: hidden;
-    z-index: 9;
+    z-index: 10;
     .letter {
       position: relative;
       bottom: -4.7rem;
