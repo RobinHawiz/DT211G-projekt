@@ -61,6 +61,11 @@ function mouseDownOrTouchStart(e) {
   startX = touch.clientX;
   startY = touch.clientY;
 
+  // Cache initial position values
+  const cardRect = card.getBoundingClientRect();
+  cardStartX = card.offsetLeft;
+  cardStartY = card.offsetTop;
+
   if (isMobileDevice) {
     document.addEventListener("touchmove", mouseMoveOrTouchMove);
     document.addEventListener("touchend", moveCard);
@@ -73,8 +78,8 @@ function mouseDownOrTouchStart(e) {
 function mouseMoveOrTouchMove(e) {
   const touch = isMobileDevice ? e.targetTouches[0] : e;
 
-  newX = startX - touch.clientX;
-  newY = startY - touch.clientY;
+  deltaX = touch.clientX - startX;
+  deltaY = touch.clientY - startY;
 
   startX = touch.clientX;
   startY = touch.clientY;
@@ -86,8 +91,8 @@ function mouseMoveOrTouchMove(e) {
   windowCenterX = window.innerWidth / 2;
   cardRotationDeg = (windowCenterX - cardCenterX) / 30;
 
-  card.style.left = card.offsetLeft - newX + "px";
-  card.style.top = card.offsetTop - newY + "px";
+  card.style.left = card.offsetLeft + deltaX + "px";
+  card.style.top = card.offsetTop + deltaY + "px";
   card.style.transform = `rotate(${cardRotationDeg}deg)`;
 
   changelikeDislikeIconOpacity();
