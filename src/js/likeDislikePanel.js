@@ -20,8 +20,10 @@ let deltaX = 0,
   deltaY = 0,
   startX = 0,
   startY = 0;
-let isMoving = false;
-let reqAnimFrameId = null;
+let windowCenterX;
+let cardCenterX;
+let debounceTimeout;
+const debounceDelay = 10; // Wait 10ms before calling the function
 const filtersWrapper = document.querySelector(".filters-wrapper");
 const filters = document.querySelector(".filters");
 const filtersContainers = document.querySelectorAll(".filters .container");
@@ -73,33 +75,30 @@ function mouseDownOrTouchStart(e) {
 }
 
 function mouseMoveOrTouchMove(e) {
-  if (isMoving) return; // Prevents the function from being called when it is already running.
-  isMoving = true;
-  const touch = isMobileDevice ? e.targetTouches[0] : e;
+  clearTimeout(debounceTimeout);
 
-  deltaX = touch.clientX - startX;
-  deltaY = touch.clientY - startY;
+  debounceTimeout = setTimeout(() => {
+    const touch = isMobileDevice ? e.targetTouches[0] : e;
 
-  startX = touch.clientX;
-  startY = touch.clientY;
+    deltaX = touch.clientX - startX;
+    deltaY = touch.clientY - startY;
 
-  newCardXCoord += deltaX;
-  newCardYCoord += deltaY;
+    startX = touch.clientX;
+    startY = touch.clientY;
 
-  cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
-  windowCenterX = window.innerWidth / 2;
-  cardRotationDeg = (windowCenterX - cardCenterX) / 30;
+    newCardXCoord += deltaX;
+    newCardYCoord += deltaY;
 
-  // We do this in order to avoid overlapping animations (this could happen if the user swipes too fast).
-  if (reqAnimFrameId) {
-    cancelAnimationFrame(reqAnimFrameId);
-  }
+    cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
+    windowCenterX = window.innerWidth / 2;
+    cardRotationDeg = (windowCenterX - cardCenterX) / 30;
 
-  reqAnimFrameId = requestAnimationFrame(() => {
-    // We use translate3d because then the rendering will be done by the GPU, which is much faster and more efficient than using the CPU.
-    card.style.transform = `translate3d(${newCardXCoord}px, ${newCardYCoord}px, 0) rotate(${cardRotationDeg}deg)`;
-    changelikeDislikeIconOpacity();
-  });
+    reqAnimFrameId = requestAnimationFrame(() => {
+      // We use translate3d because then the rendering will be done by the GPU, which is much faster and more efficient than using the CPU.
+      card.style.transform = `translate3d(${newCardXCoord}px, ${newCardYCoord}px, 0) rotate(${cardRotationDeg}deg)`;
+      changelikeDislikeIconOpacity();
+    });
+  }, debounceDelay);
 
   // Dog is being disliked.
   if (windowCenterX - cardCenterX > 200) {
@@ -123,12 +122,6 @@ function mouseMoveOrTouchMove(e) {
     if (!like.classList.contains("scale-down"))
       like.classList.toggle("scale-down");
   }
-
-  // Reset the flag once the frame has been handled.
-  // This is done via requestAnimationFrame in order to ensure that the flag is changed only when the current frame has been rendered.
-  requestAnimationFrame(() => {
-    isMoving = false;
-  });
 }
 
 function changelikeDislikeIconOpacity() {
@@ -147,6 +140,7 @@ function changelikeDislikeIconOpacity() {
 }
 
 function moveCard() {
+  clearTimeout(debounceTimeout); // Clear debounce timeout to avoid an additional function call after releasing the card.
   let cardBeingMoved = document.querySelector(".card.current");
   if (isMobileDevice) {
     cardBeingMoved.removeEventListener("touchstart", mouseDownOrTouchStart);
