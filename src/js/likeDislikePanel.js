@@ -270,13 +270,16 @@ function toggleBio() {
     disableBioButton();
     rotateBioButton();
     displayBio(); // This function call toggles the class "opened" on the bioButton.
+    document.querySelector(".body-find-match").style.overflow = "visible";
     disableSwipe();
-    removeHtmlOverflowHidden();
     changeCardStylingPosition();
     scrollPage();
     setTimeout(() => {
       bioButton.addEventListener("click", toggleBio);
-      enableSwipe();
+      if (!bioButton.classList.contains("opened")) {
+        document.querySelector(".body-find-match").style.overflow = "hidden";
+        enableSwipe();
+      }
     }, 730);
   }
 }
@@ -342,15 +345,9 @@ function disableSwipe() {
 }
 
 function enableSwipe() {
-  if (!bioButton.classList.contains("opened")) {
-    isMobileDevice
-      ? card.addEventListener("touchstart", mouseDownOrTouchStart)
-      : card.addEventListener("mousedown", mouseDownOrTouchStart);
-  }
-}
-
-function removeHtmlOverflowHidden() {
-  document.querySelector("html").style.overflow = "visible";
+  isMobileDevice
+    ? card.addEventListener("touchstart", mouseDownOrTouchStart)
+    : card.addEventListener("mousedown", mouseDownOrTouchStart);
 }
 
 function displayBio() {

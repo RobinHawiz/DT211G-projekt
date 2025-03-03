@@ -89,6 +89,7 @@ header {
 }
 
 .body-find-match {
+  overflow: hidden;
   @include m.media-query(mobile-find-match) {
     background-color: v.$dark-color;
   }

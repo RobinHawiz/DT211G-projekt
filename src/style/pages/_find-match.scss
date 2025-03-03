@@ -8,17 +8,17 @@
   }
   .card-wrapper {
     position: relative;
-    height: 80rem;
+    height: 80vh; // Fallback
+    height: 80svh;
     width: 53.4rem;
     @include m.media-query(mobile-find-match) {
-      height: 85vh; // Fallback
-      height: 85svh;
       width: 100vw;
     }
     .card {
       position: absolute;
       width: 53.4rem;
-      height: 80rem;
+      height: 80vh; // Fallback
+      height: 80svh;
       border-radius: 2rem;
       overflow: hidden;
       z-index: 6;
@@ -32,7 +32,6 @@
         z-index: 7;
       }
       @include m.media-query(mobile-find-match) {
-        height: 85svh;
         width: 100vw;
       }
       .img-wrapper {
