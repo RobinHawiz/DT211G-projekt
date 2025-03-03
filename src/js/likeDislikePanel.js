@@ -100,6 +100,10 @@ function mouseMoveOrTouchMove(e) {
     });
   }, debounceDelay);
 
+  displayLikeOrDislikePanelButtons();
+}
+
+function displayLikeOrDislikePanelButtons() {
   // Dog is being disliked.
   if (windowCenterX - cardCenterX > 200) {
     isBeingDisliked = true;
@@ -202,9 +206,10 @@ function moveCard() {
     );
     // We only change card x coordinates and its rotation.
     card.style.transform = `translate3d(${xCoord}px, ${currentY}px, 0) rotate(${rotDeg}deg)`;
+    cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
+    changelikeDislikeIconOpacity();
     if (elapsedTime < duration)
       animationFrameId = window.requestAnimationFrame(moveCardOutOfView);
-    changelikeDislikeIconOpacity();
   }
   function moveCardToInitialPos(currentTime) {
     if (startTime === null) startTime = currentTime;
@@ -218,6 +223,7 @@ function moveCard() {
       duration
     );
     card.style.transform = `translate3d(${xCoord}px, ${yCoord}px, 0) rotate(${rotDeg}deg)`;
+    changelikeDislikeIconOpacity();
     if (elapsedTime < duration)
       window.requestAnimationFrame(moveCardToInitialPos);
     else {
@@ -226,7 +232,6 @@ function moveCard() {
         ? card.addEventListener("touchstart", mouseDownOrTouchStart)
         : card.addEventListener("mousedown", mouseDownOrTouchStart);
     }
-    changelikeDislikeIconOpacity();
   }
 }
 
