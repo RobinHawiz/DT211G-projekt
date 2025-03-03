@@ -23,7 +23,7 @@ let deltaX = 0,
 let windowCenterX;
 let cardCenterX;
 let debounceTimeout;
-const debounceDelay = 0; // Wait 12ms before calling the function
+const debounceDelay = isMobileDevice ? 10 : 0; // Wait 10ms before calling the function if a mobile device is being used.
 const filtersWrapper = document.querySelector(".filters-wrapper");
 const filters = document.querySelector(".filters");
 const filtersContainers = document.querySelectorAll(".filters .container");
