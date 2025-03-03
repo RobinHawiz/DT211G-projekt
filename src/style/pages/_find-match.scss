@@ -11,6 +11,7 @@
     height: 80rem;
     width: 53.4rem;
     @include m.media-query(mobile-find-match) {
+      height: 85vh; // Fallback
       height: 85svh;
       width: 100vw;
     }
