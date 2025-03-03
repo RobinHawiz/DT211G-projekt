@@ -206,7 +206,6 @@ function moveCard() {
     );
     // We only change card x coordinates and its rotation.
     card.style.transform = `translate3d(${xCoord}px, ${currentY}px, 0) rotate(${rotDeg}deg)`;
-    cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
     changelikeDislikeIconOpacity();
     if (elapsedTime < duration)
       animationFrameId = window.requestAnimationFrame(moveCardOutOfView);
