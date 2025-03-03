@@ -1,8 +1,8 @@
 {
-  "hash": "404fcc6ebf660e574f1b",
+  "hash": "e63b2cfa182f88a2b7df",
   "version": "5.97.1",
-  "time": 35739,
-  "builtAt": 1740944805524,
+  "time": 36788,
+  "builtAt": 1741008136411,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.468f34127f891e6602d7.js"
+      "js/findMatch.e14b287d1a2389867d81.js"
     ]
   },
   "assets": [
@@ -415,14 +415,14 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.468f34127f891e6602d7.js",
+      "name": "js/findMatch.e14b287d1a2389867d81.js",
       "size": 54797,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "468f34127f891e6602d7",
+        "contenthash": "e14b287d1a2389867d81",
         "javascriptModule": false,
         "minimized": true,
         "size": 54797
@@ -955,7 +955,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.468f34127f891e6602d7.js"
+        "js/findMatch.e14b287d1a2389867d81.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -968,7 +968,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "c92f6f492b2a0171144c",
+      "hash": "9ddf88b85e9eaa979ef6",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -6519,7 +6519,7 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.468f34127f891e6602d7.js",
+          "name": "js/findMatch.e14b287d1a2389867d81.js",
           "size": 54797
         }
       ],
@@ -6602,7 +6602,7 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.468f34127f891e6602d7.js",
+          "name": "js/findMatch.e14b287d1a2389867d81.js",
           "size": 54797
         }
       ],
@@ -6671,8 +6671,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "59335254c01e2c0d30af",
       "version": "5.97.1",
-      "time": 34969,
-      "builtAt": 1740944804779,
+      "time": 35960,
+      "builtAt": 1741008135610,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
