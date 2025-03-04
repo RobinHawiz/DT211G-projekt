@@ -1,8 +1,8 @@
 {
-  "hash": "79d129645f2fbbb92c9c",
+  "hash": "e228143850ce6d70f9f4",
   "version": "5.97.1",
-  "time": 35856,
-  "builtAt": 1741104055072,
+  "time": 35836,
+  "builtAt": 1741109412712,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.611369f98e08a2c6df2c.js"
+      "js/findMatch.0ac856e37cdfa8d32763.js"
     ]
   },
   "assets": [
@@ -415,17 +415,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.611369f98e08a2c6df2c.js",
-      "size": 54922,
+      "name": "js/findMatch.0ac856e37cdfa8d32763.js",
+      "size": 54785,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "611369f98e08a2c6df2c",
+        "contenthash": "0ac856e37cdfa8d32763",
         "javascriptModule": false,
         "minimized": true,
-        "size": 54922
+        "size": 54785
       },
       "chunkNames": [
         "findMatch"
@@ -941,9 +941,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2697069,
+      "size": 2700952,
       "sizes": {
-        "javascript": 85543,
+        "javascript": 89426,
         "asset": 2609583,
         "runtime": 1943
       },
@@ -955,7 +955,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.611369f98e08a2c6df2c.js"
+        "js/findMatch.0ac856e37cdfa8d32763.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -968,7 +968,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "3533dadcb36cae04f04a",
+      "hash": "82bed266cb76fa55ace8",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1769,7 +1769,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./findMatch",
-              "loc": "8:16-38",
+              "loc": "14:16-38",
               "moduleId": 434,
               "resolvedModuleId": 434
             },
@@ -1801,9 +1801,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 30498,
+          "size": 34381,
           "sizes": {
-            "javascript": 30498
+            "javascript": 34381
           },
           "built": true,
           "codeGenerated": true,
@@ -1857,7 +1857,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 5:0-7:53",
+            "Statement (VariableDeclaration) with side effects in source code at 11:0-13:53",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1
@@ -1932,7 +1932,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/cardGenerator",
-              "loc": "5:15-49",
+              "loc": "11:15-49",
               "moduleId": 434,
               "resolvedModuleId": 434
             }
@@ -3642,7 +3642,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./findMatch",
-          "loc": "8:16-38",
+          "loc": "14:16-38",
           "moduleId": 434,
           "resolvedModuleId": 434
         },
@@ -3870,7 +3870,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/cardGenerator",
-          "loc": "5:15-49",
+          "loc": "11:15-49",
           "moduleId": 434,
           "resolvedModuleId": 434
         }
@@ -4507,9 +4507,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 30498,
+      "size": 34381,
       "sizes": {
-        "javascript": 30498
+        "javascript": 34381
       },
       "built": true,
       "codeGenerated": true,
@@ -4562,7 +4562,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 5:0-7:53",
+        "Statement (VariableDeclaration) with side effects in source code at 11:0-13:53",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 1
@@ -6519,12 +6519,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.611369f98e08a2c6df2c.js",
-          "size": 54922
+          "name": "js/findMatch.0ac856e37cdfa8d32763.js",
+          "size": 54785
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54922,
+      "assetsSize": 54785,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6602,12 +6602,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.611369f98e08a2c6df2c.js",
-          "size": 54922
+          "name": "js/findMatch.0ac856e37cdfa8d32763.js",
+          "size": 54785
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54922,
+      "assetsSize": 54785,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6671,8 +6671,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "d957ca8ad2a8c553db46",
       "version": "5.97.1",
-      "time": 35039,
-      "builtAt": 1741104054281,
+      "time": 35004,
+      "builtAt": 1741109411907,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
