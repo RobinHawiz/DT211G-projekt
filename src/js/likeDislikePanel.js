@@ -46,7 +46,12 @@ setTimeout(() => {
 }, 300);
 
 function toggleFilters() {
-  if (areFiltersToggled) showFilteredCards();
+  if (areFiltersToggled) {
+    showFilteredCards();
+    document.querySelector(".body-find-match").style.overflow = "hidden";
+  } else {
+    document.querySelector(".body-find-match").style.overflow = "visible";
+  }
   areFiltersToggled = areFiltersToggled ? false : true;
   filtersWrapper.classList.toggle("show");
   filters.classList.toggle("show");
