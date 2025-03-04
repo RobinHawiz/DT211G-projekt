@@ -1,11 +1,16 @@
-const { generateCard } = require("./modules/cardGenerator");
+const {
+  generateCard,
+  generateInitialCard,
+} = require("./modules/cardGenerator");
 const { dogData } = require("./findMatch");
 
+let dogDataTemp = dogData;
 const like = document.querySelector(".like");
 const dislike = document.querySelector(".dislike");
 const toggleSettings = document.querySelector(".toggle-settings");
 let card = document.querySelector(".card.current");
 let bio = document.querySelector(".bio.current");
+let index = 2; // The two first elements are already being displayed from the dogData array, so we start at the third element.
 let newCardXCoord = 0;
 let newCardYCoord = 0;
 let cardRotationDeg = 0;
@@ -27,6 +32,7 @@ const debounceDelay = isMobileDevice ? 5 : 0; // Wait 10ms before calling the fu
 const filtersWrapper = document.querySelector(".filters-wrapper");
 const filters = document.querySelector(".filters");
 const filtersContainers = document.querySelectorAll(".filters .container");
+const breedGroupsLabels = document.querySelectorAll("ul.breed-groups label");
 
 toggleSettings.addEventListener("click", toggleFilters);
 
@@ -40,9 +46,51 @@ setTimeout(() => {
 }, 300);
 
 function toggleFilters() {
+  if (areFiltersToggled) showFilteredCards();
   areFiltersToggled = areFiltersToggled ? false : true;
   filtersWrapper.classList.toggle("show");
   filters.classList.toggle("show");
+}
+
+function showFilteredCards() {
+  if (!(dogDataTemp.length === 0)) {
+    // Remove cards and bios.
+    const currentCard = document.querySelector(".card.current");
+    const currentBio = document.querySelector(".bio.current");
+
+    currentCard.innerHTML = "";
+    currentBio.innerHTML = "";
+
+    const behindCard = document.querySelector(".card.behind");
+    const behindBio = document.querySelector(".bio.behind");
+
+    behindCard.remove();
+    behindBio.remove();
+  }
+
+  dogDataTemp = dogData;
+
+  // Create a new array with the requested dog groups to pull data from.
+
+  let selectedDogGroups = [];
+
+  breedGroupsLabels.forEach((label) => {
+    if (label.classList.contains("selected"))
+      selectedDogGroups.push(label.innerText);
+  });
+  dogDataTemp = dogDataTemp.filter((dog) =>
+    selectedDogGroups.includes(dog.group)
+  );
+
+  if (!(dogDataTemp.length === 0)) {
+    index = 0;
+    generateInitialCard(dogDataTemp[index++]);
+    generateCard(dogDataTemp[index++]);
+    bioArticles = document.querySelectorAll(".bio.current article");
+    enableAll();
+  } else {
+    disableAll();
+  }
 }
 
 function toggleSelected(e) {
@@ -143,7 +191,7 @@ function changelikeDislikeIconOpacity() {
   likeIcon.style.opacity = likeIconOpacity > 0.04 ? likeIconOpacity : 0;
 }
 
-function moveCard() {
+async function moveCard() {
   clearTimeout(debounceTimeout); // Clear debounce timeout to avoid an additional function call after releasing the card.
   let cardBeingMoved = document.querySelector(".card.current");
   if (isMobileDevice) {
@@ -234,7 +282,7 @@ function moveCard() {
   }
 }
 
-async function initNewCard() {
+function initNewCard() {
   // Remove the front card.
   card.classList.remove("current");
   bio.classList.remove("current");
@@ -262,9 +310,11 @@ async function initNewCard() {
     ? card.addEventListener("touchstart", mouseDownOrTouchStart)
     : card.addEventListener("mousedown", mouseDownOrTouchStart);
 
+  // If we run out of cards, set index back to the start of the dogDataTemp array.
+  if (index === dogDataTemp.length) index = 0;
+
   // Generate a new card that gets put behind the front card.
-  await generateCard(dogData[0]);
-  dogData.splice(0, 1);
+  generateCard(dogDataTemp[index++]);
 }
 
 bioButton.addEventListener("click", toggleBio);
@@ -276,19 +326,25 @@ function toggleBio() {
     displayBio(); // This function call toggles the class "opened" on the bioButton.
     document.querySelector(".body-find-match").style.overflow = "visible";
     disableSwipe();
+    disableFilters();
     changeCardStylingPosition();
     scrollPage();
     setTimeout(() => {
-      bioButton.addEventListener("click", toggleBio);
+      enableBioButton();
       if (!bioButton.classList.contains("opened")) {
         document.querySelector(".body-find-match").style.overflow = "hidden";
         enableSwipe();
+        enableFilters();
       }
     }, 730);
   }
 }
 
-like.addEventListener("click", () => {
+like.addEventListener("click", likeCard);
+
+dislike.addEventListener("click", dislikeCard);
+
+function likeCard() {
   if (!areFiltersToggled) {
     let timeOutDuration = 730;
     bioButton.classList.contains("opened")
@@ -301,9 +357,9 @@ like.addEventListener("click", () => {
       moveCard();
     }, timeOutDuration);
   }
-});
+}
 
-dislike.addEventListener("click", () => {
+function dislikeCard() {
   if (!areFiltersToggled) {
     let timeOutDuration = 730;
     bioButton.classList.contains("opened")
@@ -316,7 +372,37 @@ dislike.addEventListener("click", () => {
       moveCard();
     }, timeOutDuration);
   }
-});
+}
+
+function disableAll() {
+  disableSwipe();
+  disableBioButton();
+  disableLike();
+  disableDislike();
+}
+
+function enableAll() {
+  enableSwipe();
+  enableBioButton();
+  enableLike();
+  enableDislike();
+}
+
+function enableLike() {
+  like.addEventListener("click", likeCard);
+}
+
+function disableLike() {
+  like.removeEventListener("click", likeCard);
+}
+
+function enableDislike() {
+  dislike.addEventListener("click", dislikeCard);
+}
+
+function disableDislike() {
+  dislike.removeEventListener("click", dislikeCard);
+}
 
 function resetCardValues() {
   newCardXCoord = 0;
@@ -331,6 +417,10 @@ function disableBioButton() {
   bioButton.removeEventListener("click", toggleBio);
 }
 
+function enableBioButton() {
+  bioButton.addEventListener("click", toggleBio);
+}
+
 function rotateBioButton() {
   // true => open animation, false => close animation
   const animation = !bioButton.classList.contains("opened")
@@ -340,6 +430,14 @@ function rotateBioButton() {
   bioButton.querySelector(
     "img"
   ).style.animation = `0.4s ease forwards ${animation}`;
+}
+
+function disableFilters() {
+  toggleSettings.removeEventListener("click", toggleFilters);
+}
+
+function enableFilters() {
+  toggleSettings.addEventListener("click", toggleFilters);
 }
 
 function disableSwipe() {

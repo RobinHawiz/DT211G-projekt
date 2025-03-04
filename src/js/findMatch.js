@@ -4,9 +4,8 @@ export let dogData;
 
 async function init() {
   dogData = await getDogData();
-  await generateInitialCard(dogData[0]);
-  await generateCard(dogData[1]);
-  dogData.splice(0, 2);
+  generateInitialCard(dogData[0]);
+  generateCard(dogData[1]);
   require("./likeDislikePanel");
 }
 
