@@ -1,8 +1,8 @@
 {
-  "hash": "07778872ea9f30363c92",
+  "hash": "c82a22952b1f886a1d5b",
   "version": "5.97.1",
-  "time": 35671,
-  "builtAt": 1741085794733,
+  "time": 36801,
+  "builtAt": 1741096196558,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.8b0e902305e93f3fb11e.js"
+      "js/findMatch.2d8de1b8baa4b831ee04.js"
     ]
   },
   "assets": [
@@ -415,17 +415,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.8b0e902305e93f3fb11e.js",
-      "size": 54673,
+      "name": "js/findMatch.2d8de1b8baa4b831ee04.js",
+      "size": 54785,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "8b0e902305e93f3fb11e",
+        "contenthash": "2d8de1b8baa4b831ee04",
         "javascriptModule": false,
         "minimized": true,
-        "size": 54673
+        "size": 54785
       },
       "chunkNames": [
         "findMatch"
@@ -941,9 +941,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2696234,
+      "size": 2696899,
       "sizes": {
-        "javascript": 84708,
+        "javascript": 85373,
         "asset": 2609583,
         "runtime": 1943
       },
@@ -955,7 +955,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.8b0e902305e93f3fb11e.js"
+        "js/findMatch.2d8de1b8baa4b831ee04.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -968,7 +968,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "b21fff7a55abac81f6d4",
+      "hash": "47d4cd89e63ee2c11544",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1047,7 +1047,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "120:1119-1132",
+              "loc": "97:1111-1124",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1216,7 +1216,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "120:305-313",
+              "loc": "97:297-305",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1298,7 +1298,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dislike.svg",
-              "loc": "111:282-293",
+              "loc": "88:274-285",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1380,7 +1380,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "120:134-141",
+              "loc": "97:126-133",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1462,7 +1462,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "117:147-155",
+              "loc": "94:139-147",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1544,7 +1544,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/like.svg",
-              "loc": "111:120-128",
+              "loc": "88:112-120",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1713,7 +1713,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "120:600-609",
+              "loc": "97:592-601",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1727,9 +1727,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 11515,
+          "size": 10799,
           "sizes": {
-            "javascript": 11515
+            "javascript": 10799
           },
           "built": true,
           "codeGenerated": true,
@@ -1769,7 +1769,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./findMatch",
-              "loc": "7:16-38",
+              "loc": "8:16-38",
               "moduleId": 434,
               "resolvedModuleId": 434
             },
@@ -1801,9 +1801,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 27603,
+          "size": 30328,
           "sizes": {
-            "javascript": 27603
+            "javascript": 30328
           },
           "built": true,
           "codeGenerated": true,
@@ -1849,7 +1849,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./likeDislikePanel",
-              "loc": "22:10-39",
+              "loc": "25:10-39",
               "moduleId": 528,
               "resolvedModuleId": 528
             }
@@ -1857,7 +1857,7 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 5:0-6:39",
+            "Statement (VariableDeclaration) with side effects in source code at 5:0-7:53",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 1
@@ -1866,9 +1866,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 18272,
+          "size": 16928,
           "sizes": {
-            "javascript": 18272
+            "javascript": 16928
           },
           "built": true,
           "codeGenerated": true,
@@ -1950,9 +1950,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 17978,
+              "size": 16634,
               "sizes": {
-                "javascript": 17978
+                "javascript": 16634
               },
               "built": true,
               "codeGenerated": false,
@@ -2069,7 +2069,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/info.svg",
-                  "loc": "117:147-155",
+                  "loc": "94:139-147",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2151,7 +2151,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dog-attributes.svg",
-                  "loc": "120:134-141",
+                  "loc": "97:126-133",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2233,7 +2233,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/cake-birthday.svg",
-                  "loc": "120:305-313",
+                  "loc": "97:297-305",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2315,7 +2315,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/scale.svg",
-                  "loc": "120:600-609",
+                  "loc": "97:592-601",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2397,7 +2397,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/bacterium.svg",
-                  "loc": "120:1119-1132",
+                  "loc": "97:1111-1124",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2479,7 +2479,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/like.svg",
-                  "loc": "111:120-128",
+                  "loc": "88:112-120",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2561,7 +2561,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dislike.svg",
-                  "loc": "111:282-293",
+                  "loc": "88:274-285",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -3601,9 +3601,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 11515,
+      "size": 10799,
       "sizes": {
-        "javascript": 11515
+        "javascript": 10799
       },
       "built": true,
       "codeGenerated": true,
@@ -3642,7 +3642,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./findMatch",
-          "loc": "7:16-38",
+          "loc": "8:16-38",
           "moduleId": 434,
           "resolvedModuleId": 434
         },
@@ -3805,9 +3805,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 18272,
+      "size": 16928,
       "sizes": {
-        "javascript": 18272
+        "javascript": 16928
       },
       "built": true,
       "codeGenerated": true,
@@ -3888,9 +3888,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 17978,
+          "size": 16634,
           "sizes": {
-            "javascript": 17978
+            "javascript": 16634
           },
           "built": true,
           "codeGenerated": false,
@@ -4005,7 +4005,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "117:147-155",
+              "loc": "94:139-147",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4086,7 +4086,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "120:134-141",
+              "loc": "97:126-133",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4167,7 +4167,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "120:305-313",
+              "loc": "97:297-305",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4248,7 +4248,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "120:600-609",
+              "loc": "97:592-601",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4329,7 +4329,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "120:1119-1132",
+              "loc": "97:1111-1124",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4410,7 +4410,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/like.svg",
-              "loc": "111:120-128",
+              "loc": "88:112-120",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4491,7 +4491,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dislike.svg",
-              "loc": "111:282-293",
+              "loc": "88:274-285",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4507,9 +4507,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 27603,
+      "size": 30328,
       "sizes": {
-        "javascript": 27603
+        "javascript": 30328
       },
       "built": true,
       "codeGenerated": true,
@@ -4554,7 +4554,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./likeDislikePanel",
-          "loc": "22:10-39",
+          "loc": "25:10-39",
           "moduleId": 528,
           "resolvedModuleId": 528
         }
@@ -4562,7 +4562,7 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 5:0-6:39",
+        "Statement (VariableDeclaration) with side effects in source code at 5:0-7:53",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 1
@@ -5127,7 +5127,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/info.svg",
-          "loc": "117:147-155",
+          "loc": "94:139-147",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5208,7 +5208,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dog-attributes.svg",
-          "loc": "120:134-141",
+          "loc": "97:126-133",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5289,7 +5289,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/cake-birthday.svg",
-          "loc": "120:305-313",
+          "loc": "97:297-305",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5370,7 +5370,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/scale.svg",
-          "loc": "120:600-609",
+          "loc": "97:592-601",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5451,7 +5451,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/bacterium.svg",
-          "loc": "120:1119-1132",
+          "loc": "97:1111-1124",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5532,7 +5532,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/like.svg",
-          "loc": "111:120-128",
+          "loc": "88:112-120",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5613,7 +5613,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dislike.svg",
-          "loc": "111:282-293",
+          "loc": "88:274-285",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -6519,12 +6519,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.8b0e902305e93f3fb11e.js",
-          "size": 54673
+          "name": "js/findMatch.2d8de1b8baa4b831ee04.js",
+          "size": 54785
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54673,
+      "assetsSize": 54785,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6602,12 +6602,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.8b0e902305e93f3fb11e.js",
-          "size": 54673
+          "name": "js/findMatch.2d8de1b8baa4b831ee04.js",
+          "size": 54785
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54673,
+      "assetsSize": 54785,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6671,8 +6671,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "d957ca8ad2a8c553db46",
       "version": "5.97.1",
-      "time": 34896,
-      "builtAt": 1741085793983,
+      "time": 35989,
+      "builtAt": 1741096195771,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
