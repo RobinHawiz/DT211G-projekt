@@ -102,7 +102,6 @@ isMobileDevice
   : card.addEventListener("mousedown", mouseDownOrTouchStart);
 
 function mouseDownOrTouchStart(e) {
-  e.preventDefault(); // (For mobile) Disables: zooming with two fingers, pull down to refreshing the page, click events, etc.
   like.classList.toggle("scale-down");
   dislike.classList.toggle("scale-down");
   toggleSettings.classList.toggle("scale-down");
