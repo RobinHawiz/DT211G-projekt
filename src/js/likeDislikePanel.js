@@ -1,15 +1,38 @@
+/**
+ * @file Handles the interaction with each individual dog card.
+ * @requires module:cardGenerator
+ * @requires findMatch.dogData
+ */
+
 const {
   generateCard,
   generateInitialCard,
 } = require("./modules/cardGenerator");
 const { dogData } = require("./findMatch");
 
+/**
+ * Copying dogData into an array that we can manipulate.
+ */
 let dogDataTemp = dogData;
+
+/**
+ * DOM element references.
+ */
 const like = document.querySelector(".like");
 const dislike = document.querySelector(".dislike");
 const toggleSettings = document.querySelector(".toggle-settings");
 let card = document.querySelector(".card.current");
 let bio = document.querySelector(".bio.current");
+let bioArticles = document.querySelectorAll(".bio article");
+const bioButton = document.querySelector("button.toggle-bio");
+const filtersWrapper = document.querySelector(".filters-wrapper");
+const filters = document.querySelector(".filters");
+const filtersContainers = document.querySelectorAll(".filters .container");
+const breedGroupsLabels = document.querySelectorAll("ul.breed-groups label");
+
+/**
+ * Tracking variables.
+ */
 let index = 2; // The two first elements are already being displayed from the dogData array, so we start at the third element.
 let newCardXCoord = 0;
 let newCardYCoord = 0;
@@ -19,8 +42,6 @@ let isBeingDisliked = false;
 let likeOrDislikeButtonWasClicked = false;
 let areFiltersToggled = false;
 let isMobileDevice = userDeviceIsMobile();
-let bioArticles = document.querySelectorAll(".bio article");
-const bioButton = document.querySelector("button.toggle-bio");
 let deltaX = 0,
   deltaY = 0,
   startX = 0,
@@ -29,22 +50,25 @@ let windowCenterX;
 let cardCenterX;
 let debounceTimeout;
 const debounceDelay = isMobileDevice ? 5 : 0; // Wait 10ms before calling the function if a mobile device is being used.
-const filtersWrapper = document.querySelector(".filters-wrapper");
-const filters = document.querySelector(".filters");
-const filtersContainers = document.querySelectorAll(".filters .container");
-const breedGroupsLabels = document.querySelectorAll("ul.breed-groups label");
 
-toggleSettings.addEventListener("click", toggleFilters);
-
-filtersContainers.forEach((container) => {
-  container.addEventListener("click", toggleSelected);
-});
-
-// This is done because the filters are being hidden from showing in the beginning. When the filters are out of view, then we apply opacity 1.
+/**
+ * This is done because the filters are being hidden from showing in the beginning. When the filters are out of view, then we apply opacity 1.
+ */
 setTimeout(() => {
   filters.style.opacity = 1;
 }, 300);
 
+/**
+ * Event listeners for settings and filters.
+ */
+toggleSettings.addEventListener("click", toggleFilters);
+filtersContainers.forEach((container) => {
+  container.addEventListener("click", toggleSelected);
+});
+
+/**
+ * Toggles the filter settings menu.
+ */
 function toggleFilters() {
   if (areFiltersToggled) showFilteredCards();
   areFiltersToggled = areFiltersToggled ? false : true;
@@ -52,6 +76,9 @@ function toggleFilters() {
   filters.classList.toggle("show");
 }
 
+/**
+ * Filters and displays relevant dog cards based on selected groups.
+ */
 function showFilteredCards() {
   if (!(dogDataTemp.length === 0)) {
     // Remove cards and bios.
@@ -67,6 +94,8 @@ function showFilteredCards() {
     behindCard.remove();
     behindBio.remove();
   }
+
+  // Reset the dogDataTemp array with the original data.
 
   dogDataTemp = dogData;
 
@@ -93,14 +122,25 @@ function showFilteredCards() {
   }
 }
 
+/**
+ * Toggles selection state on clicked filter elements.
+ * @param {Event} e - The event object.
+ */
 function toggleSelected(e) {
   e.target.classList.toggle("selected");
 }
 
+/**
+ * Handles card movement interaction for mobile and desktop devices.
+ */
 isMobileDevice
   ? card.addEventListener("touchstart", mouseDownOrTouchStart)
   : card.addEventListener("mousedown", mouseDownOrTouchStart);
 
+/**
+ * Handles mouse/touch start event.
+ * @param {Event} e - The event object.
+ */
 function mouseDownOrTouchStart(e) {
   e.preventDefault(); // (For mobile) Disables: zooming with two fingers, pull down to refreshing the page, click events, etc.
   like.classList.toggle("scale-down");
@@ -122,6 +162,10 @@ function mouseDownOrTouchStart(e) {
   }
 }
 
+/**
+ * Handles movement logic for moving the cards around with mouse or touch interactions.
+ * @param {Event} e - The event object.
+ */
 function mouseMoveOrTouchMove(e) {
   clearTimeout(debounceTimeout);
 
@@ -151,6 +195,9 @@ function mouseMoveOrTouchMove(e) {
   displayLikeOrDislikePanelButtons();
 }
 
+/**
+ * Displays like or dislike panel buttons based on card movement.
+ */
 function displayLikeOrDislikePanelButtons() {
   // Dog is being disliked.
   if (windowCenterX - cardCenterX > 200) {
@@ -176,6 +223,9 @@ function displayLikeOrDislikePanelButtons() {
   }
 }
 
+/**
+ * Adjusts the opacity of like/dislike icons based on card movement.
+ */
 function changelikeDislikeIconOpacity() {
   const likeIcon = document.querySelector(".card.current .like-icon");
   const dislikeIcon = document.querySelector(".card.current .dislike-icon");
@@ -191,6 +241,9 @@ function changelikeDislikeIconOpacity() {
   likeIcon.style.opacity = likeIconOpacity > 0.04 ? likeIconOpacity : 0;
 }
 
+/**
+ * Moves the card after user interaction (swipe or button press).
+ */
 async function moveCard() {
   clearTimeout(debounceTimeout); // Clear debounce timeout to avoid an additional function call after releasing the card.
   let cardBeingMoved = document.querySelector(".card.current");
@@ -282,6 +335,9 @@ async function moveCard() {
   }
 }
 
+/**
+ * Removes the card that is currently being moved off-screen, puts forward the card that was behind it and initializes a new card.
+ */
 function initNewCard() {
   // Remove the front card.
   card.classList.remove("current");
@@ -317,8 +373,15 @@ function initNewCard() {
   generateCard(dogDataTemp[index++]);
 }
 
+/**
+ * Toggles the bio section when the bio button is clicked.
+ */
 bioButton.addEventListener("click", toggleBio);
 
+/**
+ * Handles the bio toggle animation and visibility changes.
+ * This function manages several UI changes, such as enabling/disabling swipe, changing card styling, controlling overflow, page scroll behavior, etc.
+ */
 function toggleBio() {
   if (!areFiltersToggled) {
     disableBioButton();
@@ -340,13 +403,22 @@ function toggleBio() {
   }
 }
 
+/**
+ * Toggles the bio section (if opened) and moves the card when the like button is clicked.
+ */
 like.addEventListener("click", likeCard);
 
+/**
+ * Toggles the bio section (if opened) and moves the card when the dislike button is clicked.
+ */
 dislike.addEventListener("click", dislikeCard);
 
+/**
+ * Likes the card by moving it off screen. However if the bio is opened, it will first close the bio and then animate the card away.
+ */
 function likeCard() {
   if (!areFiltersToggled) {
-    let timeOutDuration = 730;
+    let timeOutDuration = 730; // If we need to close the bio, then we need to wait 730ms in order for it to close. Only then can we call moveCard().
     bioButton.classList.contains("opened")
       ? toggleBio()
       : (timeOutDuration = 0);
@@ -359,6 +431,9 @@ function likeCard() {
   }
 }
 
+/**
+ * Works in a similary way as the like function, but for disliking a card.
+ */
 function dislikeCard() {
   if (!areFiltersToggled) {
     let timeOutDuration = 730;
@@ -374,6 +449,9 @@ function dislikeCard() {
   }
 }
 
+/**
+ * Disables all interactions including swipe, bio button, like, and dislike buttons.
+ */
 function disableAll() {
   disableSwipe();
   disableBioButton();
@@ -381,6 +459,9 @@ function disableAll() {
   disableDislike();
 }
 
+/**
+ * Enables all interactions including swipe, bio button, like, and dislike buttons.
+ */
 function enableAll() {
   enableSwipe();
   enableBioButton();
@@ -388,22 +469,37 @@ function enableAll() {
   enableDislike();
 }
 
+/**
+ * Enables the like button functionality.
+ */
 function enableLike() {
   like.addEventListener("click", likeCard);
 }
 
+/**
+ * Disables the like button functionality.
+ */
 function disableLike() {
   like.removeEventListener("click", likeCard);
 }
 
+/**
+ * Enables the dislike button functionality.
+ */
 function enableDislike() {
   dislike.addEventListener("click", dislikeCard);
 }
 
+/**
+ * Disables the dislike button functionality.
+ */
 function disableDislike() {
   dislike.removeEventListener("click", dislikeCard);
 }
 
+/**
+ * Resets all card-related positional values and different button states.
+ */
 function resetCardValues() {
   newCardXCoord = 0;
   newCardYCoord = 0;
@@ -413,14 +509,23 @@ function resetCardValues() {
   likeOrDislikeButtonWasClicked = false;
 }
 
+/**
+ * Disables the bio button click event.
+ */
 function disableBioButton() {
   bioButton.removeEventListener("click", toggleBio);
 }
 
+/**
+ * Enables the bio button click event.
+ */
 function enableBioButton() {
   bioButton.addEventListener("click", toggleBio);
 }
 
+/**
+ * Rotates the bio button based on whether the bio is opened or closed.
+ */
 function rotateBioButton() {
   // true => open animation, false => close animation
   const animation = !bioButton.classList.contains("opened")
@@ -432,26 +537,42 @@ function rotateBioButton() {
   ).style.animation = `0.4s ease forwards ${animation}`;
 }
 
+/**
+ * Disables the filter button click event.
+ */
+
 function disableFilters() {
   toggleSettings.removeEventListener("click", toggleFilters);
 }
 
+/**
+ * Enables the filter button click event.
+ */
 function enableFilters() {
   toggleSettings.addEventListener("click", toggleFilters);
 }
 
+/**
+ * Disables the swipe functionality on the card.
+ */
 function disableSwipe() {
   isMobileDevice
     ? card.removeEventListener("touchstart", mouseDownOrTouchStart)
     : card.removeEventListener("mousedown", mouseDownOrTouchStart);
 }
 
+/**
+ * Enables the swipe functionality on the card.
+ */
 function enableSwipe() {
   isMobileDevice
     ? card.addEventListener("touchstart", mouseDownOrTouchStart)
     : card.addEventListener("mousedown", mouseDownOrTouchStart);
 }
 
+/**
+ * Displays or hides the bio section by toggling its visibility.
+ */
 function displayBio() {
   !bioButton.classList.contains("opened") ? showBio() : hideBio();
   bioButton.classList.toggle("opened");
@@ -460,14 +581,23 @@ function displayBio() {
   });
 }
 
+/**
+ * Shows the bio section.
+ */
 function showBio() {
   bio.style.display = "flex";
 }
 
+/**
+ * Hides the bio section after a short delay. Needs to be in sync with the function changeCardStylingPosition.
+ */
 function hideBio() {
   setTimeout(() => (bio.style.display = "none"), 730);
 }
 
+/**
+ * Changes the card styling position based on the bio button state. Needs to be in sync with the function hideBio.
+ */
 function changeCardStylingPosition() {
   if (bioButton.classList.contains("opened")) {
     card.style.position = "relative";
@@ -476,6 +606,9 @@ function changeCardStylingPosition() {
   }
 }
 
+/**
+ * Scrolls the page to the bio section if opened, or back to the top if closed.
+ */
 function scrollPage() {
   // Scroll to the bio element that opened
   if (bioButton.classList.contains("opened")) {
@@ -522,26 +655,55 @@ function scrollPage() {
   }
 }
 
-/*
-Got this function from: https://spicyyoghurt.com/tools/easing-functions
-t = Time - Amount of time that has passed since the beginning of the animation. Usually starts at 0 and is slowly increased using a game loop or other update function.
-b = Beginning value - The starting point of the animation. In my case it'll be the window.scrollY position.
-c = Change in value - The amount of change needed to go from starting point to end point. In my case it'll be the distance between the target element and the window.scrollY position.
-d = Duration - Amount of time the animation will take. 
-*/
+// Got these functions from: https://spicyyoghurt.com/tools/easing-functions
+
+/**
+ * Easing function for smooth scrolling.
+ *
+ * @param {number} t - The current time.
+ * @param {number} b - The beginning value of the animation.
+ * @param {number} c - The change in value during the animation.
+ * @param {number} d - The duration of the animation.
+ * @returns {number} - The eased value.
+ */
 function easeOutQuint(t, b, c, d) {
   return c * ((t = t / d - 1) * t * t * t * t + 1) + b + 2;
 }
 
+/**
+ * Easing function for moving the card out of view animation.
+ *
+ * @param {number} t - The current time.
+ * @param {number} b - The beginning value of the animation.
+ * @param {number} c - The change in value during the animation.
+ * @param {number} d - The duration of the animation.
+ * @returns {number} - The eased value.
+ */
+
 function easeOutQuintCard(t, b, c, d) {
   return c * ((t = t / d - 1) * t * t * t * t + 1) + b;
 }
+
+/**
+ * Easing function for moving the card to its initial position animation.
+ *
+ * @param {number} t - The current time.
+ * @param {number} b - The beginning value of the animation.
+ * @param {number} c - The change in value during the animation.
+ * @param {number} d - The duration of the animation.
+ * @returns {number} - The eased value.
+ */
 
 function easeOutBack(t, b, c, d) {
   let s = 1.2;
   return c * ((t = t / d - 1) * t * ((s + 1) * t + s) + 1) + b;
 }
 
+/**
+ * Detects if the user's device is mobile.
+ *
+ * @returns {boolean} - True if the device is mobile, false otherwise.
+ */
 function userDeviceIsMobile() {
   let check = false;
   // Got this from http://detectmobilebrowsers.com/
