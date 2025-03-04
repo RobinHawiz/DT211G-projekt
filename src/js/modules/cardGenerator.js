@@ -23,7 +23,7 @@ export async function getDogData() {
   return completeDogData;
 }
 
-export async function generateCard(dogData) {
+export function generateCard(dogData) {
   const cardWrapper = document.querySelector(".card-wrapper");
 
   const cardBehind = document.querySelector(".card.current").cloneNode(true);
@@ -62,7 +62,7 @@ export async function generateCard(dogData) {
 }
 
 // The first card has to be generated this way because we need the card element and bio element to already exist in our HTML.
-export async function generateInitialCard(dogData) {
+export function generateInitialCard(dogData) {
   const card = document.querySelector(".card");
   const bio = document.querySelector(".bio");
 
