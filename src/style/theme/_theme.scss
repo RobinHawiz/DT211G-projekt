@@ -64,9 +64,6 @@ header {
   border: none;
   .line {
     background-color: v.$dark-color;
-    @include m.media-query(mobile-find-match) {
-      background-color: v.$light-color;
-    }
     &.toggle {
       background-color: v.$light-color;
     }
@@ -102,6 +99,33 @@ header {
         @include m.media-query(mobile-find-match) {
           color: v.$light-color;
         }
+      }
+      &.nav-opened {
+        a {
+          color: v.$dark-color;
+        }
+      }
+    }
+    nav {
+      background-color: v.$light-color;
+      a {
+        color: v.$dark-color;
+        .a-text {
+          position: relative;
+          &::before {
+            background-color: v.$dark-color;
+          }
+        }
+      }
+    }
+  }
+  .doggy-burger {
+    .line {
+      @include m.media-query(mobile-find-match) {
+        background-color: v.$light-color;
+      }
+      &.toggle {
+        background-color: v.$dark-color;
       }
     }
   }
