@@ -230,6 +230,7 @@
       }
       &.show {
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch; // For Safari because overflow-y: auto does not work.
       }
       .filters {
         position: absolute;
