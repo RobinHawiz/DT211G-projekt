@@ -10,22 +10,16 @@ import dislikeIcon from "../../assets/dislike.svg";
 
 export async function getDogData() {
   let completeDogData;
-  localStorage.clear();
-  if (localStorage.getItem("dogData") === null) {
-    //Get data
-    let dogBreedsData = [await fetchData("https://dogapi.dog/api/v2/breeds")];
-    let tempDogBreedsData = dogBreedsData[0];
-    while (tempDogBreedsData.links.next != undefined) {
-      tempDogBreedsData = await fetchData(tempDogBreedsData.links.next);
-      dogBreedsData.push(tempDogBreedsData);
-    }
-    const dogGroupsData = await fetchData("https://dogapi.dog/api/v2/groups");
-    //Convert data
-    completeDogData = await createDogDataCards(dogBreedsData, dogGroupsData);
-    localStorage.setItem("dogData", JSON.stringify(completeDogData));
-  } else {
-    completeDogData = JSON.parse(localStorage.getItem("dogData"));
+  //Get data
+  let dogBreedsData = [await fetchData("https://dogapi.dog/api/v2/breeds")];
+  let tempDogBreedsData = dogBreedsData[0];
+  while (tempDogBreedsData.links.next != undefined) {
+    tempDogBreedsData = await fetchData(tempDogBreedsData.links.next);
+    dogBreedsData.push(tempDogBreedsData);
   }
+  const dogGroupsData = await fetchData("https://dogapi.dog/api/v2/groups");
+  //Convert data
+  completeDogData = await createDogDataCards(dogBreedsData, dogGroupsData);
   return completeDogData;
 }
 
