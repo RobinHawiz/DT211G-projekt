@@ -1,8 +1,8 @@
 {
-  "hash": "e228143850ce6d70f9f4",
+  "hash": "8d24a473c6c8fe27a5a7",
   "version": "5.97.1",
-  "time": 35836,
-  "builtAt": 1741109412712,
+  "time": 36936,
+  "builtAt": 1741191862540,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.0ac856e37cdfa8d32763.js"
+      "js/findMatch.4e440aec02d5fdc7acde.js"
     ]
   },
   "assets": [
@@ -285,6 +285,31 @@
     },
     {
       "type": "asset",
+      "name": "js/442.1d6049192e3834929cbc.js",
+      "size": 135930,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "immutable": true,
+        "contenthash": "1d6049192e3834929cbc",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 135930
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [
+        442
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
       "name": "img/jamie-street-unsplash591.webp",
       "size": 125600,
       "emitted": true,
@@ -415,17 +440,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.0ac856e37cdfa8d32763.js",
-      "size": 54785,
+      "name": "js/findMatch.4e440aec02d5fdc7acde.js",
+      "size": 56947,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "0ac856e37cdfa8d32763",
+        "contenthash": "4e440aec02d5fdc7acde",
         "javascriptModule": false,
         "minimized": true,
-        "size": 54785
+        "size": 56947
       },
       "chunkNames": [
         "findMatch"
@@ -941,11 +966,11 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2700952,
+      "size": 2708474,
       "sizes": {
-        "javascript": 89426,
+        "javascript": 91591,
         "asset": 2609583,
-        "runtime": 1943
+        "runtime": 7300
       },
       "names": [
         "findMatch"
@@ -955,7 +980,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.0ac856e37cdfa8d32763.js"
+        "js/findMatch.4e440aec02d5fdc7acde.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -968,12 +993,14 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "82bed266cb76fa55ace8",
+      "hash": "2dbee6da08b9084fafc4",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
       "parents": [],
-      "children": [],
+      "children": [
+        442
+      ],
       "modules": [
         {
           "type": "module",
@@ -1047,7 +1074,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "97:1111-1124",
+              "loc": "142:1111-1124",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1216,7 +1243,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "97:297-305",
+              "loc": "142:297-305",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1298,7 +1325,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dislike.svg",
-              "loc": "88:274-285",
+              "loc": "133:274-285",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1380,7 +1407,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "97:126-133",
+              "loc": "142:126-133",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1462,7 +1489,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "94:139-147",
+              "loc": "139:139-147",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1544,7 +1571,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/like.svg",
-              "loc": "88:112-120",
+              "loc": "133:112-120",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1713,7 +1740,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "97:592-601",
+              "loc": "142:592-601",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1727,9 +1754,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 10799,
+          "size": 11007,
           "sizes": {
-            "javascript": 10799
+            "javascript": 11007
           },
           "built": true,
           "codeGenerated": true,
@@ -1793,7 +1820,7 @@
             "dogData"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 5:0-7:53"
+            "Statement (VariableDeclaration) with side effects in source code at 10:0-13:39"
           ],
           "depth": 0
         },
@@ -1801,9 +1828,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 34381,
+          "size": 34380,
           "sizes": {
-            "javascript": 34381
+            "javascript": 34380
           },
           "built": true,
           "codeGenerated": true,
@@ -1849,7 +1876,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./likeDislikePanel",
-              "loc": "25:10-39",
+              "loc": "34:10-39",
               "moduleId": 528,
               "resolvedModuleId": 528
             }
@@ -1866,9 +1893,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 16928,
+          "size": 18886,
           "sizes": {
-            "javascript": 16928
+            "javascript": 18886
           },
           "built": true,
           "codeGenerated": true,
@@ -1904,21 +1931,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/cardGenerator",
-              "loc": "5:15-49",
-              "moduleId": 528,
-              "resolvedModuleId": 528
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
-              "module": "./src/js/findMatch.js",
-              "moduleName": "./src/js/findMatch.js",
-              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
-              "resolvedModule": "./src/js/findMatch.js",
-              "type": "cjs require",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/cardGenerator",
-              "loc": "8:16-50",
+              "loc": "10:15-49",
               "moduleId": 528,
               "resolvedModuleId": 528
             },
@@ -1950,9 +1963,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 16634,
+              "size": 18592,
               "sizes": {
-                "javascript": 16634
+                "javascript": 18592
               },
               "built": true,
               "codeGenerated": false,
@@ -2069,7 +2082,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/info.svg",
-                  "loc": "94:139-147",
+                  "loc": "139:139-147",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2151,7 +2164,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dog-attributes.svg",
-                  "loc": "97:126-133",
+                  "loc": "142:126-133",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2233,7 +2246,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/cake-birthday.svg",
-                  "loc": "97:297-305",
+                  "loc": "142:297-305",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2315,7 +2328,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/scale.svg",
-                  "loc": "97:592-601",
+                  "loc": "142:592-601",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2397,7 +2410,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/bacterium.svg",
-                  "loc": "97:1111-1124",
+                  "loc": "142:1111-1124",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2479,7 +2492,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/like.svg",
-                  "loc": "88:112-120",
+                  "loc": "133:112-120",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2561,7 +2574,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dislike.svg",
-                  "loc": "88:274-285",
+                  "loc": "133:274-285",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2944,6 +2957,42 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
+          "size": 0,
+          "sizes": {
+            "runtime": 0
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/css loading",
+          "name": "webpack/runtime/css loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
           "size": 313,
           "sizes": {
             "runtime": 313
@@ -2954,6 +3003,114 @@
           "cached": false,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 336,
+          "sizes": {
+            "runtime": 336
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/ensure chunk",
+          "name": "webpack/runtime/ensure chunk",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 206,
+          "sizes": {
+            "runtime": 206
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get javascript chunk filename",
+          "name": "webpack/runtime/get javascript chunk filename",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 168,
+          "sizes": {
+            "runtime": 168
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/get mini-css chunk filename",
+          "name": "webpack/runtime/get mini-css chunk filename",
           "nameForCondition": null,
           "index": null,
           "preOrderIndex": null,
@@ -3026,6 +3183,78 @@
           "cached": false,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 3120,
+          "sizes": {
+            "runtime": 3120
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/jsonp chunk loading",
+          "name": "webpack/runtime/jsonp chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            57
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 1527,
+          "sizes": {
+            "runtime": 1527
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/load script",
+          "name": "webpack/runtime/load script",
           "nameForCondition": null,
           "index": null,
           "preOrderIndex": null,
@@ -3133,12 +3362,122 @@
     },
     {
       "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 148204,
+      "sizes": {
+        "javascript": 148204
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "findMatch"
+      ],
+      "files": [
+        "js/442.1d6049192e3834929cbc.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "81d5442e3613e497ec69",
+      "childrenByOrder": {},
+      "id": 442,
+      "siblings": [],
+      "parents": [
+        57
+      ],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 148204,
+          "sizes": {
+            "javascript": 148204
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+          "name": "./src/js/modules/backupDogData.js",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+          "index": 18,
+          "preOrderIndex": 18,
+          "index2": 18,
+          "postOrderIndex": 18,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "issuerName": "./src/js/modules/cardGenerator.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+              "name": "./src/js/findMatch.js",
+              "id": 528
+            },
+            {
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "name": "./src/js/modules/cardGenerator.js",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 61,
+          "issuerId": null,
+          "chunks": [
+            442
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|7ad5b4979408e4d585ebcb1ec2d5a3c2",
+              "module": "./src/js/modules/cardGenerator.js + 7 modules",
+              "moduleName": "./src/js/modules/cardGenerator.js + 7 modules",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+              "resolvedModule": "./src/js/modules/cardGenerator.js",
+              "type": "import()",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../modules/backupDogData",
+              "loc": "47:19-53",
+              "moduleId": 197,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "backupDogData"
+          ],
+          "optimizationBailout": [
+            "Statement (ExportNamedDeclaration) with side effects in source code at 17:0-2555:3"
+          ],
+          "depth": 2
+        }
+      ],
+      "origins": [
+        {
+          "module": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "moduleName": "./src/js/modules/cardGenerator.js",
+          "loc": "47:19-53",
+          "request": "../modules/backupDogData",
+          "moduleId": null
+        }
+      ]
+    },
+    {
+      "rendered": true,
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 36794,
+      "size": 37176,
       "sizes": {
-        "javascript": 5038,
+        "javascript": 5420,
         "css/mini-extract": 31061,
         "runtime": 695
       },
@@ -3154,7 +3493,7 @@
         "js/main.6487bfdd71535d1244f1.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "de71f0657af2e7c7f905",
+      "hash": "f545da894682e1f1119f",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
@@ -3213,7 +3552,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./doggyburger",
-              "loc": "6:0-24",
+              "loc": "12:0-24",
               "moduleId": 856,
               "resolvedModuleId": 856
             }
@@ -3230,9 +3569,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 540,
+          "size": 922,
           "sizes": {
-            "javascript": 540
+            "javascript": 922
           },
           "built": true,
           "codeGenerated": true,
@@ -3280,7 +3619,7 @@
           "usedExports": [],
           "providedExports": [],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 2:0-5:65"
+            "Statement (VariableDeclaration) with side effects in source code at 8:0-11:65"
           ],
           "depth": 0
         },
@@ -3336,7 +3675,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/headerAnimation",
-              "loc": "2:15-51",
+              "loc": "8:15-51",
               "moduleId": 856,
               "resolvedModuleId": 856
             }
@@ -3544,9 +3883,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 540,
+      "size": 922,
       "sizes": {
-        "javascript": 540
+        "javascript": 922
       },
       "built": true,
       "codeGenerated": true,
@@ -3593,7 +3932,7 @@
       "usedExports": [],
       "providedExports": [],
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 2:0-5:65"
+        "Statement (VariableDeclaration) with side effects in source code at 8:0-11:65"
       ],
       "depth": 0
     },
@@ -3601,9 +3940,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 10799,
+      "size": 11007,
       "sizes": {
-        "javascript": 10799
+        "javascript": 11007
       },
       "built": true,
       "codeGenerated": true,
@@ -3666,7 +4005,7 @@
         "dogData"
       ],
       "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 5:0-7:53"
+        "Statement (VariableDeclaration) with side effects in source code at 10:0-13:39"
       ],
       "depth": 0
     },
@@ -3721,7 +4060,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/headerAnimation",
-          "loc": "2:15-51",
+          "loc": "8:15-51",
           "moduleId": 856,
           "resolvedModuleId": 856
         }
@@ -3788,7 +4127,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./doggyburger",
-          "loc": "6:0-24",
+          "loc": "12:0-24",
           "moduleId": 856,
           "resolvedModuleId": 856
         }
@@ -3805,9 +4144,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 16928,
+      "size": 18886,
       "sizes": {
-        "javascript": 16928
+        "javascript": 18886
       },
       "built": true,
       "codeGenerated": true,
@@ -3842,21 +4181,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/cardGenerator",
-          "loc": "5:15-49",
-          "moduleId": 528,
-          "resolvedModuleId": 528
-        },
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
-          "module": "./src/js/findMatch.js",
-          "moduleName": "./src/js/findMatch.js",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
-          "resolvedModule": "./src/js/findMatch.js",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/cardGenerator",
-          "loc": "8:16-50",
+          "loc": "10:15-49",
           "moduleId": 528,
           "resolvedModuleId": 528
         },
@@ -3888,9 +4213,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 16634,
+          "size": 18592,
           "sizes": {
-            "javascript": 16634
+            "javascript": 18592
           },
           "built": true,
           "codeGenerated": false,
@@ -4005,7 +4330,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "94:139-147",
+              "loc": "139:139-147",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4086,7 +4411,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "97:126-133",
+              "loc": "142:126-133",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4167,7 +4492,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "97:297-305",
+              "loc": "142:297-305",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4248,7 +4573,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "97:592-601",
+              "loc": "142:592-601",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4329,7 +4654,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "97:1111-1124",
+              "loc": "142:1111-1124",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4410,7 +4735,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/like.svg",
-              "loc": "88:112-120",
+              "loc": "133:112-120",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4491,7 +4816,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dislike.svg",
-              "loc": "88:274-285",
+              "loc": "133:274-285",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4507,9 +4832,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 34381,
+      "size": 34380,
       "sizes": {
-        "javascript": 34381
+        "javascript": 34380
       },
       "built": true,
       "codeGenerated": true,
@@ -4554,7 +4879,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./likeDislikePanel",
-          "loc": "25:10-39",
+          "loc": "34:10-39",
           "moduleId": 528,
           "resolvedModuleId": 528
         }
@@ -4616,7 +4941,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../style/style.scss",
-          "loc": "1:0-29",
+          "loc": "7:0-29",
           "moduleId": 856,
           "resolvedModuleId": 856
         }
@@ -5127,7 +5452,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/info.svg",
-          "loc": "94:139-147",
+          "loc": "139:139-147",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5208,7 +5533,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dog-attributes.svg",
-          "loc": "97:126-133",
+          "loc": "142:126-133",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5289,7 +5614,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/cake-birthday.svg",
-          "loc": "97:297-305",
+          "loc": "142:297-305",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5370,7 +5695,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/scale.svg",
-          "loc": "97:592-601",
+          "loc": "142:592-601",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5451,7 +5776,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/bacterium.svg",
-          "loc": "97:1111-1124",
+          "loc": "142:1111-1124",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5532,7 +5857,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/like.svg",
-          "loc": "88:112-120",
+          "loc": "133:112-120",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5613,7 +5938,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dislike.svg",
-          "loc": "88:274-285",
+          "loc": "133:274-285",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5621,6 +5946,76 @@
       "usedExports": true,
       "providedExports": [],
       "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 148204,
+      "sizes": {
+        "javascript": 148204
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+      "name": "./src/js/modules/backupDogData.js",
+      "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+      "index": 18,
+      "preOrderIndex": 18,
+      "index2": 18,
+      "postOrderIndex": 18,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+      "issuerName": "./src/js/modules/cardGenerator.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
+          "name": "./src/js/findMatch.js",
+          "id": 528
+        },
+        {
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "name": "./src/js/modules/cardGenerator.js",
+          "id": null
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 61,
+      "issuerId": null,
+      "chunks": [
+        442
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js|7ad5b4979408e4d585ebcb1ec2d5a3c2",
+          "module": "./src/js/modules/cardGenerator.js + 7 modules",
+          "moduleName": "./src/js/modules/cardGenerator.js + 7 modules",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
+          "resolvedModule": "./src/js/modules/cardGenerator.js",
+          "type": "import()",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../modules/backupDogData",
+          "loc": "47:19-53",
+          "moduleId": 197,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "backupDogData"
+      ],
+      "optimizationBailout": [
+        "Statement (ExportNamedDeclaration) with side effects in source code at 17:0-2555:3"
+      ],
       "depth": 2
     },
     {
@@ -6105,6 +6500,41 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
+      "size": 0,
+      "sizes": {
+        "runtime": 0
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/css loading",
+      "name": "webpack/runtime/css loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        57
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
       "size": 313,
       "sizes": {
         "runtime": 313
@@ -6185,6 +6615,111 @@
       "cached": false,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        57
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 336,
+      "sizes": {
+        "runtime": 336
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/ensure chunk",
+      "name": "webpack/runtime/ensure chunk",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        57
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 206,
+      "sizes": {
+        "runtime": 206
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get javascript chunk filename",
+      "name": "webpack/runtime/get javascript chunk filename",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        57
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 168,
+      "sizes": {
+        "runtime": 168
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/get mini-css chunk filename",
+      "name": "webpack/runtime/get mini-css chunk filename",
       "nameForCondition": null,
       "index": null,
       "preOrderIndex": null,
@@ -6325,6 +6860,76 @@
       "cached": false,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        57
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 3120,
+      "sizes": {
+        "runtime": 3120
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/jsonp chunk loading",
+      "name": "webpack/runtime/jsonp chunk loading",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        57
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 1527,
+      "sizes": {
+        "runtime": 1527
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/load script",
+      "name": "webpack/runtime/load script",
       "nameForCondition": null,
       "index": null,
       "preOrderIndex": null,
@@ -6519,12 +7124,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.0ac856e37cdfa8d32763.js",
-          "size": 54785
+          "name": "js/findMatch.4e440aec02d5fdc7acde.js",
+          "size": 56947
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54785,
+      "assetsSize": 56947,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6602,12 +7207,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.0ac856e37cdfa8d32763.js",
-          "size": 54785
+          "name": "js/findMatch.4e440aec02d5fdc7acde.js",
+          "size": 56947
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 54785,
+      "assetsSize": 56947,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -6659,20 +7264,16 @@
     {
       "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash227.jpg (2.59 MiB)\n  img/jamie-street-unsplash604.avif (388 KiB)\n  img/jamie-street-unsplash916.webp (397 KiB)\n  img/jamie-street-unsplash7.webp (430 KiB)\n  img/jamie-street-unsplash562.webp (1.33 MiB)\n  img/oscar-sutton-unsplash-placeholder579.jpg (2.29 MiB)",
       "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash227.jpg (2.59 MiB)\n  img/jamie-street-unsplash604.avif (388 KiB)\n  img/jamie-street-unsplash916.webp (397 KiB)\n  img/jamie-street-unsplash7.webp (430 KiB)\n  img/jamie-street-unsplash562.webp (1.33 MiB)\n  img/oscar-sutton-unsplash-placeholder579.jpg (2.29 MiB)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:145:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:1006:27\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:835:33\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:192:23)"
-    },
-    {
-      "message": "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/",
-      "stack": "NoAsyncChunksWarning: webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:167:21\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:1006:27\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:835:33\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:192:23)"
     }
   ],
-  "warningsCount": 2,
+  "warningsCount": 1,
   "children": [
     {
       "name": "HtmlWebpackCompiler",
       "hash": "d957ca8ad2a8c553db46",
       "version": "5.97.1",
-      "time": 35004,
-      "builtAt": 1741109411907,
+      "time": 35962,
+      "builtAt": 1741191861593,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -7702,20 +8303,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 355,
+              "issuerId": 251,
               "chunks": [
                 284,
                 783
@@ -9367,20 +9968,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 355,
+              "issuerId": 251,
               "chunks": [
                 284,
                 783
@@ -9932,20 +10533,20 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
           "issuerPath": [
             {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-              "id": 355
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "id": 251
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 711,
-          "issuerId": 355,
+          "issuerId": 251,
           "chunks": [
             284,
             783
