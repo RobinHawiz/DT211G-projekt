@@ -102,18 +102,25 @@ header {
       }
       &.nav-opened {
         a {
-          color: v.$dark-color;
+          @include m.media-query(mobile-find-match) {
+            color: v.$dark-color;
+          }
         }
       }
     }
     nav {
-      background-color: v.$light-color;
+      @include m.media-query(mobile-find-match) {
+        background-color: v.$light-color;
+      }
       a {
-        color: v.$dark-color;
+        @include m.media-query(mobile-find-match) {
+          color: v.$dark-color;
+        }
         .a-text {
-          position: relative;
           &::before {
-            background-color: v.$dark-color;
+            @include m.media-query(mobile-find-match) {
+              background-color: v.$dark-color;
+            }
           }
         }
       }
@@ -125,7 +132,9 @@ header {
         background-color: v.$light-color;
       }
       &.toggle {
-        background-color: v.$dark-color;
+        @include m.media-query(mobile-find-match) {
+          background-color: v.$light-color;
+        }
       }
     }
   }
