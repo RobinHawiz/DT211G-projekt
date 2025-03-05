@@ -8,6 +8,12 @@ import bacteriumIcon from "../../assets/bacterium.svg";
 import likeIcon from "../../assets/like.svg";
 import dislikeIcon from "../../assets/dislike.svg";
 
+/**
+ * Fetches dog data from an API and returns the data as a formatted array.
+ * If the API fails, it loads backup data from a local module.
+ *
+ * @returns {Promise<Array>} A promise that resolves to an array of dogData. Data specs -> {@link module:backupDogData}.
+ */
 export async function getDogData() {
   let output;
   //Get data
@@ -32,6 +38,11 @@ export async function getDogData() {
   return output;
 }
 
+/**
+ * Generates a card for displaying dog data. The card includes an image, name, group, description,
+ * and other attributes like life expectancy, weight, and hypoallergenic status.
+ * @param {Object} dogData - The dog data object containing a dog's details. Data specs -> {@link module:backupDogData}.
+ */
 export function generateCard(dogData) {
   const cardWrapper = document.querySelector(".card-wrapper");
 
@@ -71,6 +82,11 @@ export function generateCard(dogData) {
 }
 
 // The first card has to be generated this way because we need the card element and bio element to already exist in our HTML.
+/**
+ * Generates the initial dog card and bio content when the page loads.
+ * This is the first card that will be displayed, so it is inserted directly into the HTML rather than being cloned later.
+ * @param {Object} dogData - The dog data object containing a dog's details. Data specs -> {@link module:backupDogData}.
+ */
 export function generateInitialCard(dogData) {
   const card = document.querySelector(".card");
   const bio = document.querySelector(".bio");
