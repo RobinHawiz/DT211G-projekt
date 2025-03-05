@@ -1,3 +1,8 @@
+/**
+ * @module headerAnimation
+ * Provides animation functions for the website's logo and menu button (doggy burger).
+ */
+
 const logo = document.querySelector(".logo a");
 const logoImg = document.querySelector(".logo .logo-img");
 const letters = logo.textContent.split("");
