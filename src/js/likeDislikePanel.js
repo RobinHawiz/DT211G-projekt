@@ -49,7 +49,7 @@ let deltaX = 0,
 let windowCenterX;
 let cardCenterX;
 let debounceTimeout;
-const debounceDelay = isMobileDevice ? 5 : 0; // Wait 10ms before calling the function if a mobile device is being used.
+const debounceDelay = isMobileDevice ? 5 : 0; // Wait 5ms before calling the function if a mobile device is being used.
 
 /**
  * This is done because the filters are being hidden from showing in the beginning. When the filters are out of view, then we apply opacity 1.
