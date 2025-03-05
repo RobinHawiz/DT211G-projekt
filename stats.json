@@ -1,8 +1,8 @@
 {
-  "hash": "8d24a473c6c8fe27a5a7",
+  "hash": "109b8f55708bfb9daba9",
   "version": "5.97.1",
-  "time": 36936,
-  "builtAt": 1741191862540,
+  "time": 36431,
+  "builtAt": 1741192089537,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -966,9 +966,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2708474,
+      "size": 2708692,
       "sizes": {
-        "javascript": 91591,
+        "javascript": 91809,
         "asset": 2609583,
         "runtime": 7300
       },
@@ -993,7 +993,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "2dbee6da08b9084fafc4",
+      "hash": "308f5f019db0c15a6817",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1060,7 +1060,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "13:0-55",
+              "loc": "20:0-55",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1074,7 +1074,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "142:1111-1124",
+              "loc": "149:1111-1124",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1229,7 +1229,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "11:0-54",
+              "loc": "18:0-54",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1243,7 +1243,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "142:297-305",
+              "loc": "149:297-305",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1311,7 +1311,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dislike.svg",
-              "loc": "15:0-51",
+              "loc": "22:0-51",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1325,7 +1325,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dislike.svg",
-              "loc": "133:274-285",
+              "loc": "140:274-285",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1393,7 +1393,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "10:0-54",
+              "loc": "17:0-54",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1407,7 +1407,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "142:126-133",
+              "loc": "149:126-133",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1475,7 +1475,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "9:0-45",
+              "loc": "16:0-45",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1489,7 +1489,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "139:139-147",
+              "loc": "146:139-147",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1557,7 +1557,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/like.svg",
-              "loc": "14:0-45",
+              "loc": "21:0-45",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1571,7 +1571,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/like.svg",
-              "loc": "133:112-120",
+              "loc": "140:112-120",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1726,7 +1726,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "12:0-47",
+              "loc": "19:0-47",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1740,7 +1740,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "142:592-601",
+              "loc": "149:592-601",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1893,9 +1893,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 18886,
+          "size": 19104,
           "sizes": {
-            "javascript": 18886
+            "javascript": 19104
           },
           "built": true,
           "codeGenerated": true,
@@ -1963,9 +1963,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 18592,
+              "size": 18810,
               "sizes": {
-                "javascript": 18592
+                "javascript": 18810
               },
               "built": true,
               "codeGenerated": false,
@@ -2006,7 +2006,7 @@
                 "getDogData"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33"
+                "Statement (VariableDeclaration) with side effects in source code at 12:0-13:33"
               ],
               "depth": 1
             },
@@ -2068,7 +2068,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/info.svg",
-                  "loc": "9:0-45",
+                  "loc": "16:0-45",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2082,7 +2082,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/info.svg",
-                  "loc": "139:139-147",
+                  "loc": "146:139-147",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2150,7 +2150,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dog-attributes.svg",
-                  "loc": "10:0-54",
+                  "loc": "17:0-54",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2164,7 +2164,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dog-attributes.svg",
-                  "loc": "142:126-133",
+                  "loc": "149:126-133",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2232,7 +2232,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/cake-birthday.svg",
-                  "loc": "11:0-54",
+                  "loc": "18:0-54",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2246,7 +2246,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/cake-birthday.svg",
-                  "loc": "142:297-305",
+                  "loc": "149:297-305",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2314,7 +2314,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/scale.svg",
-                  "loc": "12:0-47",
+                  "loc": "19:0-47",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2328,7 +2328,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/scale.svg",
-                  "loc": "142:592-601",
+                  "loc": "149:592-601",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2396,7 +2396,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/bacterium.svg",
-                  "loc": "13:0-55",
+                  "loc": "20:0-55",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2410,7 +2410,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/bacterium.svg",
-                  "loc": "142:1111-1124",
+                  "loc": "149:1111-1124",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2478,7 +2478,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/like.svg",
-                  "loc": "14:0-45",
+                  "loc": "21:0-45",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2492,7 +2492,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/like.svg",
-                  "loc": "133:112-120",
+                  "loc": "140:112-120",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2560,7 +2560,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dislike.svg",
-                  "loc": "15:0-51",
+                  "loc": "22:0-51",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2574,7 +2574,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/dislike.svg",
-                  "loc": "133:274-285",
+                  "loc": "140:274-285",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2628,7 +2628,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./createDogDataCards",
-              "loc": "7:16-47",
+              "loc": "14:16-47",
               "moduleId": 197,
               "resolvedModuleId": null
             }
@@ -2927,7 +2927,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./fetchData",
-              "loc": "5:15-37",
+              "loc": "12:15-37",
               "moduleId": 197,
               "resolvedModuleId": null
             },
@@ -3444,7 +3444,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../modules/backupDogData",
-              "loc": "47:19-53",
+              "loc": "54:19-53",
               "moduleId": 197,
               "resolvedModuleId": null
             }
@@ -3464,7 +3464,7 @@
           "module": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
           "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
           "moduleName": "./src/js/modules/cardGenerator.js",
-          "loc": "47:19-53",
+          "loc": "54:19-53",
           "request": "../modules/backupDogData",
           "moduleId": null
         }
@@ -4144,9 +4144,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 18886,
+      "size": 19104,
       "sizes": {
-        "javascript": 18886
+        "javascript": 19104
       },
       "built": true,
       "codeGenerated": true,
@@ -4213,9 +4213,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 18592,
+          "size": 18810,
           "sizes": {
-            "javascript": 18592
+            "javascript": 18810
           },
           "built": true,
           "codeGenerated": false,
@@ -4255,7 +4255,7 @@
             "getDogData"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33"
+            "Statement (VariableDeclaration) with side effects in source code at 12:0-13:33"
           ],
           "depth": 1
         },
@@ -4316,7 +4316,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "9:0-45",
+              "loc": "16:0-45",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4330,7 +4330,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/info.svg",
-              "loc": "139:139-147",
+              "loc": "146:139-147",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4397,7 +4397,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "10:0-54",
+              "loc": "17:0-54",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4411,7 +4411,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dog-attributes.svg",
-              "loc": "142:126-133",
+              "loc": "149:126-133",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4478,7 +4478,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "11:0-54",
+              "loc": "18:0-54",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4492,7 +4492,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/cake-birthday.svg",
-              "loc": "142:297-305",
+              "loc": "149:297-305",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4559,7 +4559,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "12:0-47",
+              "loc": "19:0-47",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4573,7 +4573,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/scale.svg",
-              "loc": "142:592-601",
+              "loc": "149:592-601",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4640,7 +4640,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "13:0-55",
+              "loc": "20:0-55",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4654,7 +4654,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/bacterium.svg",
-              "loc": "142:1111-1124",
+              "loc": "149:1111-1124",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4721,7 +4721,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/like.svg",
-              "loc": "14:0-45",
+              "loc": "21:0-45",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4735,7 +4735,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/like.svg",
-              "loc": "133:112-120",
+              "loc": "140:112-120",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -4802,7 +4802,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dislike.svg",
-              "loc": "15:0-51",
+              "loc": "22:0-51",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -4816,7 +4816,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/dislike.svg",
-              "loc": "133:274-285",
+              "loc": "140:274-285",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -5075,7 +5075,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./fetchData",
-          "loc": "5:15-37",
+          "loc": "12:15-37",
           "moduleId": 197,
           "resolvedModuleId": null
         },
@@ -5142,7 +5142,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./createDogDataCards",
-          "loc": "7:16-47",
+          "loc": "14:16-47",
           "moduleId": 197,
           "resolvedModuleId": null
         }
@@ -5438,7 +5438,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/info.svg",
-          "loc": "9:0-45",
+          "loc": "16:0-45",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5452,7 +5452,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/info.svg",
-          "loc": "139:139-147",
+          "loc": "146:139-147",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5519,7 +5519,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dog-attributes.svg",
-          "loc": "10:0-54",
+          "loc": "17:0-54",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5533,7 +5533,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dog-attributes.svg",
-          "loc": "142:126-133",
+          "loc": "149:126-133",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5600,7 +5600,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/cake-birthday.svg",
-          "loc": "11:0-54",
+          "loc": "18:0-54",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5614,7 +5614,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/cake-birthday.svg",
-          "loc": "142:297-305",
+          "loc": "149:297-305",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5681,7 +5681,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/scale.svg",
-          "loc": "12:0-47",
+          "loc": "19:0-47",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5695,7 +5695,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/scale.svg",
-          "loc": "142:592-601",
+          "loc": "149:592-601",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5762,7 +5762,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/bacterium.svg",
-          "loc": "13:0-55",
+          "loc": "20:0-55",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5776,7 +5776,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/bacterium.svg",
-          "loc": "142:1111-1124",
+          "loc": "149:1111-1124",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5843,7 +5843,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/like.svg",
-          "loc": "14:0-45",
+          "loc": "21:0-45",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5857,7 +5857,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/like.svg",
-          "loc": "133:112-120",
+          "loc": "140:112-120",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -5924,7 +5924,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dislike.svg",
-          "loc": "15:0-51",
+          "loc": "22:0-51",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -5938,7 +5938,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/dislike.svg",
-          "loc": "133:274-285",
+          "loc": "140:274-285",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -6004,7 +6004,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../modules/backupDogData",
-          "loc": "47:19-53",
+          "loc": "54:19-53",
           "moduleId": 197,
           "resolvedModuleId": null
         }
@@ -7272,8 +7272,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "d957ca8ad2a8c553db46",
       "version": "5.97.1",
-      "time": 35962,
-      "builtAt": 1741191861593,
+      "time": 35450,
+      "builtAt": 1741192088583,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -8303,20 +8303,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "id": 251
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 251,
+              "issuerId": 355,
               "chunks": [
                 284,
                 783
@@ -9968,20 +9968,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "id": 251
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 251,
+              "issuerId": 355,
               "chunks": [
                 284,
                 783
@@ -10533,20 +10533,20 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
           "issuerPath": [
             {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-              "id": 251
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "id": 355
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 711,
-          "issuerId": 251,
+          "issuerId": 355,
           "chunks": [
             284,
             783
