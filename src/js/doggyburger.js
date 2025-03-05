@@ -1,6 +1,5 @@
 /**
- * Handles the functionality and accessibility of the navigation menu (doggy burger).
- * @file doggyburger
+ * @file Handles the functionality and accessibility of the navigation menu (doggy burger).
  */
 
 const doggyBurger = document.querySelector(".doggy-burger");
