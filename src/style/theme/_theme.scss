@@ -133,7 +133,7 @@ header {
       }
       &.toggle {
         @include m.media-query(mobile-find-match) {
-          background-color: v.$light-color;
+          background-color: v.$dark-color;
         }
       }
     }
