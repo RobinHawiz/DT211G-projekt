@@ -1,8 +1,8 @@
 {
-  "hash": "cfc5d7893f5aee656962",
+  "hash": "eccb10d2f35837f45c2d",
   "version": "5.97.1",
-  "time": 36024,
-  "builtAt": 1741200137638,
+  "time": 36769,
+  "builtAt": 1741201460363,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -648,13 +648,33 @@
     },
     {
       "type": "asset",
-      "name": "find-match/index.html",
-      "size": 8752,
+      "name": "img/favicon235.ico",
+      "size": 15406,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 8752
+        "sourceFilename": "src/assets/favicon.ico",
+        "size": 15406
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "find-match/index.html",
+      "size": 8746,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 8746
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -668,12 +688,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 8081,
+      "size": 8072,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 8081
+        "size": 8072
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -7159,10 +7179,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "d957ca8ad2a8c553db46",
+      "hash": "34311e979722e978caa5",
       "version": "5.97.1",
-      "time": 35107,
-      "builtAt": 1741200136748,
+      "time": 35835,
+      "builtAt": 1741201459455,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -7720,6 +7740,31 @@
         },
         {
           "type": "asset",
+          "name": "img/favicon235.ico",
+          "size": 15406,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "sourceFilename": "src/assets/favicon.ico"
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "HtmlWebpackPlugin_0-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+            "HtmlWebpackPlugin_1-/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            284,
+            783
+          ],
+          "isOverSizeLimit": false
+        },
+        {
+          "type": "asset",
           "name": "img/settings-sliders603.svg",
           "size": 1555,
           "emitted": false,
@@ -7817,10 +7862,10 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 14175,
+          "size": 29584,
           "sizes": {
-            "javascript": 9780,
-            "asset": 3102,
+            "javascript": 9783,
+            "asset": 18508,
             "runtime": 1293
           },
           "names": [
@@ -7834,10 +7879,11 @@
           "auxiliaryFiles": [
             "img/arrow824.svg",
             "img/cross875.svg",
+            "img/favicon235.ico",
             "img/heart283.svg",
             "img/settings-sliders603.svg"
           ],
-          "hash": "1667bf4b94971eed2c74",
+          "hash": "06078e1991858c572cfe",
           "childrenByOrder": {},
           "id": 284,
           "siblings": [],
@@ -7848,9 +7894,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 9499,
+              "size": 9496,
               "sizes": {
-                "javascript": 9499
+                "javascript": 9496
               },
               "built": true,
               "codeGenerated": true,
@@ -7913,7 +7959,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 8:0-9010"
+                "Statement (VariableDeclaration) with side effects in source code at 8:0-9001"
               ],
               "depth": 0
             },
@@ -8049,6 +8095,84 @@
               "layer": null,
               "size": 42,
               "sizes": {
+                "asset": 15406,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/favicon.ico",
+              "name": "./src/assets/favicon.ico",
+              "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/favicon.ico",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 235,
+              "issuerId": 355,
+              "chunks": [
+                284,
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/favicon.ico",
+                  "loc": "2:33-85",
+                  "moduleId": 251,
+                  "resolvedModuleId": 251
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/favicon.ico",
+                  "loc": "2:33-82",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
                 "asset": 357,
                 "javascript": 42
               },
@@ -8162,83 +8286,6 @@
                   "loc": "3:33-94",
                   "moduleId": 251,
                   "resolvedModuleId": 251
-                }
-              ],
-              "usedExports": true,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": 1
-            },
-            {
-              "type": "module",
-              "moduleType": "asset/inline",
-              "layer": null,
-              "size": 36,
-              "sizes": {
-                "javascript": 36
-              },
-              "built": true,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "asset/inline|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[5]!data:image/x-icon,",
-              "name": "data:image/x-icon,",
-              "nameForCondition": "data:image/x-icon,",
-              "index": 2,
-              "preOrderIndex": 2,
-              "index2": 1,
-              "postOrderIndex": 1,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-              "issuerPath": [
-                {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 711,
-              "issuerId": 355,
-              "chunks": [
-                284,
-                783
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "type": "new URL()",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "data:image/x-icon,",
-                  "loc": "2:33-79",
-                  "moduleId": 251,
-                  "resolvedModuleId": 251
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "type": "new URL()",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "data:image/x-icon,",
-                  "loc": "2:33-79",
-                  "moduleId": 355,
-                  "resolvedModuleId": 355
                 }
               ],
               "usedExports": true,
@@ -8522,10 +8569,10 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 6465017,
+          "size": 6480423,
           "sizes": {
             "javascript": 11569,
-            "asset": 6452158,
+            "asset": 6467564,
             "runtime": 1290
           },
           "names": [
@@ -8537,6 +8584,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [
+            "img/favicon235.ico",
             "img/jamie-street-unsplash169.avif",
             "img/jamie-street-unsplash227.jpg",
             "img/jamie-street-unsplash313.avif",
@@ -8557,7 +8605,7 @@
             "img/jamie-street-unsplash946.avif",
             "img/jamie-street-unsplash966.avif"
           ],
-          "hash": "b659789bff98f12d58f0",
+          "hash": "b021ba043ea3b1e4837c",
           "childrenByOrder": {},
           "id": 783,
           "siblings": [],
@@ -8568,9 +8616,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 10658,
+              "size": 10652,
               "sizes": {
-                "javascript": 10658
+                "javascript": 10652
               },
               "built": true,
               "codeGenerated": true,
@@ -8633,9 +8681,87 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 23:0-8256"
+                "Statement (VariableDeclaration) with side effects in source code at 23:0-8247"
               ],
               "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "asset/resource",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "asset": 15406,
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/favicon.ico",
+              "name": "./src/assets/favicon.ico",
+              "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/favicon.ico",
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuerPath": [
+                {
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "id": 355
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 235,
+              "issuerId": 355,
+              "chunks": [
+                284,
+                783
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../assets/favicon.ico",
+                  "loc": "2:33-85",
+                  "moduleId": 251,
+                  "resolvedModuleId": 251
+                },
+                {
+                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+                  "type": "new URL()",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../assets/favicon.ico",
+                  "loc": "2:33-82",
+                  "moduleId": 355,
+                  "resolvedModuleId": 355
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 1
             },
             {
               "type": "module",
@@ -9836,83 +9962,6 @@
             },
             {
               "type": "module",
-              "moduleType": "asset/inline",
-              "layer": null,
-              "size": 36,
-              "sizes": {
-                "javascript": 36
-              },
-              "built": true,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "asset/inline|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[5]!data:image/x-icon,",
-              "name": "data:image/x-icon,",
-              "nameForCondition": "data:image/x-icon,",
-              "index": 2,
-              "preOrderIndex": 2,
-              "index2": 1,
-              "postOrderIndex": 1,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-              "issuerPath": [
-                {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 711,
-              "issuerId": 355,
-              "chunks": [
-                284,
-                783
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
-                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
-                  "type": "new URL()",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "data:image/x-icon,",
-                  "loc": "2:33-79",
-                  "moduleId": 251,
-                  "resolvedModuleId": 251
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "type": "new URL()",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "data:image/x-icon,",
-                  "loc": "2:33-79",
-                  "moduleId": 355,
-                  "resolvedModuleId": 355
-                }
-              ],
-              "usedExports": true,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": 1
-            },
-            {
-              "type": "module",
               "moduleType": "javascript/esm",
               "layer": null,
               "size": 77,
@@ -10260,9 +10309,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 10658,
+          "size": 10652,
           "sizes": {
-            "javascript": 10658
+            "javascript": 10652
           },
           "built": true,
           "codeGenerated": true,
@@ -10324,7 +10373,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 23:0-8256"
+            "Statement (VariableDeclaration) with side effects in source code at 23:0-8247"
           ],
           "depth": 0
         },
@@ -10332,9 +10381,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 9499,
+          "size": 9496,
           "sizes": {
-            "javascript": 9499
+            "javascript": 9496
           },
           "built": true,
           "codeGenerated": true,
@@ -10396,25 +10445,26 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 8:0-9010"
+            "Statement (VariableDeclaration) with side effects in source code at 8:0-9001"
           ],
           "depth": 0
         },
         {
           "type": "module",
-          "moduleType": "asset/inline",
+          "moduleType": "asset/resource",
           "layer": null,
-          "size": 36,
+          "size": 42,
           "sizes": {
-            "javascript": 36
+            "asset": 15406,
+            "javascript": 42
           },
           "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "asset/inline|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[5]!data:image/x-icon,",
-          "name": "data:image/x-icon,",
-          "nameForCondition": "data:image/x-icon,",
+          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/favicon.ico",
+          "name": "./src/assets/favicon.ico",
+          "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/favicon.ico",
           "index": 2,
           "preOrderIndex": 2,
           "index2": 1,
@@ -10434,7 +10484,7 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 711,
+          "id": 235,
           "issuerId": 355,
           "chunks": [
             284,
@@ -10451,8 +10501,8 @@
               "type": "new URL()",
               "active": true,
               "explanation": "",
-              "userRequest": "data:image/x-icon,",
-              "loc": "2:33-79",
+              "userRequest": "../../assets/favicon.ico",
+              "loc": "2:33-85",
               "moduleId": 251,
               "resolvedModuleId": 251
             },
@@ -10465,8 +10515,8 @@
               "type": "new URL()",
               "active": true,
               "explanation": "",
-              "userRequest": "data:image/x-icon,",
-              "loc": "2:33-79",
+              "userRequest": "../assets/favicon.ico",
+              "loc": "2:33-82",
               "moduleId": 355,
               "resolvedModuleId": 355
             }
@@ -12264,6 +12314,9 @@
           "assetsSize": 0,
           "auxiliaryAssets": [
             {
+              "name": "img/favicon235.ico"
+            },
+            {
               "name": "img/jamie-street-unsplash169.avif"
             },
             {
@@ -12341,6 +12394,9 @@
             },
             {
               "name": "img/cross875.svg"
+            },
+            {
+              "name": "img/favicon235.ico"
             },
             {
               "name": "img/heart283.svg"
@@ -12367,6 +12423,9 @@
           "assetsSize": 0,
           "auxiliaryAssets": [
             {
+              "name": "img/favicon235.ico"
+            },
+            {
               "name": "img/jamie-street-unsplash169.avif"
             },
             {
@@ -12444,6 +12503,9 @@
             },
             {
               "name": "img/cross875.svg"
+            },
+            {
+              "name": "img/favicon235.ico"
             },
             {
               "name": "img/heart283.svg"
