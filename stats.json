@@ -1,8 +1,8 @@
 {
-  "hash": "7e88deacf2f4641e64ca",
+  "hash": "0d57ea844c6f9d590723",
   "version": "5.97.1",
-  "time": 37068,
-  "builtAt": 1741197943525,
+  "time": 35944,
+  "builtAt": 1741198499550,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.1e0d01a92a803a99fd4f.js"
+      "js/findMatch.85a273ef44b1e1d4e7e9.js"
     ]
   },
   "assets": [
@@ -285,17 +285,17 @@
     },
     {
       "type": "asset",
-      "name": "js/442.1d6049192e3834929cbc.js",
-      "size": 135930,
+      "name": "js/442.3fde6e843f4b54c89eb7.js",
+      "size": 136259,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "1d6049192e3834929cbc",
+        "contenthash": "3fde6e843f4b54c89eb7",
         "javascriptModule": false,
         "minimized": true,
-        "size": 135930
+        "size": 136259
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -440,17 +440,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.1e0d01a92a803a99fd4f.js",
-      "size": 56888,
+      "name": "js/findMatch.85a273ef44b1e1d4e7e9.js",
+      "size": 56939,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "1e0d01a92a803a99fd4f",
+        "contenthash": "85a273ef44b1e1d4e7e9",
         "javascriptModule": false,
         "minimized": true,
-        "size": 56888
+        "size": 56939
       },
       "chunkNames": [
         "findMatch"
@@ -966,9 +966,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2709750,
+      "size": 2709942,
       "sizes": {
-        "javascript": 92867,
+        "javascript": 93059,
         "asset": 2609583,
         "runtime": 7300
       },
@@ -980,7 +980,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.1e0d01a92a803a99fd4f.js"
+        "js/findMatch.85a273ef44b1e1d4e7e9.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -993,7 +993,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "4d89e7d5a311c00cca53",
+      "hash": "3a0c29c0ffc10326d770",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1147,7 +1147,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/barbado.jpg",
-              "loc": "8:0-53",
+              "loc": "15:0-53",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -1161,7 +1161,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/barbado.jpg",
-              "loc": "140:23-36",
+              "loc": "147:23-36",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1604,7 +1604,7 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "dependent": false,
+          "dependent": true,
           "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
           "issuerName": "./src/js/modules/createDogDataCards.js",
           "issuerPath": [
@@ -1635,31 +1635,59 @@
           "assets": [],
           "reasons": [
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-              "module": "./src/js/modules/createDogDataCards.js",
-              "moduleName": "./src/js/modules/createDogDataCards.js",
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+              "module": "./src/js/modules/backupDogData.js",
+              "moduleName": "./src/js/modules/backupDogData.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+              "resolvedModule": "./src/js/modules/backupDogData.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
+              "loc": "1:0-72",
+              "moduleId": 61,
+              "resolvedModuleId": 61
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+              "module": "./src/js/modules/backupDogData.js",
+              "moduleName": "./src/js/modules/backupDogData.js",
+              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+              "resolvedModule": "./src/js/modules/backupDogData.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
+              "loc": "27:7-13",
+              "moduleId": 61,
+              "resolvedModuleId": 61
+            },
+            {
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|18a6d424e42df447bcdbf1bdb4403646",
+              "module": "./src/js/modules/createDogDataCards.js + 1 modules",
+              "moduleName": "./src/js/modules/createDogDataCards.js + 1 modules",
               "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
               "resolvedModule": "./src/js/modules/createDogDataCards.js",
               "type": "harmony side effect evaluation",
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-              "loc": "7:0-72",
-              "moduleId": null,
+              "loc": "14:0-72",
+              "moduleId": 626,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-              "module": "./src/js/modules/createDogDataCards.js",
-              "moduleName": "./src/js/modules/createDogDataCards.js",
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|18a6d424e42df447bcdbf1bdb4403646",
+              "module": "./src/js/modules/createDogDataCards.js + 1 modules",
+              "moduleName": "./src/js/modules/createDogDataCards.js + 1 modules",
               "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
               "resolvedModule": "./src/js/modules/createDogDataCards.js",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-              "loc": "92:9-15",
-              "moduleId": null,
+              "loc": "99:9-15",
+              "moduleId": 626,
               "resolvedModuleId": null
             }
           ],
@@ -2590,16 +2618,16 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 16844,
+          "size": 17036,
           "sizes": {
-            "javascript": 16844
+            "javascript": 17036
           },
           "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|74ab6eb3d285c4552678744c197c6294",
-          "name": "./src/js/modules/createDogDataCards.js + 2 modules",
+          "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|18a6d424e42df447bcdbf1bdb4403646",
+          "name": "./src/js/modules/createDogDataCards.js + 1 modules",
           "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
           "index": 7,
           "preOrderIndex": 7,
@@ -2612,7 +2640,7 @@
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 773,
+          "id": 626,
           "chunks": [
             57
           ],
@@ -2637,16 +2665,18 @@
           "providedExports": [
             "createDogDataCards"
           ],
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./src/assets/oscar-sutton-unsplash-placeholder.jpg: Module ./src/assets/oscar-sutton-unsplash-placeholder.jpg is referenced from different chunks by these modules: ./src/js/modules/backupDogData.js"
+          ],
           "depth": 2,
           "modules": [
             {
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 16760,
+              "size": 16994,
               "sizes": {
-                "javascript": 16760
+                "javascript": 16994
               },
               "built": true,
               "codeGenerated": false,
@@ -2690,96 +2720,9 @@
                 "createDogDataCards"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33"
+                "Statement (VariableDeclaration) with side effects in source code at 12:0-13:33"
               ],
               "depth": 2
-            },
-            {
-              "type": "module",
-              "moduleType": "asset/resource",
-              "layer": null,
-              "size": 42,
-              "sizes": {
-                "asset": 2400003,
-                "javascript": 42
-              },
-              "built": true,
-              "codeGenerated": true,
-              "buildTimeExecuted": false,
-              "cached": false,
-              "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/oscar-sutton-unsplash-placeholder.jpg",
-              "name": "./src/assets/oscar-sutton-unsplash-placeholder.jpg",
-              "nameForCondition": "src/assets/oscar-sutton-unsplash-placeholder.jpg",
-              "index": 8,
-              "preOrderIndex": 8,
-              "index2": 5,
-              "postOrderIndex": 5,
-              "cacheable": true,
-              "optional": false,
-              "orphan": false,
-              "dependent": false,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-              "issuerName": "./src/js/modules/createDogDataCards.js",
-              "issuerPath": [
-                {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
-                  "name": "./src/js/findMatch.js",
-                  "id": 528
-                },
-                {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
-                  "name": "./src/js/modules/cardGenerator.js",
-                  "id": null
-                },
-                {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-                  "name": "./src/js/modules/createDogDataCards.js",
-                  "id": null
-                }
-              ],
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "id": 579,
-              "issuerId": null,
-              "chunks": [
-                57
-              ],
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-                  "module": "./src/js/modules/createDogDataCards.js",
-                  "moduleName": "./src/js/modules/createDogDataCards.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-                  "resolvedModule": "./src/js/modules/createDogDataCards.js",
-                  "type": "harmony side effect evaluation",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-                  "loc": "7:0-72",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                },
-                {
-                  "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-                  "module": "./src/js/modules/createDogDataCards.js",
-                  "moduleName": "./src/js/modules/createDogDataCards.js",
-                  "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-                  "resolvedModule": "./src/js/modules/createDogDataCards.js",
-                  "type": "harmony import specifier",
-                  "active": true,
-                  "explanation": "",
-                  "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-                  "loc": "92:9-15",
-                  "moduleId": null,
-                  "resolvedModuleId": null
-                }
-              ],
-              "usedExports": true,
-              "providedExports": [],
-              "optimizationBailout": [],
-              "depth": 3
             },
             {
               "type": "module",
@@ -2844,7 +2787,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/barbado.jpg",
-                  "loc": "8:0-53",
+                  "loc": "15:0-53",
                   "moduleId": null,
                   "resolvedModuleId": null
                 },
@@ -2858,7 +2801,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/barbado.jpg",
-                  "loc": "140:23-36",
+                  "loc": "147:23-36",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2932,17 +2875,17 @@
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|74ab6eb3d285c4552678744c197c6294",
-              "module": "./src/js/modules/createDogDataCards.js + 2 modules",
-              "moduleName": "./src/js/modules/createDogDataCards.js + 2 modules",
+              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|18a6d424e42df447bcdbf1bdb4403646",
+              "module": "./src/js/modules/createDogDataCards.js + 1 modules",
+              "moduleName": "./src/js/modules/createDogDataCards.js + 1 modules",
               "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
               "resolvedModule": "./src/js/modules/createDogDataCards.js",
               "type": "cjs require",
               "active": true,
               "explanation": "",
               "userRequest": "./fetchData",
-              "loc": "5:15-37",
-              "moduleId": 773,
+              "loc": "12:15-37",
+              "moduleId": 626,
               "resolvedModuleId": null
             }
           ],
@@ -3365,9 +3308,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 148204,
+      "size": 148647,
       "sizes": {
-        "javascript": 148204
+        "javascript": 148647
       },
       "names": [],
       "idHints": [],
@@ -3375,10 +3318,10 @@
         "findMatch"
       ],
       "files": [
-        "js/442.1d6049192e3834929cbc.js"
+        "js/442.3fde6e843f4b54c89eb7.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "81d5442e3613e497ec69",
+      "hash": "55f7c923fb6c5ac36e5a",
       "childrenByOrder": {},
       "id": 442,
       "siblings": [],
@@ -3391,9 +3334,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 148204,
+          "size": 148647,
           "sizes": {
-            "javascript": 148204
+            "javascript": 148647
           },
           "built": true,
           "codeGenerated": true,
@@ -3454,7 +3397,8 @@
             "backupDogData"
           ],
           "optimizationBailout": [
-            "Statement (ExportNamedDeclaration) with side effects in source code at 17:0-2555:3"
+            "Statement (ExportNamedDeclaration) with side effects in source code at 19:0-2566:3",
+            "ModuleConcatenation bailout: Cannot concat with ./src/assets/oscar-sutton-unsplash-placeholder.jpg: Module ./src/assets/oscar-sutton-unsplash-placeholder.jpg is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) findMatch)"
           ],
           "depth": 2
         }
@@ -5080,17 +5024,17 @@
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|74ab6eb3d285c4552678744c197c6294",
-          "module": "./src/js/modules/createDogDataCards.js + 2 modules",
-          "moduleName": "./src/js/modules/createDogDataCards.js + 2 modules",
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|18a6d424e42df447bcdbf1bdb4403646",
+          "module": "./src/js/modules/createDogDataCards.js + 1 modules",
+          "moduleName": "./src/js/modules/createDogDataCards.js + 1 modules",
           "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
           "resolvedModule": "./src/js/modules/createDogDataCards.js",
           "type": "cjs require",
           "active": true,
           "explanation": "",
           "userRequest": "./fetchData",
-          "loc": "5:15-37",
-          "moduleId": 773,
+          "loc": "12:15-37",
+          "moduleId": 626,
           "resolvedModuleId": null
         }
       ],
@@ -5105,16 +5049,16 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 16844,
+      "size": 17036,
       "sizes": {
-        "javascript": 16844
+        "javascript": 17036
       },
       "built": true,
       "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|74ab6eb3d285c4552678744c197c6294",
-      "name": "./src/js/modules/createDogDataCards.js + 2 modules",
+      "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|18a6d424e42df447bcdbf1bdb4403646",
+      "name": "./src/js/modules/createDogDataCards.js + 1 modules",
       "nameForCondition": "/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
       "index": 7,
       "preOrderIndex": 7,
@@ -5126,7 +5070,7 @@
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": 773,
+      "id": 626,
       "chunks": [
         57
       ],
@@ -5151,16 +5095,18 @@
       "providedExports": [
         "createDogDataCards"
       ],
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./src/assets/oscar-sutton-unsplash-placeholder.jpg: Module ./src/assets/oscar-sutton-unsplash-placeholder.jpg is referenced from different chunks by these modules: ./src/js/modules/backupDogData.js"
+      ],
       "depth": 2,
       "modules": [
         {
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 16760,
+          "size": 16994,
           "sizes": {
-            "javascript": 16760
+            "javascript": 16994
           },
           "built": true,
           "codeGenerated": false,
@@ -5203,95 +5149,9 @@
             "createDogDataCards"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 5:0-6:33"
+            "Statement (VariableDeclaration) with side effects in source code at 12:0-13:33"
           ],
           "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "asset/resource",
-          "layer": null,
-          "size": 42,
-          "sizes": {
-            "asset": 2400003,
-            "javascript": 42
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "asset/resource|/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/image-minimizer-webpack-plugin/dist/loader.js??ruleSet[1].rules[4]!/home/runner/work/DT211G-projekt/DT211G-projekt/src/assets/oscar-sutton-unsplash-placeholder.jpg",
-          "name": "./src/assets/oscar-sutton-unsplash-placeholder.jpg",
-          "nameForCondition": "src/assets/oscar-sutton-unsplash-placeholder.jpg",
-          "index": 8,
-          "preOrderIndex": 8,
-          "index2": 5,
-          "postOrderIndex": 5,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-          "issuerName": "./src/js/modules/createDogDataCards.js",
-          "issuerPath": [
-            {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/findMatch.js",
-              "name": "./src/js/findMatch.js",
-              "id": 528
-            },
-            {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/cardGenerator.js",
-              "name": "./src/js/modules/cardGenerator.js",
-              "id": null
-            },
-            {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-              "name": "./src/js/modules/createDogDataCards.js",
-              "id": null
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 579,
-          "issuerId": null,
-          "chunks": [
-            57
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-              "module": "./src/js/modules/createDogDataCards.js",
-              "moduleName": "./src/js/modules/createDogDataCards.js",
-              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-              "resolvedModule": "./src/js/modules/createDogDataCards.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-              "loc": "7:0-72",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-              "module": "./src/js/modules/createDogDataCards.js",
-              "moduleName": "./src/js/modules/createDogDataCards.js",
-              "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-              "resolvedModule": "./src/js/modules/createDogDataCards.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-              "loc": "92:9-15",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": true,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": 3
         },
         {
           "type": "module",
@@ -5355,7 +5215,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/barbado.jpg",
-              "loc": "8:0-53",
+              "loc": "15:0-53",
               "moduleId": null,
               "resolvedModuleId": null
             },
@@ -5369,7 +5229,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/barbado.jpg",
-              "loc": "140:23-36",
+              "loc": "147:23-36",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -5952,9 +5812,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 148204,
+      "size": 148647,
       "sizes": {
-        "javascript": 148204
+        "javascript": 148647
       },
       "built": true,
       "codeGenerated": true,
@@ -6014,7 +5874,8 @@
         "backupDogData"
       ],
       "optimizationBailout": [
-        "Statement (ExportNamedDeclaration) with side effects in source code at 17:0-2555:3"
+        "Statement (ExportNamedDeclaration) with side effects in source code at 19:0-2566:3",
+        "ModuleConcatenation bailout: Cannot concat with ./src/assets/oscar-sutton-unsplash-placeholder.jpg: Module ./src/assets/oscar-sutton-unsplash-placeholder.jpg is not in the same chunk(s) (expected in chunk(s) unnamed chunk(s), module is in chunk(s) findMatch)"
       ],
       "depth": 2
     },
@@ -6071,31 +5932,59 @@
       "assets": [],
       "reasons": [
         {
-          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-          "module": "./src/js/modules/createDogDataCards.js",
-          "moduleName": "./src/js/modules/createDogDataCards.js",
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+          "module": "./src/js/modules/backupDogData.js",
+          "moduleName": "./src/js/modules/backupDogData.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+          "resolvedModule": "./src/js/modules/backupDogData.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
+          "loc": "1:0-72",
+          "moduleId": 61,
+          "resolvedModuleId": 61
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+          "module": "./src/js/modules/backupDogData.js",
+          "moduleName": "./src/js/modules/backupDogData.js",
+          "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/backupDogData.js",
+          "resolvedModule": "./src/js/modules/backupDogData.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
+          "loc": "27:7-13",
+          "moduleId": 61,
+          "resolvedModuleId": 61
+        },
+        {
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|18a6d424e42df447bcdbf1bdb4403646",
+          "module": "./src/js/modules/createDogDataCards.js + 1 modules",
+          "moduleName": "./src/js/modules/createDogDataCards.js + 1 modules",
           "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
           "resolvedModule": "./src/js/modules/createDogDataCards.js",
           "type": "harmony side effect evaluation",
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-          "loc": "7:0-72",
-          "moduleId": null,
+          "loc": "14:0-72",
+          "moduleId": 626,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
-          "module": "./src/js/modules/createDogDataCards.js",
-          "moduleName": "./src/js/modules/createDogDataCards.js",
+          "moduleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js|18a6d424e42df447bcdbf1bdb4403646",
+          "module": "./src/js/modules/createDogDataCards.js + 1 modules",
+          "moduleName": "./src/js/modules/createDogDataCards.js + 1 modules",
           "resolvedModuleIdentifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-projekt/DT211G-projekt/src/js/modules/createDogDataCards.js",
           "resolvedModule": "./src/js/modules/createDogDataCards.js",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-          "loc": "92:9-15",
-          "moduleId": null,
+          "loc": "99:9-15",
+          "moduleId": 626,
           "resolvedModuleId": null
         }
       ],
@@ -6166,7 +6055,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/barbado.jpg",
-          "loc": "8:0-53",
+          "loc": "15:0-53",
           "moduleId": null,
           "resolvedModuleId": null
         },
@@ -6180,7 +6069,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/barbado.jpg",
-          "loc": "140:23-36",
+          "loc": "147:23-36",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -7124,12 +7013,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.1e0d01a92a803a99fd4f.js",
-          "size": 56888
+          "name": "js/findMatch.85a273ef44b1e1d4e7e9.js",
+          "size": 56939
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 56888,
+      "assetsSize": 56939,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -7207,12 +7096,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.1e0d01a92a803a99fd4f.js",
-          "size": 56888
+          "name": "js/findMatch.85a273ef44b1e1d4e7e9.js",
+          "size": 56939
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 56888,
+      "assetsSize": 56939,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -7272,8 +7161,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "d957ca8ad2a8c553db46",
       "version": "5.97.1",
-      "time": 36100,
-      "builtAt": 1741197942583,
+      "time": 34981,
+      "builtAt": 1741198498615,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -8303,20 +8192,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 355,
+              "issuerId": 251,
               "chunks": [
                 284,
                 783
@@ -9968,20 +9857,20 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+              "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
               "issuerPath": [
                 {
-                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-                  "id": 355
+                  "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+                  "id": 251
                 }
               ],
               "failed": false,
               "errors": 0,
               "warnings": 0,
               "id": 711,
-              "issuerId": 355,
+              "issuerId": 251,
               "chunks": [
                 284,
                 783
@@ -10533,20 +10422,20 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
+          "issuer": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
           "issuerPath": [
             {
-              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/index.html",
-              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/index.html",
-              "id": 355
+              "identifier": "/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-webpack-plugin/lib/loader.js!/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/html-loader/dist/cjs.js!/home/runner/work/DT211G-projekt/DT211G-projekt/src/pages/find-match/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/pages/find-match/index.html",
+              "id": 251
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 711,
-          "issuerId": 355,
+          "issuerId": 251,
           "chunks": [
             284,
             783
