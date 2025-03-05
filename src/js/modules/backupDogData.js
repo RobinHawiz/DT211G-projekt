@@ -1,3 +1,19 @@
+/**
+ * A backup collection of dog breed data used when the primary API data is unavailable.
+ * Each object in the array represents a different dog breed, including its name, description,
+ * life expectancy, weight ranges for male and female dogs, hypoallergenic status, breed group, and an image URL.
+ *
+ * @constant {Array<Object>} backupDogData - A list of dog breeds with detailed information.
+ * @property {string} name - The name of the dog breed.
+ * @property {string} description - A description of the breed, including its traits and origin.
+ * @property {Array<number>} lifeExpectancy - The average life expectancy range of the breed in years.
+ * @property {Array<number>} maleWeight - The weight range for male dogs of the breed in kilograms.
+ * @property {Array<number>} femaleWeight - The weight range for female dogs of the breed in kilograms.
+ * @property {boolean} hypoallergenic - Indicates whether the breed is hypoallergenic (true or false).
+ * @property {string} group - The breed group to which the dog belongs (e.g: "Toy Group", "Hound Group").
+ * @property {string} img - The URL of an image representing the breed.
+ */
+
 export const backupDogData = [
   {
     name: "Affenpinscher",
