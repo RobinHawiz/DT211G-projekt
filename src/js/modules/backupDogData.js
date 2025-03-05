@@ -1,3 +1,5 @@
+import dogImg from "../../assets/oscar-sutton-unsplash-placeholder.jpg";
+
 /**
  * A backup collection of dog breed data used when the primary API data is unavailable.
  * Each object in the array represents a different dog breed, including its name, description,
@@ -15,6 +17,17 @@
  */
 
 export const backupDogData = [
+  {
+    name: "Nova Scotia Duck Tolling Retriever",
+    description:
+      "intelligent, affectionate, and eager to please. Play fetch with a tireless Toller until your right arm falls off, and he will ask you to throw left-handed.",
+    lifeExpectancy: [13, 16],
+    maleWeight: [20, 23],
+    femaleWeight: [17, 20],
+    hypoallergenic: false,
+    group: "Sporting Group",
+    img: dogImg,
+  },
   {
     name: "Affenpinscher",
     description:
