@@ -1,9 +1,17 @@
+/**
+ * Handles the functionality and accessibility of the navigation menu (doggy burger).
+ * @file doggyburger
+ */
+
 const doggyBurger = document.querySelector(".doggy-burger");
 const nav = document.querySelector("nav");
 const navLinks = nav.querySelector("ul");
 const logo = document.querySelector(".logo");
 let timeoutId;
 
+/**
+ * Toggles the navigation menu when the doggy burger button is clicked.
+ */
 doggyBurger.addEventListener("click", () => {
   // Accessibility.
   if (nav.classList.contains("toggle")) {
@@ -41,6 +49,9 @@ doggyBurger.addEventListener("click", () => {
   }
 });
 
+/**
+ * Toggles the visibility of the navigation links.
+ */
 function toggleNavLinks() {
   // If this function is called by the "transitionend" event, we have to remove the "listener" attribute because the event has been fired, which fires only once.
   nav.removeAttribute("listener");
