@@ -1,3 +1,10 @@
+/**
+ * Generates dog breed data cards, including information about each dog breed, image fetching, and creating a custom doggy breed ("Nova Scotia Duck Tolling Retriever").
+ *
+ * @module CreateDogDataCards
+ * @requires fetchData
+ */
+
 const { fetchData } = require("./fetchData");
 import dogImg from "../../assets/oscar-sutton-unsplash-placeholder.jpg";
 import dogImgBarbado from "../../assets/barbado.jpg";
