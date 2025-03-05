@@ -1,3 +1,10 @@
+/**
+ * Generates cards that are displayes on the page find-match. It also gets the dog data from {@link https://dogapi.dog/}.
+ * @module cardGenerator
+ * @requires fetchData
+ * @requires module:createDogDataCards
+ */
+
 const { fetchData } = require("./fetchData");
 const { createDogDataCards } = require("./createDogDataCards");
 import infoIcon from "../../assets/info.svg";
