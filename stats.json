@@ -1,8 +1,8 @@
 {
-  "hash": "40def033b99098f11a85",
+  "hash": "7e88deacf2f4641e64ca",
   "version": "5.97.1",
-  "time": 36844,
-  "builtAt": 1741195180902,
+  "time": 37068,
+  "builtAt": 1741197943525,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.4e440aec02d5fdc7acde.js"
+      "js/findMatch.1e0d01a92a803a99fd4f.js"
     ]
   },
   "assets": [
@@ -440,17 +440,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.4e440aec02d5fdc7acde.js",
-      "size": 56947,
+      "name": "js/findMatch.1e0d01a92a803a99fd4f.js",
+      "size": 56888,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "4e440aec02d5fdc7acde",
+        "contenthash": "1e0d01a92a803a99fd4f",
         "javascriptModule": false,
         "minimized": true,
-        "size": 56947
+        "size": 56888
       },
       "chunkNames": [
         "findMatch"
@@ -966,9 +966,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2708692,
+      "size": 2709750,
       "sizes": {
-        "javascript": 91809,
+        "javascript": 92867,
         "asset": 2609583,
         "runtime": 7300
       },
@@ -980,7 +980,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.4e440aec02d5fdc7acde.js"
+        "js/findMatch.1e0d01a92a803a99fd4f.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -993,7 +993,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "308f5f019db0c15a6817",
+      "hash": "4d89e7d5a311c00cca53",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1161,7 +1161,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/barbado.jpg",
-              "loc": "118:23-36",
+              "loc": "140:23-36",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -1658,7 +1658,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-              "loc": "77:9-15",
+              "loc": "92:9-15",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -2590,9 +2590,9 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 15786,
+          "size": 16844,
           "sizes": {
-            "javascript": 15786
+            "javascript": 16844
           },
           "built": true,
           "codeGenerated": true,
@@ -2644,9 +2644,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 15702,
+              "size": 16760,
               "sizes": {
-                "javascript": 15702
+                "javascript": 16760
               },
               "built": true,
               "codeGenerated": false,
@@ -2771,7 +2771,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-                  "loc": "77:9-15",
+                  "loc": "92:9-15",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -2858,7 +2858,7 @@
                   "active": true,
                   "explanation": "",
                   "userRequest": "../../assets/barbado.jpg",
-                  "loc": "118:23-36",
+                  "loc": "140:23-36",
                   "moduleId": null,
                   "resolvedModuleId": null
                 }
@@ -5105,9 +5105,9 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 15786,
+      "size": 16844,
       "sizes": {
-        "javascript": 15786
+        "javascript": 16844
       },
       "built": true,
       "codeGenerated": true,
@@ -5158,9 +5158,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 15702,
+          "size": 16760,
           "sizes": {
-            "javascript": 15702
+            "javascript": 16760
           },
           "built": true,
           "codeGenerated": false,
@@ -5283,7 +5283,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-              "loc": "77:9-15",
+              "loc": "92:9-15",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -5369,7 +5369,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "../../assets/barbado.jpg",
-              "loc": "118:23-36",
+              "loc": "140:23-36",
               "moduleId": null,
               "resolvedModuleId": null
             }
@@ -6094,7 +6094,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/oscar-sutton-unsplash-placeholder.jpg",
-          "loc": "77:9-15",
+          "loc": "92:9-15",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -6180,7 +6180,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../../assets/barbado.jpg",
-          "loc": "118:23-36",
+          "loc": "140:23-36",
           "moduleId": null,
           "resolvedModuleId": null
         }
@@ -7124,12 +7124,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.4e440aec02d5fdc7acde.js",
-          "size": 56947
+          "name": "js/findMatch.1e0d01a92a803a99fd4f.js",
+          "size": 56888
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 56947,
+      "assetsSize": 56888,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -7207,12 +7207,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.4e440aec02d5fdc7acde.js",
-          "size": 56947
+          "name": "js/findMatch.1e0d01a92a803a99fd4f.js",
+          "size": 56888
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 56947,
+      "assetsSize": 56888,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -7272,8 +7272,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "d957ca8ad2a8c553db46",
       "version": "5.97.1",
-      "time": 35923,
-      "builtAt": 1741195180007,
+      "time": 36100,
+      "builtAt": 1741197942583,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
