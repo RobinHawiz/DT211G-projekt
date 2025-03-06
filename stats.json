@@ -1,8 +1,8 @@
 {
-  "hash": "eccb10d2f35837f45c2d",
+  "hash": "fddfe3c2487052edd510",
   "version": "5.97.1",
-  "time": 36769,
-  "builtAt": 1741201460363,
+  "time": 36514,
+  "builtAt": 1741260274707,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -39,36 +39,6 @@
       "related": [],
       "chunks": [],
       "auxiliaryChunks": [],
-      "isOverSizeLimit": true
-    },
-    {
-      "type": "asset",
-      "name": "img/oscar-sutton-unsplash-placeholder579.jpg",
-      "size": 2400003,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "sourceFilename": "src/assets/oscar-sutton-unsplash-placeholder.jpg",
-        "width": 4016,
-        "height": 6016,
-        "minimized": true,
-        "minimizedBy": [
-          "sharp"
-        ],
-        "size": 2400003
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [
-        "findMatch"
-      ],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [],
-      "auxiliaryChunks": [
-        57
-      ],
       "isOverSizeLimit": true
     },
     {
@@ -191,6 +161,36 @@
           "sharp"
         ],
         "size": 201887
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "findMatch"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        57
+      ],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "img/oscar-sutton-unsplash-placeholder579.jpg",
+      "size": 193319,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "sourceFilename": "src/assets/oscar-sutton-unsplash-placeholder.jpg",
+        "width": 1068,
+        "height": 1600,
+        "minimized": true,
+        "minimizedBy": [
+          "sharp"
+        ],
+        "size": 193319
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -986,10 +986,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 2709942,
+      "size": 503258,
       "sizes": {
         "javascript": 93059,
-        "asset": 2609583,
+        "asset": 402899,
         "runtime": 7300
       },
       "names": [
@@ -1013,7 +1013,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "3a0c29c0ffc10326d770",
+      "hash": "a66f4ded368789127983",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1607,7 +1607,7 @@
           "layer": null,
           "size": 42,
           "sizes": {
-            "asset": 2400003,
+            "asset": 193319,
             "javascript": 42
           },
           "built": true,
@@ -5905,7 +5905,7 @@
       "layer": null,
       "size": 42,
       "sizes": {
-        "asset": 2400003,
+        "asset": 193319,
         "javascript": 42
       },
       "built": true,
@@ -7070,7 +7070,7 @@
         },
         {
           "name": "img/oscar-sutton-unsplash-placeholder579.jpg",
-          "size": 2400003
+          "size": 193319
         },
         {
           "name": "img/scale57.svg",
@@ -7078,7 +7078,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2609583,
+      "auxiliaryAssetsSize": 402899,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -7153,7 +7153,7 @@
         },
         {
           "name": "img/oscar-sutton-unsplash-placeholder579.jpg",
-          "size": 2400003
+          "size": 193319
         },
         {
           "name": "img/scale57.svg",
@@ -7161,7 +7161,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 2609583,
+      "auxiliaryAssetsSize": 402899,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -7171,8 +7171,8 @@
   "errorsCount": 0,
   "warnings": [
     {
-      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash227.jpg (2.59 MiB)\n  img/jamie-street-unsplash604.avif (388 KiB)\n  img/jamie-street-unsplash916.webp (397 KiB)\n  img/jamie-street-unsplash7.webp (430 KiB)\n  img/jamie-street-unsplash562.webp (1.33 MiB)\n  img/oscar-sutton-unsplash-placeholder579.jpg (2.29 MiB)",
-      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash227.jpg (2.59 MiB)\n  img/jamie-street-unsplash604.avif (388 KiB)\n  img/jamie-street-unsplash916.webp (397 KiB)\n  img/jamie-street-unsplash7.webp (430 KiB)\n  img/jamie-street-unsplash562.webp (1.33 MiB)\n  img/oscar-sutton-unsplash-placeholder579.jpg (2.29 MiB)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:145:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:1006:27\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:835:33\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:192:23)"
+      "message": "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash227.jpg (2.59 MiB)\n  img/jamie-street-unsplash604.avif (388 KiB)\n  img/jamie-street-unsplash916.webp (397 KiB)\n  img/jamie-street-unsplash7.webp (430 KiB)\n  img/jamie-street-unsplash562.webp (1.33 MiB)",
+      "stack": "AssetsOverSizeLimitWarning: asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  img/jamie-street-unsplash227.jpg (2.59 MiB)\n  img/jamie-street-unsplash604.avif (388 KiB)\n  img/jamie-street-unsplash916.webp (397 KiB)\n  img/jamie-street-unsplash7.webp (430 KiB)\n  img/jamie-street-unsplash562.webp (1.33 MiB)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/performance/SizeLimitsPlugin.js:145:7\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)\n    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/Hook.js:18:14)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:1006:27\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:2818:7\n    at done (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/neo-async/async.js:3522:9)\n    at Hook.eval [as callAsync] (eval at create (/home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/webpack/lib/Compiler.js:835:33\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:143:16\n    at /home/runner/work/DT211G-projekt/DT211G-projekt/node_modules/graceful-fs/graceful-fs.js:61:14\n    at FSReqCallback.oncomplete (node:fs:192:23)"
     }
   ],
   "warningsCount": 1,
@@ -7181,8 +7181,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "34311e979722e978caa5",
       "version": "5.97.1",
-      "time": 35835,
-      "builtAt": 1741201459455,
+      "time": 35582,
+      "builtAt": 1741260273801,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
