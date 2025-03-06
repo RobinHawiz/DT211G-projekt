@@ -244,7 +244,7 @@ function changelikeDislikeIconOpacity() {
 /**
  * Moves the card after user interaction (swipe or button press).
  */
-async function moveCard() {
+function moveCard() {
   clearTimeout(debounceTimeout); // Clear debounce timeout to avoid an additional function call after releasing the card.
   let cardBeingMoved = document.querySelector(".card.current");
   if (isMobileDevice) {
