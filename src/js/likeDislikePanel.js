@@ -277,11 +277,11 @@ function moveCard() {
   let currentRotationDeg = cardRotationDeg;
   let distanceRotationDeg;
   let startTime = null;
+  let windowCenterX = isMobileDevice
+    ? window.screen.width / 2
+    : window.innerWidth / 2;
   const card = document.querySelector(".card.current");
   if (isBeingLiked) {
-    windowCenterX = isMobileDevice
-      ? window.screen.width / 2
-      : window.innerWidth / 2;
     distanceX = windowCenterX + card.offsetWidth / 2 - currentX / 2 + 200;
     distanceRotationDeg = likeOrDislikeButtonWasClicked ? 30 : 0;
     window.requestAnimationFrame(moveCardOutOfView);
