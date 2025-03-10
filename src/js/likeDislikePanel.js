@@ -617,9 +617,7 @@ function changeCardStylingPosition() {
 function scrollPage() {
   // Scroll to the bio element that opened
   if (bioButton.classList.contains("opened")) {
-    const windowHeight = isMobileDevice
-      ? window.screen.height
-      : window.innerHeight;
+    const windowHeight = window.innerHeight;
     const elemPosition = bio.getBoundingClientRect().top;
     const scrollPosition = window.scrollY;
     const scrollLimit =
