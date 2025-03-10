@@ -182,7 +182,9 @@ function mouseMoveOrTouchMove(e) {
     newCardYCoord += deltaY;
 
     cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
-    windowCenterX = window.innerWidth / 2;
+    windowCenterX = isMobileDevice
+      ? window.screen.width / 2
+      : window.innerWidth / 2;
     cardRotationDeg = (windowCenterX - cardCenterX) / 30;
 
     reqAnimFrameId = requestAnimationFrame(() => {
@@ -231,7 +233,9 @@ function changelikeDislikeIconOpacity() {
   const dislikeIcon = document.querySelector(".card.current .dislike-icon");
 
   cardCenterX = card.getBoundingClientRect().left + card.offsetWidth / 2;
-  windowCenterX = window.innerWidth / 2;
+  windowCenterX = isMobileDevice
+    ? window.screen.width / 2
+    : window.innerWidth / 2;
 
   let dislikeIconOpacity = (windowCenterX - cardCenterX - 100) / 100;
   let likeIconOpacity = (cardCenterX - windowCenterX - 15) / 100;
@@ -275,15 +279,16 @@ function moveCard() {
   let startTime = null;
   const card = document.querySelector(".card.current");
   if (isBeingLiked) {
-    distanceX =
-      window.innerWidth / 2 + card.offsetWidth / 2 - currentX / 2 + 200;
+    windowCenterX = isMobileDevice
+      ? window.screen.width / 2
+      : window.innerWidth / 2;
+    distanceX = windowCenterX + card.offsetWidth / 2 - currentX / 2 + 200;
     distanceRotationDeg = likeOrDislikeButtonWasClicked ? 30 : 0;
     window.requestAnimationFrame(moveCardOutOfView);
     resetCardValues();
     initNewCard();
   } else if (isBeingDisliked) {
-    distanceX =
-      -window.innerWidth / 2 - card.offsetWidth / 2 - currentX / 2 - 200;
+    distanceX = -windowCenterX - card.offsetWidth / 2 - currentX / 2 - 200;
     distanceRotationDeg = likeOrDislikeButtonWasClicked ? -30 : 0;
     window.requestAnimationFrame(moveCardOutOfView);
     resetCardValues();
@@ -612,6 +617,9 @@ function changeCardStylingPosition() {
 function scrollPage() {
   // Scroll to the bio element that opened
   if (bioButton.classList.contains("opened")) {
+    const windowHeight = isMobileDevice
+      ? window.screen.height
+      : window.innerHeight;
     const elemPosition = bio.getBoundingClientRect().top;
     const scrollPosition = window.scrollY;
     const scrollLimit =
@@ -621,7 +629,7 @@ function scrollPage() {
         document.documentElement.clientHeight,
         document.documentElement.scrollHeight,
         document.documentElement.offsetHeight
-      ) - window.innerHeight;
+      ) - windowHeight;
     let distance =
       elemPosition > scrollLimit - scrollPosition
         ? scrollLimit - scrollPosition
