@@ -225,12 +225,13 @@
       height: 100%;
       top: 0;
       border-radius: 2rem;
-      -webkit-overflow-scrolling: touch; // Enable proper scrolling on iOS
       @include m.media-query(mobile-find-match) {
         border-radius: 0;
       }
       &.show {
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch; // Enable proper scrolling on iOS
+        z-index: 7;
       }
       .filters {
         position: absolute;
