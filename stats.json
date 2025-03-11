@@ -1,8 +1,8 @@
 {
-  "hash": "78a6251ec4462a45e733",
+  "hash": "bf2b91f645c8ec15be3d",
   "version": "5.97.1",
-  "time": 35798,
-  "builtAt": 1741622512992,
+  "time": 35825,
+  "builtAt": 1741693686606,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.e20cfcf1e8572c621380.js"
+      "js/findMatch.a56cd17f309922f0f4d1.js"
     ]
   },
   "assets": [
@@ -492,17 +492,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.e20cfcf1e8572c621380.js",
-      "size": 49578,
+      "name": "js/findMatch.a56cd17f309922f0f4d1.js",
+      "size": 50137,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "e20cfcf1e8572c621380",
+        "contenthash": "a56cd17f309922f0f4d1",
         "javascriptModule": false,
         "minimized": true,
-        "size": 49578
+        "size": 50137
       },
       "chunkNames": [
         "findMatch"
@@ -669,12 +669,12 @@
     {
       "type": "asset",
       "name": "find-match/index.html",
-      "size": 8773,
+      "size": 9214,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 8773
+        "size": 9214
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -986,9 +986,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 492513,
+      "size": 494847,
       "sizes": {
-        "javascript": 82314,
+        "javascript": 84648,
         "asset": 402899,
         "runtime": 7300
       },
@@ -1000,7 +1000,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.e20cfcf1e8572c621380.js"
+        "js/findMatch.a56cd17f309922f0f4d1.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -1013,7 +1013,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "a6f1e58e15e39c93dbdc",
+      "hash": "ebe03dcfdbc66d6899cb",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1876,9 +1876,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 23635,
+          "size": 25969,
           "sizes": {
-            "javascript": 23635
+            "javascript": 25969
           },
           "built": true,
           "codeGenerated": true,
@@ -4796,9 +4796,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 23635,
+      "size": 25969,
       "sizes": {
-        "javascript": 23635
+        "javascript": 25969
       },
       "built": true,
       "codeGenerated": true,
@@ -7033,12 +7033,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.e20cfcf1e8572c621380.js",
-          "size": 49578
+          "name": "js/findMatch.a56cd17f309922f0f4d1.js",
+          "size": 50137
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 49578,
+      "assetsSize": 50137,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -7116,12 +7116,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.e20cfcf1e8572c621380.js",
-          "size": 49578
+          "name": "js/findMatch.a56cd17f309922f0f4d1.js",
+          "size": 50137
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 49578,
+      "assetsSize": 50137,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -7179,10 +7179,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "e882f2f5bfce12ee58ba",
+      "hash": "8a493e5cd602be41aff5",
       "version": "5.97.1",
-      "time": 34854,
-      "builtAt": 1741622512074,
+      "time": 34927,
+      "builtAt": 1741693685733,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -7862,9 +7862,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 29602,
+          "size": 30097,
           "sizes": {
-            "javascript": 9801,
+            "javascript": 10296,
             "asset": 18508,
             "runtime": 1293
           },
@@ -7883,7 +7883,7 @@
             "img/heart283.svg",
             "img/settings-sliders603.svg"
           ],
-          "hash": "db6ae981a0460d7c6202",
+          "hash": "820dad65903a8365fa7c",
           "childrenByOrder": {},
           "id": 284,
           "siblings": [],
@@ -7894,9 +7894,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 9514,
+              "size": 10009,
               "sizes": {
-                "javascript": 9514
+                "javascript": 10009
               },
               "built": true,
               "codeGenerated": true,
@@ -7959,7 +7959,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 8:0-9019"
+                "Statement (VariableDeclaration) with side effects in source code at 8:0-9514"
               ],
               "depth": 0
             },
@@ -10381,9 +10381,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 9514,
+          "size": 10009,
           "sizes": {
-            "javascript": 9514
+            "javascript": 10009
           },
           "built": true,
           "codeGenerated": true,
@@ -10445,7 +10445,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 8:0-9019"
+            "Statement (VariableDeclaration) with side effects in source code at 8:0-9514"
           ],
           "depth": 0
         },
