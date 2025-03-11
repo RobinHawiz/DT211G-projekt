@@ -281,6 +281,19 @@ function moveCard() {
     ? window.screen.width / 2
     : window.innerWidth / 2;
   const card = document.querySelector(".card.current");
+  // Important note: This bit of code is putting a bandaid on a much larger issue, being the fact that overflow hidden does not work properly when applied to the body-elem on mobile devices.
+  // When the user clicks on the like button and then within 700ms clicks the bioButton, the scrolling will either not happen or jump down or jump around UNTIL the card that was liked has been removed from the DOM (which happens after 700ms).
+  // This does not happen when the user clicks the dislike button, but that is because the card is moved to the left of the screen instead of the right.
+  // Moving the card off-screen to the right changes the document height which adjusts the scroll position dynamically, which prevents the scrolling from taking place (or makes it jump) until 700ms has passed.
+  // A solution could be to use a wrapper for the body elem and to instead use the overflow styling on that wrapper and not the body elem.
+  if ((isBeingLiked || isBeingDisliked) && isMobileDevice) {
+    disableBioButton();
+    document.querySelector("html").style.overflow = "hidden";
+    setTimeout(() => {
+      enableBioButton();
+      document.querySelector("html").style.overflow = "visible";
+    }, 700);
+  }
   if (isBeingLiked) {
     distanceX = windowCenterX + card.offsetWidth / 2 - currentX / 2 + 200;
     distanceRotationDeg = likeOrDislikeButtonWasClicked ? 30 : 0;
