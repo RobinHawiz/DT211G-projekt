@@ -29,6 +29,7 @@ const filtersWrapper = document.querySelector(".filters-wrapper");
 const filters = document.querySelector(".filters");
 const filtersContainers = document.querySelectorAll(".filters .container");
 const breedGroupsLabels = document.querySelectorAll("ul.breed-groups label");
+const checkboxes = document.querySelectorAll("label.container");
 
 /**
  * Tracking variables.
@@ -57,6 +58,43 @@ const debounceDelay = isMobileDevice ? 5 : 0; // Wait 5ms before calling the fun
 setTimeout(() => {
   filters.style.opacity = 1;
 }, 300);
+
+/**
+ * Event listeners for checkboxes that implement ARIA. This is done because the real checkbox input element is being hidden.
+ */
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("keyup", toggleCheckbox);
+});
+
+window.addEventListener("keydown", preventScrolling);
+
+/**
+ * Prevents the default scrolling behavior when the spacebar is pressed.
+ *
+ * @param {Event} e - The event object.
+ */
+function preventScrolling(e) {
+  if (e.key === " ") {
+    e.preventDefault();
+  }
+}
+
+/**
+ * Toggles the state of a custom checkbox when the space key is pressed.
+ *
+ * This function ensures accessibility by updating the `aria-checked` attribute
+ * and syncing the visual state with the actual checkbox input.
+ *
+ * @param {Event} e - The event object.
+ */
+function toggleCheckbox(e) {
+  if (e.key === " ") {
+    const isChecked = e.target.getAttribute("aria-checked") === "true";
+    e.target.setAttribute("aria-checked", !isChecked);
+    e.target.querySelector("input").checked = !isChecked;
+    e.target.classList.toggle("selected");
+  }
+}
 
 /**
  * Event listeners for settings and filters.
