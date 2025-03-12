@@ -29,7 +29,7 @@ const filtersWrapper = document.querySelector(".filters-wrapper");
 const filters = document.querySelector(".filters");
 const filtersContainers = document.querySelectorAll(".filters .container");
 const breedGroupsLabels = document.querySelectorAll("ul.breed-groups label");
-const checkboxes = document.querySelectorAll("label.container");
+const checkboxes = document.querySelectorAll(".input-box");
 
 /**
  * Tracking variables.
@@ -88,11 +88,13 @@ function preventScrolling(e) {
  * @param {Event} e - The event object.
  */
 function toggleCheckbox(e) {
+  const checkbox = e.target;
+  const checkboxLabel = e.target.firstElementChild;
   if (e.key === " ") {
-    const isChecked = e.target.getAttribute("aria-checked") === "true";
-    e.target.setAttribute("aria-checked", !isChecked);
-    e.target.querySelector("input").checked = !isChecked;
-    e.target.classList.toggle("selected");
+    const isChecked = checkbox.getAttribute("aria-checked") === "true";
+    checkbox.setAttribute("aria-checked", !isChecked);
+    checkbox.querySelector("input").checked = !isChecked;
+    checkboxLabel.classList.toggle("selected");
   }
 }
 
