@@ -30,6 +30,7 @@
     "image-minimizer-webpack-plugin": "^4.1.3",
     "imagemin": "^9.0.0",
     "jsdoc": "^4.0.4",
+    "kill-port": "^2.0.1",
     "mini-css-extract-plugin": "^2.9.2",
     "postcss": "^8.5.1",
     "postcss-loader": "^8.1.1",
