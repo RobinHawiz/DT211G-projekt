@@ -1,8 +1,8 @@
 {
-  "hash": "bf2b91f645c8ec15be3d",
+  "hash": "4418e1937b6112561d8e",
   "version": "5.97.1",
-  "time": 35825,
-  "builtAt": 1741693686606,
+  "time": 36051,
+  "builtAt": 1741804065427,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
       "js/main.6487bfdd71535d1244f1.js"
     ],
     "findMatch": [
-      "js/findMatch.a56cd17f309922f0f4d1.js"
+      "js/findMatch.64a51759d7436c264923.js"
     ]
   },
   "assets": [
@@ -492,17 +492,17 @@
     },
     {
       "type": "asset",
-      "name": "js/findMatch.a56cd17f309922f0f4d1.js",
-      "size": 50137,
+      "name": "js/findMatch.64a51759d7436c264923.js",
+      "size": 50148,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "a56cd17f309922f0f4d1",
+        "contenthash": "64a51759d7436c264923",
         "javascriptModule": false,
         "minimized": true,
-        "size": 50137
+        "size": 50148
       },
       "chunkNames": [
         "findMatch"
@@ -986,9 +986,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 494847,
+      "size": 494924,
       "sizes": {
-        "javascript": 84648,
+        "javascript": 84725,
         "asset": 402899,
         "runtime": 7300
       },
@@ -1000,7 +1000,7 @@
         "findMatch"
       ],
       "files": [
-        "js/findMatch.a56cd17f309922f0f4d1.js"
+        "js/findMatch.64a51759d7436c264923.js"
       ],
       "auxiliaryFiles": [
         "img/bacterium417.svg",
@@ -1013,7 +1013,7 @@
         "img/oscar-sutton-unsplash-placeholder579.jpg",
         "img/scale57.svg"
       ],
-      "hash": "ebe03dcfdbc66d6899cb",
+      "hash": "231f6c42a09ad13bd7c2",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -1876,9 +1876,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 25969,
+          "size": 26046,
           "sizes": {
-            "javascript": 25969
+            "javascript": 26046
           },
           "built": true,
           "codeGenerated": true,
@@ -4796,9 +4796,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 25969,
+      "size": 26046,
       "sizes": {
-        "javascript": 25969
+        "javascript": 26046
       },
       "built": true,
       "codeGenerated": true,
@@ -7033,12 +7033,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.a56cd17f309922f0f4d1.js",
-          "size": 50137
+          "name": "js/findMatch.64a51759d7436c264923.js",
+          "size": 50148
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 50137,
+      "assetsSize": 50148,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -7116,12 +7116,12 @@
       ],
       "assets": [
         {
-          "name": "js/findMatch.a56cd17f309922f0f4d1.js",
-          "size": 50137
+          "name": "js/findMatch.64a51759d7436c264923.js",
+          "size": 50148
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 50137,
+      "assetsSize": 50148,
       "auxiliaryAssets": [
         {
           "name": "img/bacterium417.svg",
@@ -7179,10 +7179,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "8a493e5cd602be41aff5",
+      "hash": "fc30b039e8861d4a2281",
       "version": "5.97.1",
-      "time": 34927,
-      "builtAt": 1741693685733,
+      "time": 35117,
+      "builtAt": 1741804064520,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-projekt/DT211G-projekt/dist",
       "assetsByChunkName": {},
@@ -7883,7 +7883,7 @@
             "img/heart283.svg",
             "img/settings-sliders603.svg"
           ],
-          "hash": "820dad65903a8365fa7c",
+          "hash": "3267030f1b979c3d00dc",
           "childrenByOrder": {},
           "id": 284,
           "siblings": [],
