@@ -64,7 +64,26 @@ setTimeout(() => {
  */
 checkboxes.forEach((checkbox) => {
   checkbox.addEventListener("keyup", toggleCheckbox);
+  // This ensures that the aria-checked attribute is toggled when clicking the checkbox with a mouse.
+  const checkboxLabel = checkbox.firstElementChild;
+  checkboxLabel.addEventListener("click", toggleSelected);
 });
+
+/**
+ * Toggles selection state on clicked filter elements.
+ * @param {Event} e - The event object.
+ */
+function toggleSelected(e) {
+  // prevents the label from firing this event twice, because it fires once for itself and once for the input element.
+  e.preventDefault();
+  const checkboxLabel = e.target;
+  const checkbox = checkboxLabel.parentNode;
+  const checkboxInput = checkboxLabel.querySelector("input");
+  const isChecked = checkbox.getAttribute("aria-checked") === "true";
+  checkbox.setAttribute("aria-checked", !isChecked);
+  checkboxLabel.classList.toggle("selected");
+  checkboxInput.checked = !isChecked;
+}
 
 window.addEventListener("keydown", preventScrolling);
 
@@ -99,12 +118,9 @@ function toggleCheckbox(e) {
 }
 
 /**
- * Event listeners for settings and filters.
+ * Event listener for the settings/filters button.
  */
 toggleSettings.addEventListener("click", toggleFilters);
-filtersContainers.forEach((container) => {
-  container.addEventListener("click", toggleSelected);
-});
 
 /**
  * Toggles the filter settings menu.
@@ -160,14 +176,6 @@ function showFilteredCards() {
   } else {
     disableAll();
   }
-}
-
-/**
- * Toggles selection state on clicked filter elements.
- * @param {Event} e - The event object.
- */
-function toggleSelected(e) {
-  e.target.classList.toggle("selected");
 }
 
 /**
